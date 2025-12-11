@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Lato", sans-serif;
+
+  /* Paleta Faena - Tons de vermelho/terracota com dourado e preto sofisticado */
+  --color-gold-400: #d4af5c;
+  --color-gold-500: #c5a059;
+  --color-gold-600: #b08d4b;
+
+  --color-faena-red: #8B2332;
+  --color-faena-burgundy: #6B1A26;
+  --color-faena-terracotta: #C25B47;
+
+  --color-dark-900: #0d0d0d;
+  --color-dark-800: #1a1a1a;
+  --color-dark-700: #262626;
+
+  --color-cream-100: #faf8f5;
+  --color-cream-200: #f5f0e8;
+  --color-cream-300: #e8e0d5;
+}
+
+@layer base {
+  body {
+    @apply bg-dark-900 text-cream-100 font-sans antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif;
+  }
+}
+
+/* Custom Utilities */
+.text-gold {
+  color: var(--color-gold-500);
+}
+
+.bg-gold {
+  background-color: var(--color-gold-500);
+}
+
+.gradient-gold {
+  background: linear-gradient(135deg, var(--color-gold-400), var(--color-gold-600));
+}
+
+.gradient-faena {
+  background: linear-gradient(135deg, var(--color-faena-red), var(--color-faena-burgundy));
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-dark-900);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold-500);
+  border-radius: 3px;
+}
+
+/* Print Styles */
+@media print {
+  @page {
+    size: landscape;
+    margin: 0;
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    background-color: var(--color-dark-900) !important;
+    min-width: 1024px;
+  }
+
+  * {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+
+  main > div[style*="scaleX"] {
+    display: none !important;
+  }
+
+  main {
+    height: auto !important;
+    overflow: visible !important;
+    display: block !important;
+  }
+
+  section {
+    height: 100vh !important;
+    width: 100vw !important;
+    page-break-after: always;
+    break-after: page;
+    display: block !important;
+    overflow: hidden !important;
+    position: relative !important;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .lg\:h-full {
+    height: 100% !important;
+  }
+
+  .lg\:order-1 {
+    order: 1 !important;
+  }
+
+  .lg\:order-2 {
+    order: 2 !important;
+  }
+}
