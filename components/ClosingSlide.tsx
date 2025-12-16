@@ -43,16 +43,54 @@ export default function ClosingSlide() {
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
-          className="text-gold-500 tracking-widest uppercase text-sm mb-12"
+          className="text-gold-500 tracking-widest uppercase text-sm mb-8"
         >
           {closing.tagline}
         </motion.p>
 
+        {/* Galeria de Fotos do Evento Faena */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.55, duration: 0.8 }}
+          className="mb-8"
+        >
+          <p className="text-cream-100/50 text-xs tracking-widest uppercase mb-4">
+            Lançamento Faena São Paulo
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {[
+              "/PHOTO-2025-12-16-18-17-52.jpg",
+              "/PHOTO-2025-12-16-18-17-52 4.jpg",
+              "/PHOTO-2025-12-16-18-17-52 5.jpg",
+              "/PHOTO-2025-12-16-18-17-52 7.jpg",
+              "/PHOTO-2025-12-16-18-17-53.jpg",
+              "/PHOTO-2025-12-16-18-17-53 2.jpg",
+              "/PHOTO-2025-12-16-18-17-53 4.jpg",
+              "/PHOTO-2025-12-16-18-17-53 5.jpg",
+            ].map((src, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.6 + i * 0.05, duration: 0.5 }}
+                className="w-20 h-20 md:w-24 md:h-24 rounded-lg overflow-hidden border border-gold-500/30"
+              >
+                <img
+                  src={src}
+                  alt={`Evento Faena ${i + 1}`}
+                  className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                />
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+
         <motion.div
           initial={{ scaleX: 0 }}
           whileInView={{ scaleX: 1 }}
-          transition={{ delay: 0.6, duration: 0.8 }}
-          className="w-24 h-1 bg-gold-500 mb-12"
+          transition={{ delay: 0.9, duration: 0.8 }}
+          className="w-24 h-1 bg-gold-500 mb-8"
         />
 
         <motion.div
@@ -62,19 +100,19 @@ export default function ClosingSlide() {
           className="flex items-center gap-6 md:gap-10"
         >
           <img
-            src="/faena-logo.png"
+            src="/FAENA 2.png"
             alt="Faena"
             className="h-10 md:h-14 w-auto object-contain brightness-0 invert opacity-80"
           />
           <span className="text-gold-500/50 text-2xl">×</span>
           <img
-            src="/even-logo.png"
+            src="/EVEN.png"
             alt="Even"
             className="h-8 md:h-12 w-auto object-contain brightness-0 invert opacity-80"
           />
           <span className="text-gold-500/50 text-2xl">×</span>
           <img
-            src="https://img.mbras.com.br/site/logos/mbras-logo-header-light.png"
+            src="/MBRAS 4.png"
             alt="MBRAS"
             className="h-8 md:h-12 w-auto object-contain brightness-0 invert opacity-80"
           />

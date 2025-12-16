@@ -11,8 +11,8 @@ export const presentationData = {
       title: "Excelência vertical em cada projeto.",
       description:
         "Uma das maiores incorporadoras do Brasil, a Even atua de forma verticalizada desde a prospecção do terreno até as vendas. Após reposicionamento estratégico em 2015, a empresa concentra-se exclusivamente em alto e altíssimo padrão, entregando projetos que definem novos patamares de sofisticação.",
-      image: "/even-building.jpg",
-      logo: "/even-logo.png",
+      image: "/faenaphoto.png",
+      logo: "/EVEN.png",
     },
     {
       id: "mbras",
@@ -20,9 +20,9 @@ export const presentationData = {
       title: "Transformando Exclusividade em Patrimônio.",
       description:
         "A MBRAS redefine o mercado imobiliário de alto padrão com uma curadoria impecável e atendimento personalizado. Especialistas em conectar clientes a propriedades únicas, transformamos cada negociação em uma experiência de valor inestimável.",
-      image: "/mbras-office.jpg",
+      image: "/PHOTO-2025-12-16-18-17-53 2.jpg",
       imagePosition: "center",
-      logo: "https://img.mbras.com.br/site/logos/mbras-logo-header-light.png",
+      logo: "/MBRAS 4.png",
     },
   ],
 
@@ -68,31 +68,31 @@ export const presentationData = {
   },
 
   partnership: {
-    title: "A Engenharia de uma Parceria Trilionária",
+    title: "A Engenharia de uma Parceria Gigantesca",
     partners: [
       {
         name: "Even Construtora",
         role: "Incorporação e Construção",
         description: "Verticalização completa do projeto",
-        logo: "/even-logo.png",
+        logo: "/EVEN.png",
       },
       {
         name: "Grupo Malzoni",
         role: "Proprietário do Terreno",
         description: "Terreno de 20 mil m² em localização prime",
-        logo: "/malzoni-logo.png",
+        logo: "/GRUPO MALZONI.png",
       },
       {
         name: "Faena Group",
         role: "Marca e Curadoria",
         description: "Conceito, arte e experiência Faena",
-        logo: "/faena-logo.png",
+        logo: "/FAENA 2.png",
       },
       {
         name: "Accor",
         role: "Operação Hoteleira",
         description: "Gestão do hotel e serviços residenciais",
-        logo: "/accor-logo.png",
+        logo: "/LOGO ACCOR.png",
       },
     ],
   },
@@ -159,7 +159,7 @@ export const presentationData = {
     title: "Amenidades de Clube Privado Internacional",
     categories: [
       {
-        title: "Esporte & Wellness",
+        title: "Esporte e Wellness",
         items: [
           "Quadra de tênis de saibro coberta (oficial)",
           "Quadra de tênis piso rápido descoberta",
@@ -173,7 +173,7 @@ export const presentationData = {
         ],
       },
       {
-        title: "Spa & Relaxamento",
+        title: "Spa e Relaxamento",
         items: [
           "Spa Faena com rituais ancestrais",
           "Sauna seca e úmida",
@@ -182,7 +182,7 @@ export const presentationData = {
         ],
       },
       {
-        title: "Convivência & Serviços",
+        title: "Convivência e Serviços",
         items: [
           "Concierge 24 horas",
           "Valet parking",
@@ -356,19 +356,19 @@ export const presentationData = {
     steps: [
       {
         month: "Mês 1-2",
-        title: "Imersão & Posicionamento",
+        title: "Imersão e Posicionamento",
         description:
           "Alinhamento com Even e Faena, desenvolvimento de criativos premium, mapeamento de clusters UHNWI.",
       },
       {
         month: "Mês 3-4",
-        title: "Ativação & Otimização",
+        title: "Ativação e Otimização",
         description:
           "Lançamento de campanhas, eventos exclusivos para prospects, otimizações semanais de performance.",
       },
       {
         month: "Mês 5-6",
-        title: "Intensificação & Conversão",
+        title: "Intensificação e Conversão",
         description:
           "Foco em oportunidades quentes, visitas VIP ao showroom de 370 m², ações de fechamento personalizadas.",
       },

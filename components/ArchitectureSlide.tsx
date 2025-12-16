@@ -17,6 +17,7 @@ export default function ArchitectureSlide() {
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
+            className="flex flex-col justify-center h-full"
           >
             <span className="text-gold-500 text-sm tracking-widest uppercase mb-4 block">
               Arquitetura
