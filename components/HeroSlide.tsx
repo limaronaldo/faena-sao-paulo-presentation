@@ -19,13 +19,13 @@ export default function HeroSlide() {
         >
           {/* Logos */}
           <img
-            src="/faena-logo.png"
+            src="/FAENA 2.png"
             alt="Faena"
             className="h-12 md:h-16 object-contain brightness-0 invert"
           />
           <div className="h-12 w-[1px] bg-gold-500/50" />
           <img
-            src="/even-logo.png"
+            src="/EVEN.png"
             alt="Even"
             className="h-10 md:h-14 object-contain brightness-0 invert"
           />

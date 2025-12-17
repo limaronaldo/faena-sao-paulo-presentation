@@ -43,7 +43,7 @@ export default function Home() {
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <PartnerSlide partner={presentationData.partners[1]} reversed />
+        <PartnerSlide partner={presentationData.partners[1]} centered />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">

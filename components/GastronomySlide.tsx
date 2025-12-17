@@ -31,7 +31,7 @@ export default function GastronomySlide() {
                 </div>
                 <div>
                   <p className="text-2xl font-serif text-cream-100">{gastro.highlight.name}</p>
-                  <p className="text-gold-500 text-sm">Chef's Table • Netflix</p>
+                  <p className="text-gold-500 text-sm">Chef&apos;s Table • Netflix</p>
                 </div>
               </div>
               <p className="text-cream-100/70 leading-relaxed">{gastro.highlight.description}</p>
