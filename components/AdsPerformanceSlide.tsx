@@ -2,7 +2,7 @@
 
 import Slide from "./Slide";
 import { motion } from "framer-motion";
-import { Instagram, Search, BarChart3, Eye, Users, Clock, MousePointer, Target } from "lucide-react";
+import { Instagram, Search, BarChart3, Eye, Users, Clock } from "lucide-react";
 
 export default function AdsPerformanceSlide() {
     const metaAds = [
