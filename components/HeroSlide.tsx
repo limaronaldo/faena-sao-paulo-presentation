@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function HeroSlide() {
   return (
     <Slide className="bg-dark-900 text-cream-100">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-20 mix-blend-overlay" />
+      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-25" />
       <div className="absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/80 to-dark-900/60" />
 
       <div className="z-10 flex flex-col items-center text-center max-w-4xl px-6">
@@ -15,25 +15,12 @@ export default function HeroSlide() {
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="flex items-center gap-8 mb-12"
+          className="flex items-center justify-center mb-12"
         >
-          {/* Logos */}
           <img
-            src="/FAENA 2.png"
-            alt="Faena"
-            className="h-12 md:h-16 object-contain brightness-0 invert"
-          />
-          <div className="h-12 w-[1px] bg-gold-500/50" />
-          <img
-            src="/EVEN.png"
-            alt="Even"
-            className="h-10 md:h-14 object-contain brightness-0 invert"
-          />
-          <div className="h-12 w-[1px] bg-gold-500/50" />
-          <img
-            src={presentationData.partners[1].logo}
+            src={presentationData.partners[0].logo}
             alt="MBRAS"
-            className="h-10 md:h-14 object-contain brightness-0 invert"
+            className="h-12 md:h-16 object-contain brightness-0 invert"
           />
         </motion.div>
 
@@ -60,10 +47,10 @@ export default function HeroSlide() {
           className="flex flex-col items-center gap-2"
         >
           <p className="text-gold-500 text-lg tracking-widest uppercase">
-            Faena São Paulo
+            {presentationData.hero.subtitle}
           </p>
           <p className="text-cream-100/60 text-sm">
-            O primeiro distrito Faena do Brasil • VGV R$ 3 bilhões
+            {presentationData.development.landArea} de terreno • {presentationData.development.usefulArea} construídos
           </p>
         </motion.div>
       </div>

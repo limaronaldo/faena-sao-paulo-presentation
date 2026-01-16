@@ -2,19 +2,11 @@
 
 import HeroSlide from "@/components/HeroSlide";
 import PartnerSlide from "@/components/PartnerSlide";
-import DevelopmentSlide from "@/components/DevelopmentSlide";
-import ComplexSlide from "@/components/ComplexSlide";
-import PartnershipSlide from "@/components/PartnershipSlide";
-import ArchitectureSlide from "@/components/ArchitectureSlide";
-import TypologiesSlide from "@/components/TypologiesSlide";
-import AmenitiesSlide from "@/components/AmenitiesSlide";
-import GastronomySlide from "@/components/GastronomySlide";
-import FaenaLegacySlide from "@/components/FaenaLegacySlide";
-import StrategySlide from "@/components/StrategySlide";
-import ExpertiseSlide from "@/components/ExpertiseSlide";
-import TimelineSlide from "@/components/TimelineSlide";
-import InvestmentSlide from "@/components/InvestmentSlide";
-import GoalsSlide from "@/components/GoalsSlide";
+import PropertySlide from "@/components/PropertySlide";
+import FeaturesSlide from "@/components/FeaturesSlide";
+import LocationSlide from "@/components/LocationSlide";
+import HighlightsSlide from "@/components/HighlightsSlide";
+import AdsPerformanceSlide from "@/components/AdsPerformanceSlide";
 import ClosingSlide from "@/components/ClosingSlide";
 import { presentationData } from "@/components/data";
 import { motion, useScroll, useSpring } from "framer-motion";
@@ -47,55 +39,23 @@ export default function Home() {
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <DevelopmentSlide />
+        <PropertySlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <ComplexSlide />
+        <FeaturesSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <PartnershipSlide />
+        <HighlightsSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <ArchitectureSlide />
+        <LocationSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <TypologiesSlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <AmenitiesSlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <GastronomySlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <FaenaLegacySlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <StrategySlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <ExpertiseSlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <TimelineSlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <InvestmentSlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <GoalsSlide />
+        <AdsPerformanceSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
