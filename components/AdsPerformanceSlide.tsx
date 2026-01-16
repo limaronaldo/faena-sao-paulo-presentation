@@ -8,41 +8,37 @@ export default function AdsPerformanceSlide() {
     const metaAds = [
         {
             type: "Carrossel",
-            impressions: "53.612",
-            reach: "34.840",
-            frequency: "1,54",
-            cpm: "R$ 1,71",
-            clicks: "43",
+            impressions: "38.745",
+            reach: "25.179",
+            cpm: "R$ 2,66",
         },
         {
             type: "Posts",
-            impressions: "97.950",
-            reach: "56.232",
-            frequency: "1,74",
-            cpm: "R$ 0,93",
-            clicks: "56",
+            impressions: "41.384",
+            reach: "23.758",
+            cpm: "R$ 1,88",
         },
     ];
 
     const metaTotals = {
-        impressions: "151.562",
-        reach: "91.072",
-        clicks: "99",
+        impressions: "109.454",
+        reach: "46.775",
+        clicks: "61",
     };
 
     const googleAds = [
-        { label: "Conversões", value: "6", highlight: true },
-        { label: "Cliques", value: "83" },
-        { label: "Impressões", value: "1.205" },
-        { label: "CTR", value: "6,89%" },
-        { label: "CPC", value: "R$ 7,28" },
+        { label: "Conversões", value: "4", highlight: true },
+        { label: "Cliques", value: "122" },
+        { label: "Impressões", value: "2.200" },
+        { label: "CTR", value: "7,71%" },
+        { label: "CPC", value: "R$ 9,25" },
     ];
 
     const analytics = [
-        { icon: Eye, label: "Visualizações", value: "1.749" },
-        { icon: Users, label: "Usuários Ativos", value: "1.389" },
-        { icon: BarChart3, label: "Views/Usuário", value: "1,26" },
-        { icon: Clock, label: "Tempo Engajamento", value: "20s" },
+        { icon: Eye, label: "Visualizações", value: "1.247" },
+        { icon: Users, label: "Usuários Ativos", value: "785" },
+        { icon: BarChart3, label: "Views/Usuário", value: "2,34" },
+        { icon: Clock, label: "Tempo Engajamento", value: "15s" },
     ];
 
     return (

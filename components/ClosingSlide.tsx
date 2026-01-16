@@ -10,9 +10,9 @@ export default function ClosingSlide() {
   return (
     <Slide className="bg-dark-900 text-cream-100">
       <div
-        className="absolute inset-0 opacity-25"
+        className="absolute inset-0 opacity-50"
         style={{
-          backgroundImage: `url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop)`,
+          backgroundImage: `url(/wresvita.png)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -63,7 +63,7 @@ export default function ClosingSlide() {
           <img
             src="/MBRAS 4.png"
             alt="MBRAS"
-            className="h-12 md:h-16 w-auto object-contain brightness-0 invert opacity-80"
+            className="h-12 md:h-16 w-auto object-contain"
           />
         </motion.div>
       </div>

@@ -1,17 +1,17 @@
 export const presentationData = {
   hero: {
-    title: "Exclusividade em meio à natureza.",
-    subtitle: "Pedra do Fogo • Campos do Jordão",
+    title: "A Exclusividade do Lifestyle W Hotel em um\nÚnico Residencial ",
+    subtitle: "W Residences • Vila Olímpia",
   },
 
   partners: [
     {
       id: "property",
-      name: "Residência Pedra do Fogo",
-      title: "Um refúgio exclusivo na serra da Mantiqueira.",
+      name: "W Residences São Paulo",
+      title: "O novo ícone de luxo da Vila Olímpia.",
       description:
-        "Propriedade única em Campos do Jordão com 22.000 m² de terreno e 750 m² de área construída. Uma residência sofisticada que combina conforto, privacidade e contato com a natureza em uma das regiões mais valorizadas do Brasil.",
-      image: "/Campos.png",
+        "Apartamento exclusivo no W Residences São Paulo com 102 m² de área útil. Uma residência sofisticada que combina design contemporâneo, serviços premium e a assinatura W Hotels em um dos endereços mais prestigiados da cidade.",
+      image: "/wres.png",
       imagePosition: "center",
       logo: "/MBRAS 4.png",
     },
@@ -28,17 +28,17 @@ export const presentationData = {
   ],
 
   development: {
-    name: "Residência Pedra do Fogo",
-    tagline: "Refúgio de luxo em Campos do Jordão",
-    location: "Pedra do Fogo — Campos do Jordão, SP",
-    locationDetail: "Em uma das regiões mais exclusivas da serra",
-    landArea: "22.000 m²",
-    usefulArea: "750 m²",
-    bedrooms: "6 quartos",
-    suites: "5 suítes",
-    parkingSpots: "6 vagas",
-    price: "R$ 21.000.000",
-    reference: "MB17425",
+    name: "W Residences São Paulo",
+    tagline: "Viva com a assinatura W Hotels",
+    location: "Vila Olímpia — São Paulo, SP",
+    locationDetail: "No coração da região mais dinâmica da cidade",
+    landArea: "",
+    usefulArea: "102 m²",
+    bedrooms: "2 quartos",
+    suites: "2 suítes",
+    parkingSpots: "2 vagas",
+    price: "R$ 7.400.000",
+    reference: "MB18856",
     image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop",
   },
 
@@ -47,75 +47,71 @@ export const presentationData = {
     specs: [
       {
         label: "Valor",
-        value: "R$ 21.000.000",
+        value: "R$ 7.400.000",
         highlight: true,
       },
       {
         label: "Quartos",
-        value: "6",
+        value: "2",
       },
       {
         label: "Suítes",
-        value: "5",
+        value: "2",
       },
       {
         label: "Vagas",
-        value: "6",
+        value: "2",
       },
       {
         label: "Área Útil",
-        value: "750 m²",
-      },
-      {
-        label: "Área Terreno",
-        value: "22.000 m²",
+        value: "102 m²",
       },
       {
         label: "Referência",
-        value: "MB17425",
+        value: "MB18856",
       },
     ],
   },
 
   features: {
-    title: "Características da Propriedade",
+    title: "Características do Imóvel",
     categories: [
+
       {
         title: "Lazer e Bem-Estar",
         items: [
+          "Academia",
+          "Fitness",
           "Piscina",
-          "Jacuzzi",
-          "Hidromassagem",
-          "Sauna",
-          "Churrasqueira",
-        ],
-      },
-      {
-        title: "Conforto e Praticidade",
-        items: [
-          "Aquecedor",
-          "Lareira",
-          "Mobiliado",
-          "Vista Exterior",
-          "Acesso 24 Horas",
+          "Spa",
+          "Solarium",
         ],
       },
       {
         title: "Infraestrutura",
         items: [
-          "Casa de Caseiro",
-          "Dependência de Empregados",
-          "Cozinha",
-          "Cozinha Gourmet",
-          "Cozinha Independente",
+          "Auditório",
+          "Elevador",
+          "Garagem Coberta",
+          "Hall",
+          "Restaurante",
         ],
       },
       {
-        title: "Espaços Especiais",
+        title: "Serviços e Segurança",
         items: [
-          "Escritório",
-          "Lavabo",
-          "Mezanino",
+          "Portaria 24Hrs",
+          "Recepção 24 Horas",
+          "Segurança 24 Horas",
+          "Serviços",
+          "Próximo a Hospitais",
+        ],
+      },
+      {
+        title: "Espaços de Eventos",
+        items: [
+          "Sala de Conferência",
+          "Sala de Convenções",
         ],
       },
     ],
@@ -126,43 +122,43 @@ export const presentationData = {
     details: [
       {
         label: "Bairro",
-        value: "Pedra do Fogo",
+        value: "Vila Olímpia",
       },
       {
         label: "Cidade",
-        value: "Campos do Jordão",
+        value: "São Paulo",
       },
       {
         label: "Estado",
-        value: "São Paulo",
+        value: "SP",
       },
     ],
     description:
-      "Localizada em uma das regiões mais nobres de Campos do Jordão, a propriedade oferece privacidade total e vistas deslumbrantes da serra da Mantiqueira. Um refúgio exclusivo para quem busca qualidade de vida e contato com a natureza.",
+      "Localizado em um dos bairros mais vibrantes e valorizados de São Paulo, o W Residences oferece o melhor da vida urbana com fácil acesso a restaurantes premiados, shoppings de luxo e centros empresariais. Um endereço icônico para quem busca sofisticação e praticidade.",
   },
 
   highlights: {
-    title: "Por que esta propriedade?",
+    title: "Por que W Residences?",
     items: [
       {
-        title: "Terreno Excepcional",
-        description: "22.000 m² de área verde preservada, proporcionando total privacidade e exclusividade.",
-        icon: "trees",
-      },
-      {
-        title: "Arquitetura Sofisticada",
-        description: "750 m² de construção com acabamentos de alto padrão e design contemporâneo.",
-        icon: "building-2",
-      },
-      {
-        title: "Infraestrutura Completa",
-        description: "Piscina, jacuzzi, sauna, churrasqueira e muito mais para seu conforto.",
+        title: "Assinatura W Hotels",
+        description: "Design exclusivo e serviços premium com a qualidade e sofisticação da marca W Hotels.",
         icon: "sparkles",
       },
       {
         title: "Localização Premium",
-        description: "Pedra do Fogo, uma das áreas mais valorizadas e exclusivas de Campos do Jordão.",
+        description: "Vila Olímpia, um dos endereços mais prestigiados e valorizados de São Paulo.",
         icon: "map-pin",
+      },
+      {
+        title: "Infraestrutura Completa",
+        description: "Academia, spa, piscina, restaurante e serviços 24 horas para seu conforto.",
+        icon: "building-2",
+      },
+      {
+        title: "Investimento Seguro",
+        description: "Valorização constante em uma das regiões mais dinâmicas da cidade.",
+        icon: "trending-up",
       },
     ],
   },
@@ -184,17 +180,17 @@ export const presentationData = {
       },
     ],
     portfolioExperience: [
-      "Especialistas em propriedades de alto padrão em Campos do Jordão",
-      "Track record em negociações acima de R$ 15 milhões",
+      "Especialistas em branded residences e imóveis de alto padrão em São Paulo",
+      "Track record em negociações acima de R$ 5 milhões",
       "Relacionamento com clientes de alto poder aquisitivo",
       "Atendimento personalizado e discreto",
     ],
   },
 
   closing: {
-    headline: "Seu refúgio de luxo\naos pés da Mantiqueira.",
+    headline: "Seu endereço de prestígio\nna Vila Olímpia.",
     subheadline:
-      "Uma propriedade única em Pedra do Fogo, com 22.000 m² de natureza preservada e infraestrutura completa para viver momentos inesquecíveis.",
+      "Uma residência exclusiva no W Residences São Paulo, com 102 m² de sofisticação, serviços premium e a assinatura inconfundível da marca W Hotels.",
     tagline: "MBRAS — Transformando exclusividade em patrimônio.",
   },
 };

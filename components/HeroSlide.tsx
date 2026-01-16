@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function HeroSlide() {
   return (
     <Slide className="bg-dark-900 text-cream-100">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-25" />
+      <div className="absolute inset-0 bg-[url('/wresapartment.png')] bg-cover bg-center opacity-50" />
       <div className="absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/80 to-dark-900/60" />
 
       <div className="z-10 flex flex-col items-center text-center max-w-4xl px-6">
@@ -20,7 +20,7 @@ export default function HeroSlide() {
           <img
             src={presentationData.partners[0].logo}
             alt="MBRAS"
-            className="h-12 md:h-16 object-contain brightness-0 invert"
+            className="h-12 md:h-16 object-contain"
           />
         </motion.div>
 
@@ -28,7 +28,7 @@ export default function HeroSlide() {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
-          className="text-3xl md:text-6xl lg:text-7xl font-serif font-light leading-tight tracking-wide"
+          className="text-2xl md:text-5xl lg:text-6xl font-serif font-light leading-tight tracking-wide whitespace-pre-line"
         >
           {presentationData.hero.title}
         </motion.h1>
@@ -50,7 +50,7 @@ export default function HeroSlide() {
             {presentationData.hero.subtitle}
           </p>
           <p className="text-cream-100/60 text-sm">
-            {presentationData.development.landArea} de terreno • {presentationData.development.usefulArea} construídos
+            {presentationData.development.usefulArea} de área útil
           </p>
         </motion.div>
       </div>

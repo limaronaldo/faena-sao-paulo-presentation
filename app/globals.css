@@ -13,9 +13,9 @@
   --color-faena-burgundy: #6B1A26;
   --color-faena-terracotta: #C25B47;
 
-  --color-dark-900: #1e3a3a;
-  --color-dark-800: #254545;
-  --color-dark-700: #2d5050;
+  --color-dark-900: #011e38;
+  --color-dark-800: #0a2847;
+  --color-dark-700: #133256;
 
   --color-cream-100: #faf8f5;
   --color-cream-200: #f5f0e8;
@@ -89,7 +89,7 @@
     animation: none !important;
   }
 
-  main > div[style*="scaleX"] {
+  main>div[style*="scaleX"] {
     display: none !important;
   }
 

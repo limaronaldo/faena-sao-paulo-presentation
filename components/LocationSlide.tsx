@@ -12,7 +12,7 @@ export default function LocationSlide() {
             <div
                 className="absolute inset-0 opacity-30"
                 style={{
-                    backgroundImage: `url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop)`,
+                    backgroundImage: `url('/wvista2.jpg')`,
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}
