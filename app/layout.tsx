@@ -16,19 +16,19 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Faena São Paulo + MBRAS | Parceria Exclusiva",
-  description: "O primeiro distrito Faena do Brasil. R$ 3 bilhões em VGV. Uma parceria para redefinir o luxo em São Paulo.",
+  title: "Apresentação MBRAS",
+  description: "Resultados.",
   openGraph: {
-    title: "Faena São Paulo + MBRAS | Parceria Exclusiva",
-    description: "O primeiro distrito Faena do Brasil. R$ 3 bilhões em VGV.",
-    url: "https://faena.mbras.com.br",
-    siteName: "Faena São Paulo + MBRAS",
+    title: "Apresentação MBRAS",
+    description: "Resultados",
+    url: "https://resultado.mbras.com.br",
+    siteName: "MBRAS",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Faena São Paulo + MBRAS - Parceria Exclusiva",
+        alt: "MBRAS",
       },
     ],
     locale: "pt_BR",
