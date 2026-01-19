@@ -16,19 +16,19 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "Faena São Paulo + MBRAS | Parceria Exclusiva",
-  description: "O primeiro distrito Faena do Brasil. R$ 3 bilhões em VGV. Uma parceria para redefinir o luxo em São Paulo.",
+  title: "W Residences São Paulo",
+  description: "W Residences São Paulo.",
   openGraph: {
-    title: "Faena São Paulo + MBRAS | Parceria Exclusiva",
-    description: "O primeiro distrito Faena do Brasil. R$ 3 bilhões em VGV.",
-    url: "https://faena.mbras.com.br",
-    siteName: "Faena São Paulo + MBRAS",
+    title: "W Residences São Paulo",
+    description: "W Residences São Paulo.",
+    url: "https://wresidences.mbras.com.br",
+    siteName: "W Residences São Paulo",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Faena São Paulo + MBRAS - Parceria Exclusiva",
+        alt: "W Residences São Paulo",
       },
     ],
     locale: "pt_BR",
