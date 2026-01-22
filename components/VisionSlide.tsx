@@ -13,12 +13,12 @@ export default function VisionSlide() {
                 {/* Section 1: Uma mudança silenciosa */}
                 <div className="flex-1 grid grid-cols-1 lg:grid-cols-2 border-b border-cream-300">
                     {/* Left: Text content */}
-                    <div className="flex flex-col justify-center px-8 md:px-16 py-12">
+                    <div className="flex flex-col justify-center px-8 md:px-16 lg:px-20 py-12">
                         <motion.h2
                             initial={{ y: 20, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ delay: 0.2, duration: 0.6 }}
-                            className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight mb-6"
+                            className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif leading-tight mb-6"
                         >
                             {vision.section1.title}
                         </motion.h2>
@@ -26,7 +26,7 @@ export default function VisionSlide() {
                             initial={{ y: 20, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ delay: 0.3, duration: 0.6 }}
-                            className="text-sm md:text-base text-text-secondary leading-relaxed"
+                            className="text-base md:text-lg lg:text-xl text-text-secondary leading-relaxed"
                         >
                             {vision.section1.description}
                         </motion.p>
@@ -39,7 +39,7 @@ export default function VisionSlide() {
                             initial={{ y: 20, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ delay: 0.4, duration: 0.6 }}
-                            className="relative z-10 text-xl md:text-2xl lg:text-3xl font-serif italic text-text-primary leading-relaxed text-center"
+                            className="relative z-10 text-xl md:text-2xl lg:text-3xl xl:text-4xl font-serif italic text-text-primary leading-relaxed text-center"
                         >
                             "{vision.section1.quote}"
                         </motion.blockquote>
@@ -49,12 +49,12 @@ export default function VisionSlide() {
                 {/* Section 2: O luxo exige método */}
                 <div className="flex-1 grid grid-cols-1 lg:grid-cols-2">
                     {/* Left: Content */}
-                    <div className="flex flex-col justify-center px-8 md:px-16 py-12">
+                    <div className="flex flex-col justify-center px-8 md:px-16 lg:px-20 py-12">
                         <motion.h2
                             initial={{ y: 20, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ delay: 0.2, duration: 0.6 }}
-                            className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight mb-2"
+                            className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif leading-tight mb-2"
                         >
                             {vision.section2.title}
                         </motion.h2>
@@ -62,7 +62,7 @@ export default function VisionSlide() {
                             initial={{ y: 20, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ delay: 0.3, duration: 0.6 }}
-                            className="text-xs tracking-[0.2em] uppercase text-gold-500 mb-6"
+                            className="text-sm md:text-base tracking-[0.2em] uppercase text-gold-500 mb-6"
                         >
                             {vision.section2.label}
                         </motion.p>
@@ -70,7 +70,7 @@ export default function VisionSlide() {
                             initial={{ y: 20, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ delay: 0.4, duration: 0.6 }}
-                            className="text-sm md:text-base text-text-secondary leading-relaxed mb-8"
+                            className="text-base md:text-lg lg:text-xl text-text-secondary leading-relaxed mb-8"
                         >
                             {vision.section2.description}
                         </motion.p>
@@ -78,7 +78,7 @@ export default function VisionSlide() {
                             initial={{ y: 20, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ delay: 0.5, duration: 0.6 }}
-                            className="text-base md:text-lg font-serif italic text-text-secondary"
+                            className="text-lg md:text-xl lg:text-2xl font-serif italic text-text-secondary"
                         >
                             "{vision.section2.quote}"
                         </motion.p>
@@ -101,7 +101,7 @@ export default function VisionSlide() {
                             />
 
                             {/* Labels */}
-                            <div className="absolute bottom-0 left-0 right-0 flex justify-between text-xs md:text-sm text-text-secondary px-4">
+                            <div className="absolute bottom-0 left-0 right-0 flex justify-between text-sm md:text-base lg:text-lg text-text-secondary px-4">
                                 <span>{vision.section2.diagram.left}</span>
                                 <span>{vision.section2.diagram.right}</span>
                             </div>

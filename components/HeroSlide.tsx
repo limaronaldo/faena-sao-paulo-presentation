@@ -10,6 +10,15 @@ export default function HeroSlide() {
   return (
     <Slide className="bg-cream-100 text-text-primary">
       <div className="z-10 flex flex-col items-center text-center max-w-4xl px-6 py-16">
+        <motion.img
+          src="/logombrasazul.png"
+          alt="MBRAS"
+          initial={{ y: -20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ delay: 0.1, duration: 0.8 }}
+          className="h-14 md:h-16 lg:h-20 object-contain mb-12"
+        />
+
         <motion.h1
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}

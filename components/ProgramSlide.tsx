@@ -11,13 +11,13 @@ export default function ProgramSlide() {
         <Slide className="bg-cream-200 text-text-primary">
             <div className="w-full h-full flex flex-col">
                 {/* Main content area */}
-                <div className="flex-1 flex items-center px-8 md:px-16 py-12">
-                    <div className="max-w-2xl">
+                <div className="flex-1 flex items-center px-8 md:px-16 lg:px-24 py-12">
+                    <div className="max-w-3xl">
                         <motion.h2
                             initial={{ y: 20, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ delay: 0.2, duration: 0.6 }}
-                            className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight mb-4"
+                            className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif leading-tight mb-6"
                         >
                             {program.title}
                         </motion.h2>
@@ -26,7 +26,7 @@ export default function ProgramSlide() {
                             initial={{ y: 20, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ delay: 0.3, duration: 0.6 }}
-                            className="text-lg md:text-xl text-gold-500 font-serif mb-8"
+                            className="text-xl md:text-2xl lg:text-3xl text-gold-500 font-serif mb-10"
                         >
                             {program.subtitle}
                         </motion.p>
@@ -35,7 +35,7 @@ export default function ProgramSlide() {
                             initial={{ y: 20, opacity: 0 }}
                             whileInView={{ y: 0, opacity: 1 }}
                             transition={{ delay: 0.4, duration: 0.6 }}
-                            className="text-sm md:text-base text-text-secondary leading-relaxed"
+                            className="text-base md:text-lg lg:text-xl text-text-secondary leading-relaxed"
                         >
                             {program.description}
                         </motion.p>
