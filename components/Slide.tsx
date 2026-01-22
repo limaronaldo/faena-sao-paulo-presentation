@@ -7,14 +7,15 @@ import { clsx } from "clsx";
 interface SlideProps {
   children: ReactNode;
   className?: string;
-  variant?: "dark" | "light" | "faena";
+  variant?: "dark" | "light" | "cream" | "cream-alt";
 }
 
-export default function Slide({ children, className, variant = "dark" }: SlideProps) {
+export default function Slide({ children, className, variant = "cream" }: SlideProps) {
   const variantStyles = {
     dark: "bg-dark-900 text-cream-100",
-    light: "bg-cream-100 text-dark-900",
-    faena: "bg-gradient-to-br from-dark-900 via-dark-800 to-dark-900 text-cream-100",
+    light: "bg-white text-text-primary",
+    cream: "bg-cream-100 text-text-primary",
+    "cream-alt": "bg-cream-200 text-text-primary",
   };
 
   return (
@@ -26,7 +27,7 @@ export default function Slide({ children, className, variant = "dark" }: SlidePr
       )}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      viewport={{ once: false, amount: 0.5 }}
+      viewport={{ once: false, amount: 0.3 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
       {children}

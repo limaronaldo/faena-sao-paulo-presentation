@@ -16,19 +16,19 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "W Residences São Paulo",
-  description: "W Residences São Paulo.",
+  title: "MBRAS Academy | Programa de Excelência em Tecnologia e Vendas",
+  description: "Onde a expertise de mercado encontra a fronteira da tecnologia. Programa de excelência em tecnologia e vendas para o mercado de luxo.",
   openGraph: {
-    title: "W Residences São Paulo",
-    description: "W Residences São Paulo.",
-    url: "https://wresidences.mbras.com.br",
-    siteName: "W Residences São Paulo",
+    title: "MBRAS Academy | Programa de Excelência em Tecnologia e Vendas",
+    description: "Onde a expertise de mercado encontra a fronteira da tecnologia. Programa de excelência em tecnologia e vendas para o mercado de luxo.",
+    url: "https://academy.mbras.com.br",
+    siteName: "MBRAS Academy",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "W Residences São Paulo",
+        alt: "MBRAS Academy",
       },
     ],
     locale: "pt_BR",
@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${playfair.variable} ${lato.variable} antialiased bg-dark-900 text-cream-100`}
+        className={`${playfair.variable} ${lato.variable} antialiased bg-cream-100 text-text-primary`}
       >
         {children}
       </body>

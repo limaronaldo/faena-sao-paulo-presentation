@@ -1,14 +1,17 @@
 "use client";
 
 import HeroSlide from "@/components/HeroSlide";
-import PartnerSlide from "@/components/PartnerSlide";
-import PropertySlide from "@/components/PropertySlide";
-import FeaturesSlide from "@/components/FeaturesSlide";
-import LocationSlide from "@/components/LocationSlide";
-import HighlightsSlide from "@/components/HighlightsSlide";
-import AdsPerformanceSlide from "@/components/AdsPerformanceSlide";
+import VisionSlide from "@/components/VisionSlide";
+import PartnersSlide from "@/components/PartnersSlide";
+import PhilosophySlide from "@/components/PhilosophySlide";
+import ProgramSlide from "@/components/ProgramSlide";
+import ModulesSlide from "@/components/ModulesSlide";
+import TechStackSlide from "@/components/TechStackSlide";
+import MethodologySlide from "@/components/MethodologySlide";
+import TakeawaysSlide from "@/components/TakeawaysSlide";
+import AudienceSlide from "@/components/AudienceSlide";
+import SelectionSlide from "@/components/SelectionSlide";
 import ClosingSlide from "@/components/ClosingSlide";
-import { presentationData } from "@/components/data";
 import { motion, useScroll, useSpring } from "framer-motion";
 
 export default function Home() {
@@ -31,31 +34,43 @@ export default function Home() {
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <PartnerSlide partner={presentationData.partners[0]} />
+        <VisionSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <PartnerSlide partner={presentationData.partners[1]} centered />
+        <PartnersSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <PropertySlide />
+        <PhilosophySlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <FeaturesSlide />
+        <ProgramSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <HighlightsSlide />
+        <ModulesSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <LocationSlide />
+        <TechStackSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <AdsPerformanceSlide />
+        <MethodologySlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <TakeawaysSlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <AudienceSlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <SelectionSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">

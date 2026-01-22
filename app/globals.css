@@ -4,27 +4,29 @@
   --font-serif: "Playfair Display", serif;
   --font-sans: "Lato", sans-serif;
 
-  /* Paleta Faena - Tons de vermelho/terracota com dourado e preto sofisticado */
-  --color-gold-400: #d4af5c;
-  --color-gold-500: #c5a059;
-  --color-gold-600: #b08d4b;
-
-  --color-faena-red: #8B2332;
-  --color-faena-burgundy: #6B1A26;
-  --color-faena-terracotta: #C25B47;
-
-  --color-dark-900: #011e38;
-  --color-dark-800: #0a2847;
-  --color-dark-700: #133256;
+  /* MBRAS Academy Palette - Elegant cream with gold accents */
+  --color-gold-400: #c5a059;
+  --color-gold-500: #b08d4b;
+  --color-gold-600: #9a7a3d;
 
   --color-cream-100: #faf8f5;
   --color-cream-200: #f5f0e8;
   --color-cream-300: #e8e0d5;
+  --color-cream-400: #d8d0c5;
+
+  --color-dark-900: #1a1a1a;
+  --color-dark-800: #2a2a2a;
+  --color-dark-700: #3a3a3a;
+  --color-dark-600: #4a4a4a;
+
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #4a4a4a;
+  --color-text-muted: #6a6a6a;
 }
 
 @layer base {
   body {
-    @apply bg-dark-900 text-cream-100 font-sans antialiased;
+    @apply bg-cream-100 text-text-primary font-sans antialiased;
   }
 
   h1,
@@ -50,8 +52,30 @@
   background: linear-gradient(135deg, var(--color-gold-400), var(--color-gold-600));
 }
 
-.gradient-faena {
-  background: linear-gradient(135deg, var(--color-faena-red), var(--color-faena-burgundy));
+/* Academy Specific Styles */
+.academy-section {
+  @apply bg-cream-100 border-b border-cream-300;
+}
+
+.academy-section-alt {
+  @apply bg-cream-200;
+}
+
+.academy-section-dark {
+  @apply bg-dark-900 text-cream-100;
+}
+
+.academy-card {
+  @apply bg-white border border-cream-300 p-6;
+}
+
+.quote-text {
+  @apply font-serif italic text-text-secondary;
+}
+
+/* Marble texture overlay */
+.marble-texture {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23d8d0c5' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 /* Scrollbar styling */
@@ -60,7 +84,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-dark-900);
+  background: var(--color-cream-200);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -78,7 +102,7 @@
   body {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
-    background-color: var(--color-dark-900) !important;
+    background-color: var(--color-cream-100) !important;
     min-width: 1024px;
   }
 

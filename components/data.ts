@@ -1,196 +1,221 @@
-export const presentationData = {
+export const academyData = {
   hero: {
-    title: "A Exclusividade do Lifestyle W Hotel em um\nÚnico Residencial ",
-    subtitle: "W Residences • Vila Olímpia",
+    title: "MBRAS Academy",
+    subtitle: "PROGRAMA DE EXCELÊNCIA EM TECNOLOGIA\nE VENDAS PARA O MERCADO DE LUXO",
+    tagline: "Onde a expertise de mercado encontra a fronteira da tecnologia.",
+    partnership: "UMA INICIATIVA MBRAS E IBVI",
   },
 
-  partners: [
-    {
-      id: "property",
-      name: "W Residences São Paulo",
-      title: "O novo ícone de luxo da Vila Olímpia.",
+  vision: {
+    section1: {
+      title: "Uma mudança silenciosa no alto padrão.",
       description:
-        "Apartamento exclusivo no W Residences São Paulo com 102 m² de área útil. Uma residência sofisticada que combina design contemporâneo, serviços premium e a assinatura W Hotels em um dos endereços mais prestigiados da cidade.",
-      image: "/wres.png",
-      imagePosition: "center",
-      logo: "/MBRAS 4.png",
+        "A era em que apenas relacionamento bastava chegou ao fim. O cliente bastava chegou ao fim. O cliente premium de hoje continua valorizando confiança e presença, mas o novo padrão exige, simultaneamente, sensibilidade humana e rigor técnico.",
+      quote:
+        "A excelência, agora, está na capacidade de orquestrar relacionamento, dados, narrativa e timing com consistência.",
     },
-    {
-      id: "mbras",
-      name: "MBRAS",
-      title: "Transformando Exclusividade em Patrimônio.",
+    section2: {
+      title: "O luxo exige método e precisão.",
+      label: "A VISÃO",
       description:
-        "A MBRAS redefine o mercado imobiliário de alto padrão com uma curadoria impecável e atendimento personalizado. Especialistas em conectar clientes a propriedades únicas, transformamos cada negociação em uma experiência de valor inestimável.",
-      image: "/PHOTO-2025-12-16-18-17-53 2.jpg",
-      imagePosition: "center",
-      logo: "/MBRAS 4.png",
+        "A MBRAS Academy nasce no ponto de inflexão onde a expertise de mercado encontra a fronteira da tecnologia. Consolidamos uma metodologia que integra vendas consultivas, IA generativa e análise em escala para escala — para transformar relacionamento em critério — e critério em resultado sustentável.",
+      quote: "No luxo, não vence quem fala mais alto. Vence quem conduz melhor.",
+      diagram: {
+        left: "Sensibilidade Humana",
+        right: "Rigor Técnico",
+      },
     },
-  ],
-
-  development: {
-    name: "W Residences São Paulo",
-    tagline: "Viva com a assinatura W Hotels",
-    location: "Vila Olímpia — São Paulo, SP",
-    locationDetail: "No coração da região mais dinâmica da cidade",
-    landArea: "",
-    usefulArea: "102 m²",
-    bedrooms: "2 quartos",
-    suites: "2 suítes",
-    parkingSpots: "2 vagas",
-    price: "R$ 7.400.000",
-    reference: "MB18856",
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop",
   },
 
-  property: {
-    title: "Detalhes do Imóvel",
-    specs: [
-      {
-        label: "Valor",
-        value: "R$ 7.400.000",
-        highlight: true,
-      },
-      {
-        label: "Quartos",
-        value: "2",
-      },
-      {
-        label: "Suítes",
-        value: "2",
-      },
-      {
-        label: "Vagas",
-        value: "2",
-      },
-      {
-        label: "Área Útil",
-        value: "102 m²",
-      },
-      {
-        label: "Referência",
-        value: "MB18856",
-      },
-    ],
-  },
-
-  features: {
-    title: "Características do Imóvel",
-    categories: [
-
-      {
-        title: "Lazer e Bem-Estar",
-        items: [
-          "Academia",
-          "Fitness",
-          "Piscina",
-          "Spa",
-          "Solarium",
-        ],
-      },
-      {
-        title: "Infraestrutura",
-        items: [
-          "Auditório",
-          "Elevador",
-          "Garagem Coberta",
-          "Hall",
-          "Restaurante",
-        ],
-      },
-      {
-        title: "Serviços e Segurança",
-        items: [
-          "Portaria 24Hrs",
-          "Recepção 24 Horas",
-          "Segurança 24 Horas",
-          "Serviços",
-          "Próximo a Hospitais",
-        ],
-      },
-      {
-        title: "Espaços de Eventos",
-        items: [
-          "Sala de Conferência",
-          "Sala de Convenções",
-        ],
-      },
-    ],
-  },
-
-  location: {
-    title: "Localização Privilegiada",
-    details: [
-      {
-        label: "Bairro",
-        value: "Vila Olímpia",
-      },
-      {
-        label: "Cidade",
-        value: "São Paulo",
-      },
-      {
-        label: "Estado",
-        value: "SP",
-      },
-    ],
-    description:
-      "Localizado em um dos bairros mais vibrantes e valorizados de São Paulo, o W Residences oferece o melhor da vida urbana com fácil acesso a restaurantes premiados, shoppings de luxo e centros empresariais. Um endereço icônico para quem busca sofisticação e praticidade.",
-  },
-
-  highlights: {
-    title: "Por que W Residences?",
+  partners: {
+    title: "A codificação de uma prática real.",
     items: [
       {
-        title: "Assinatura W Hotels",
-        description: "Design exclusivo e serviços premium com a qualidade e sofisticação da marca W Hotels.",
-        icon: "sparkles",
+        name: "MBRAS",
+        subtitle: "(O legado do alto padrão)",
+        description:
+          "Foco: Atendimento white-glove, condução consultiva e negociações multimilionárias (ticket médio acima de R$ 20 milhões).",
+        quote: "O detalhe invisível sustenta a confiança visível.",
       },
       {
-        title: "Localização Premium",
-        description: "Vila Olímpia, um dos endereços mais prestigiados e valorizados de São Paulo.",
-        icon: "map-pin",
-      },
-      {
-        title: "Infraestrutura Completa",
-        description: "Academia, spa, piscina, restaurante e serviços 24 horas para seu conforto.",
-        icon: "building-2",
-      },
-      {
-        title: "Investimento Seguro",
-        description: "Valorização constante em uma das regiões mais dinâmicas da cidade.",
-        icon: "trending-up",
+        name: "IBVI",
+        subtitle: "(A ciência dos dados)",
+        description:
+          "Foco: Eliminar o 'achismo' e elevar a qualidade da decisão. Processamento de dados em escala para transformar sinais dispersos em inteligência.",
+        quote: "A diferença entre ter feeling e ter clareza.",
       },
     ],
   },
 
-  expertise: {
-    title: "Expertise MBRAS no Segmento de Alto Padrão",
-    stats: [
+  philosophy: {
+    title: "Filosofia Educacional: High-tech. High-touch.",
+    subtitle: "No mercado de luxo, tecnologia não substitui o humano. Ela o amplifica.",
+    pillars: [
       {
-        value: "+R$ 6 Bilhões",
-        label: "Em VGV comercializado no segmento de altíssimo padrão.",
+        number: "1",
+        title: "Imersão Prática",
+        description: "Teoria mínima. Execução máxima. Cenários reais com padrões reais.",
       },
       {
-        value: "50.000+",
-        label: "Contatos qualificados em nossa base proprietária.",
+        number: "2",
+        title: "Tecnologia como Alavanca",
+        description:
+          "Não ensinamos apenas ferramentas. Ensinamos orquestração: pesquisa, análise e automação com critério.",
       },
       {
-        value: "15+ Anos",
-        label: "De experiência especializada em imóveis de luxo.",
+        number: "3",
+        title: "Mentalidade de Elite",
+        description:
+          "O padrão premium é a soma de detalhes invisíveis: linguagem, timing, postura e acabamento.",
       },
     ],
-    portfolioExperience: [
-      "Especialistas em branded residences e imóveis de alto padrão em São Paulo",
-      "Track record em negociações acima de R$ 5 milhões",
-      "Relacionamento com clientes de alto poder aquisitivo",
-      "Atendimento personalizado e discreto",
+  },
+
+  program: {
+    title: "Inteligência Artificial aplicada à performance comercial.",
+    subtitle: "Programa Inaugural",
+    description:
+      "IA e vendas consultivas para profissionais que desejam operar no mais alto nível. O foco é desenvolver a clareza de quem sabe o que dizer, dizer, como dizer e quando dizer — em qualquer contexto.",
+  },
+
+  modules: {
+    section1: {
+      title: "Do Posicionamento à Prospecção",
+      items: [
+        {
+          number: "1",
+          title: "O Profissional Aumentado por IA",
+          description:
+            "Comunicação sofisticada (sem perder humanidade), hiperpersonalização em escala e precisão narrativa.",
+        },
+        {
+          number: "2",
+          title: "Qualificação Preditiva e Discernimento",
+          description:
+            "A diferença entre estar ocupado e estar avançando. Leitura de sinais de intenção, priorização baseada em fatos e rotinas que transformam intuição em certeza.",
+        },
+        {
+          number: "3",
+          title: "Marketing Digital Quiet Luxury",
+          description:
+            "Atrair pelo sinal, não pelo ruído. Segmentação estratégica para públicos premium e criatividade que preserva a aura de valor.",
+        },
+      ],
+    },
+    section2: {
+      title: "Da Narrativa ao Fechamento",
+      items: [
+        {
+          number: "4",
+          title: "Storytelling Visual e Materiais Impecáveis",
+          description:
+            "No luxo, apresentação é percepção. Materiais premium com apoio de IA e narrativa visual ('sonho com evidência').",
+        },
+        {
+          number: "5",
+          title: "Automação Invisível e Produtividade",
+          description:
+            "Presença constante sem parecer insistência. Cadências de follow-up elegantes e produtividade assistida para escalar sem perder a personalização.",
+        },
+        {
+          number: "6",
+          title: "Inteligência Competitiva e Argumentação",
+          description:
+            "A tranquilidade de conduzir decisões com base em evidência. Leitura de cenário, precificação fundamentada e argumentação consultiva.",
+        },
+      ],
+    },
+  },
+
+  techStack: {
+    title: "Estado da arte, com critério.",
+    description:
+      "A MBRAS Academy trabalha de forma agnóstica, focando em lógica de uso e orquestração — não em modismos.",
+    tools: ["OpenAI", "Anthropic", "Google", "Microsoft", "Perplexity"],
+  },
+
+  methodology: {
+    title: "Formato Boutique e Metodologia Híbrida.",
+    formats: [
+      {
+        title: "Presencial (São Paulo)",
+        description: "Prática de alto impacto — simulações, calibração de linguagem e condução consultiva.",
+      },
+      {
+        title: "Online",
+        description: "Execução guiada — método, consistência e acompanhamento entre encontros.",
+      },
+      {
+        title: "Mentoria Aplicada",
+        description: "Cada participante desenvolve um projeto no seu próprio contexto real.",
+      },
+      {
+        title: "Comunidade Permanente",
+        description: "Acesso à rede MBRAS Academy, eventos e colaboração pós-ciclo.",
+      },
     ],
+  },
+
+  takeaways: {
+    title: "O que você leva com você.",
+    intro: "Você não sai com uma lista de ferramentas.\nVocê sai com um novo nível de domínio.",
+    items: [
+      {
+        title: "Discernimento",
+        description: "Para investir energia com precisão.",
+      },
+      {
+        title: "Clareza",
+        description: "Para conduzir conversas difíceis com elegância.",
+      },
+      {
+        title: "Método",
+        description: "Para transformar intuição em certeza.",
+      },
+      {
+        title: "Humanidade em Escala",
+        description: "Personalização real, mesmo em volume.",
+      },
+      {
+        title: "Previsibilidade",
+        description: "Uma rotina operacional que antecipa o cenário.",
+      },
+    ],
+  },
+
+  audience: {
+    title: "Para quem desenhamos este programa.",
+    personas: [
+      {
+        title: "Profissionais High-Ticket",
+        description: "Que desejam elevar padrão, precisão e resultado.",
+      },
+      {
+        title: "Gestores",
+        description: "Que buscam previsibilidade e execução com rigor.",
+      },
+      {
+        title: "Empreendedores Premium",
+        description: "Que querem operar com vantagem tecnológica.",
+      },
+      {
+        title: "Consultores e Assessores",
+        description: "Que atendem clientes exigentes e não podem errar no detalhe.",
+      },
+    ],
+  },
+
+  selection: {
+    title: "Acesso e Seleção",
+    description:
+      "Para preservar o nível de excelência e as conexões de valor, o ingresso ocorre mediante aplicação.",
+    process:
+      "O processo inclui análise de perfil profissional e entrevista para garantir turmas alinhadas e produtivas.",
   },
 
   closing: {
-    headline: "Seu endereço de prestígio\nna Vila Olímpia.",
-    subheadline:
-      "Uma residência exclusiva no W Residences São Paulo, com 102 m² de sofisticação, serviços premium e a assinatura inconfundível da marca W Hotels.",
-    tagline: "MBRAS — Transformando exclusividade em patrimônio.",
+    headline: "A convergência entre alta performance, tecnologia e o mercado de luxo.",
+    cta: "Solicite o prospecto detalhado e inicie sua candidatura.",
+    partnership: "UMA INICIATIVA MBRAS E IBVI",
   },
 };
