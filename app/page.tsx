@@ -1,7 +1,9 @@
 "use client";
 
 import HeroSlide from "@/components/HeroSlide";
-import VisionSlide from "@/components/VisionSlide";
+import VisionSlide1 from "@/components/VisionSlide1";
+import VisionSlide2 from "@/components/VisionSlide2";
+import VisionSlide3 from "@/components/VisionSlide3";
 import PartnersSlide from "@/components/PartnersSlide";
 import PhilosophySlide from "@/components/PhilosophySlide";
 import ProgramSlide from "@/components/ProgramSlide";
@@ -35,7 +37,15 @@ export default function Home() {
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <VisionSlide />
+        <VisionSlide1 />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <VisionSlide2 />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <VisionSlide3 />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
