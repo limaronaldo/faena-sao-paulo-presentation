@@ -5,7 +5,8 @@ import VisionSlide from "@/components/VisionSlide";
 import PartnersSlide from "@/components/PartnersSlide";
 import PhilosophySlide from "@/components/PhilosophySlide";
 import ProgramSlide from "@/components/ProgramSlide";
-import ModulesSlide from "@/components/ModulesSlide";
+import ModulesSlide1 from "@/components/ModulesSlide1";
+import ModulesSlide2 from "@/components/ModulesSlide2";
 import TechStackSlide from "@/components/TechStackSlide";
 import MethodologySlide from "@/components/MethodologySlide";
 import TakeawaysSlide from "@/components/TakeawaysSlide";
@@ -50,7 +51,11 @@ export default function Home() {
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
-        <ModulesSlide />
+        <ModulesSlide1 />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <ModulesSlide2 />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">

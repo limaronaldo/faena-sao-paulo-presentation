@@ -17,7 +17,7 @@ export default function PartnersSlide() {
                     transition={{ delay: 0.2, duration: 0.6 }}
                     className="mb-12"
                 >
-                    <span className="text-sm text-text-secondary">A codificação de uma</span>
+                    <span className="text-base md:text-lg text-text-secondary">A codificação de uma</span>
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-medium">
                         prática real.
                     </h2>
@@ -33,15 +33,15 @@ export default function PartnersSlide() {
                             transition={{ delay: 0.3 + index * 0.1, duration: 0.6 }}
                             className="bg-cream-100 p-8 md:p-12 flex flex-col"
                         >
-                            <h3 className="text-xl md:text-2xl font-serif font-semibold mb-1 text-gold-500">
-                                {partner.name} <span className="font-normal text-text-secondary">{partner.subtitle}</span>
+                            <h3 className="text-2xl md:text-3xl font-serif font-semibold mb-1 text-gold-500">
+                                {partner.name} <span className="font-normal text-text-secondary text-xl md:text-2xl">{partner.subtitle}</span>
                             </h3>
 
-                            <p className="text-sm md:text-base text-text-secondary leading-relaxed mt-4 mb-6">
+                            <p className="text-base md:text-lg text-text-secondary leading-relaxed mt-4 mb-6">
                                 {partner.description}
                             </p>
 
-                            <p className="text-sm md:text-base font-serif italic text-text-secondary mt-auto">
+                            <p className="text-base md:text-lg font-serif italic text-text-secondary mt-auto">
                                 "{partner.quote}"
                             </p>
                         </motion.div>
