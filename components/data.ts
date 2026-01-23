@@ -218,4 +218,90 @@ export const academyData = {
     cta: "Solicite o prospecto detalhado e inicie sua candidatura.",
     partnership: "UMA INICIATIVA MBRAS E IBVI",
   },
+
+  aiTeasers: {
+    fundamentals: {
+      title: "O Ecossistema de Tecnologias",
+      items: [
+        { title: "Modelos Generativos", description: "Linguagem natural e visão computacional." },
+        { title: "Sistemas Discriminativos", description: "Classificação, ranqueamento e predição." },
+        { title: "Arquiteturas Agênticas", description: "Execução autônoma de tarefas orientadas a objetivos." },
+        { title: "Automação Cognitiva", description: "Workflows adaptativos com decisão lógica." }
+      ],
+      principle: "IA não é uma ferramenta monolítica, mas um ecossistema de capacidades distintas."
+    },
+    architecture: {
+      title: "Arquitetura RAG e Governança",
+      items: [
+        { title: "Recuperação (Retrieval)", description: "Busca semântica em base de conhecimento vetorizada." },
+        { title: "Contexto (Augmentation)", description: "Injeção de dados reais no prompt para evitar alucinação." },
+        { title: "Geração (Generation)", description: "Resposta fundamentada e rastreável." },
+        { title: "Citabilidade", description: "Capacidade de referenciar fontes primárias." }
+      ],
+      principle: "RAG não é opcional — é o mecanismo que garante confiabilidade em missão crítica."
+    },
+    governance: {
+      title: "Human-in-the-Loop",
+      items: [
+        { title: "Capacidade vs Responsabilidade", description: "O modelo gera, o humano valida e responde." },
+        { title: "Supervisão", description: "Definição de objetivos, limites e guardrails." },
+        { title: "Tratamento de Exceções", description: "Intervenção humana em casos de ambiguidade." },
+        { title: "Accountability", description: "A tecnologia executa; a responsabilidade é intransferível." }
+      ],
+      principle: "Na ausência de supervisão humana estruturada, não existe IA profissional."
+    }
+  },
+
+  governanceFramework: {
+    context: {
+      title: "Experimentação Desgovernada vs. Framework",
+      problem: {
+        title: "O Problema",
+        description: "Adoção fragmentada, riscos não mapeados e accountability difusa. O custo zero aparente converte-se em exposição a risco não precificado."
+      },
+      solution: {
+        title: "A Solução",
+        description: "Um modelo normativo proprietário que define critérios de governança — determinando se a IA opera como sistema arquitetado ou risco não gerenciado."
+      }
+    },
+    domains: {
+      title: "Arquitetura: Os Seis Domínios",
+      items: [
+        { title: "Arquitetura Técnica", description: "Design, integração, orquestração." },
+        { title: "Conhecimento & Dados", description: "RAG, curadoria de corpus, qualidade." },
+        { title: "Risco & Compliance", description: "Mapeamento, controles, auditoria." },
+        { title: "Operações & Ciclo", description: "Deploy, monitoramento, métricas." },
+        { title: "Supervisão Humana", description: "Human-in-the-Loop, guardrails." },
+        { title: "Ética & Accountability", description: "Viés, transparência, auditabilidade." }
+      ]
+    },
+    maturity: {
+      title: "Modelo de Maturidade & Axiomas",
+      levels: [
+        { level: "1. Exploratória", indicator: "Risco não mapeado" },
+        { level: "2. Operacional", indicator: "Governança parcial" },
+        { level: "3. Governada", indicator: "Risco controlado" },
+        { level: "4. Estratégica", indicator: "Vantagem competitiva" }
+      ],
+      axioms: [
+        "Capacidade sem limite é RISCO",
+        "Automação sem governança é PASSIVO",
+        "Conhecimento sem curadoria é ALUCINAÇÃO",
+        "Autonomia sem supervisão é IRRESPONSABILIDADE"
+      ]
+    },
+    program: {
+      title: "Certificação & Diferenciais",
+      certifications: [
+        { name: "MBRAS AI Certified: Operational", req: "Index ≥ 2.0" },
+        { name: "MBRAS AI Certified: Governed", req: "Index ≥ 2.8" },
+        { name: "MBRAS AI Certified: Strategic", req: "Index ≥ 3.6" }
+      ],
+      why: [
+        { title: "Doutrina, não conteúdo", desc: "Framework normativo, não curso genérico." },
+        { title: "Aplicação Real", desc: "Desenvolvido em missão crítica." },
+        { title: "Rigor Técnico", desc: "Critérios de enterprise architecture." }
+      ]
+    }
+  }
 };

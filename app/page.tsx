@@ -15,6 +15,9 @@ import TakeawaysSlide from "@/components/TakeawaysSlide";
 import AudienceSlide from "@/components/AudienceSlide";
 import SelectionSlide from "@/components/SelectionSlide";
 import ClosingSlide from "@/components/ClosingSlide";
+import AiTeaserSlide from "@/components/AiTeaserSlide";
+import GovernanceSlide from "@/components/GovernanceSlide";
+import { academyData } from "@/components/data";
 import { motion, useScroll, useSpring } from "framer-motion";
 
 export default function Home() {
@@ -86,6 +89,36 @@ export default function Home() {
 
       <section className="snap-start min-h-screen lg:h-screen">
         <SelectionSlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <AiTeaserSlide data={academyData.aiTeasers.fundamentals} icon="network" />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <AiTeaserSlide data={academyData.aiTeasers.architecture} icon="terminal" />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <AiTeaserSlide data={academyData.aiTeasers.governance} icon="shield" />
+      </section>
+
+
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <GovernanceSlide type="context" data={academyData.governanceFramework.context} />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <GovernanceSlide type="domains" data={academyData.governanceFramework.domains} />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <GovernanceSlide type="maturity" data={academyData.governanceFramework.maturity} />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <GovernanceSlide type="program" data={academyData.governanceFramework.program} />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
