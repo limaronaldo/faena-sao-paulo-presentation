@@ -36,15 +36,16 @@ export default function Home() {
         <VisionSlide1 />
       </section>
 
+      {/* Valores */}
+      <section className="snap-start min-h-screen lg:h-screen">
+        <PhilosophySlide />
+      </section>
+
       {/* Serviços */}
       <section className="snap-start min-h-screen lg:h-screen">
         <VisionSlide2 />
       </section>
 
-      {/* Valores */}
-      <section className="snap-start min-h-screen lg:h-screen">
-        <PhilosophySlide />
-      </section>
 
       {/* Estrutura + Nosso Time */}
       <section className="snap-start min-h-screen lg:h-screen">
