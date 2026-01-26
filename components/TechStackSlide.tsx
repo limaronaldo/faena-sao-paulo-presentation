@@ -8,15 +8,15 @@ export default function TechStackSlide() {
     const techStack = academyData.techStack;
 
     const stats = [
-        { number: "13,5", label: "Bilhões", description: "Volume Transacionado" },
-        { number: "1000+", label: "Imóveis", description: "Negociados" },
-        { number: "15", label: "Anos", description: "De Excelência" },
-        { number: "98%", label: "Satisfação", description: "Dos Clientes" },
+        { number: "13.5", label: "Billion", description: "Transaction Volume" },
+        { number: "1000+", label: "Properties", description: "Negotiated" },
+        { number: "15", label: "Years", description: "Of Excellence" },
+        { number: "98%", label: "Satisfaction", description: "From Clients" },
     ];
 
     return (
         <Slide className="bg-cream-200 text-text-primary">
-            <div className="w-full h-full flex items-center px-8 md:px-12 lg:px-16 py-10">
+            <div className="w-full h-full flex items-center px-6 md:px-12 lg:px-16 py-10 overflow-hidden">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 w-full max-w-7xl mx-auto">
 
                     {/* Left Column - Marketing */}
@@ -27,7 +27,7 @@ export default function TechStackSlide() {
                         className="flex flex-col justify-center"
                     >
                         <span className="text-xs md:text-sm tracking-[0.2em] uppercase text-gold-500 mb-3">
-                            Alcance Estratégico
+                            Strategic Reach
                         </span>
 
                         <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif leading-tight mb-4 text-navy-900">
@@ -41,7 +41,7 @@ export default function TechStackSlide() {
                         {/* Channel badges */}
                         <div className="flex flex-wrap items-center gap-3 mb-6">
                             <span className="text-xs tracking-[0.15em] uppercase text-text-muted">
-                                Redes Sociais:
+                                Social Networks:
                             </span>
                             {techStack.tools.map((tool, index) => (
                                 <motion.span
@@ -62,7 +62,7 @@ export default function TechStackSlide() {
                                     70.000+
                                 </span>
                                 <span className="text-sm text-text-secondary">
-                                    contatos em nosso mailing
+                                    contacts in our mailing list
                                 </span>
                             </div>
                         </div>
