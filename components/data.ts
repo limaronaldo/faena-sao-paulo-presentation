@@ -1,221 +1,338 @@
-export const academyData = {
+export const mbrasData = {
   hero: {
-    title: "MBRAS Academy",
-    subtitle: "PROGRAMA DE EXCELÊNCIA EM TECNOLOGIA\nE VENDAS PARA O MERCADO DE LUXO",
-    tagline: "Onde a expertise de mercado encontra a fronteira da tecnologia.",
-    partnership: "UMA INICIATIVA MBRAS E IBVI",
+    title: "MBRAS",
+    subtitle: "REFERÊNCIA NO MERCADO IMOBILIÁRIO DE ALTO PADRÃO",
+    tagline: "Muito mais do que transações — experiências únicas e personalizadas.",
+    partnership: "mbras.com.br",
+  },
+
+  about: {
+    title: "Sobre a MBRAS",
+    description:
+      "Fundada em 2010, a MBRAS nasceu com a missão de ser referência no mercado imobiliário de alto padrão. Hoje, com uma equipe de mais de 40 consultores, entrega muito mais do que simples transações, proporcionando experiências únicas e personalizadas.",
+    location: "Localizada no complexo corporativo do Shopping Cidade Jardim, a MBRAS é a escolha preferida de clientes exigentes e empresas de destaque em São Paulo.",
+  },
+
+  services: {
+    title: "Nossos Serviços",
+    items: [
+      {
+        title: "Consultoria Especializada",
+        description: "Para clientes exclusivos.",
+      },
+      {
+        title: "Gestão de Ativos",
+        description: "Para valorização imobiliária.",
+      },
+      {
+        title: "Intermediações de Alto Padrão",
+        description: "Com excelência.",
+      },
+      {
+        title: "Operações de Incorporação",
+        description: "Com suporte estratégico.",
+      },
+      {
+        title: "Sale e Leaseback",
+        description: "Soluções financeiras seguras.",
+      },
+    ],
+  },
+
+  mission: {
+    title: "Missão",
+    description:
+      "Redefinir o mercado imobiliário de altíssimo padrão, oferecendo consultoria especializada, soluções inovadoras e experiências elevadas. Atuamos com paixão, excelência e um olhar estratégico para inspirar, surpreender e encantar nossos clientes, construindo um legado de confiança e exclusividade.",
   },
 
   vision: {
     section1: {
-      title: "Uma mudança silenciosa no alto padrão.",
+      title: "Visão",
       description:
-        "A era em que apenas relacionamento bastava chegou ao fim. O cliente bastava chegou ao fim. O cliente premium de hoje continua valorizando confiança e presença, mas o novo padrão exige, simultaneamente, sensibilidade humana e rigor técnico.",
+        "Ser a referência definitiva em serviços imobiliários de luxo no Brasil, criando uma nova forma de vivenciar o segmento de altíssimo padrão.",
       quote:
-        "A excelência, agora, está na capacidade de orquestrar relacionamento, dados, narrativa e timing com consistência.",
+        "Queremos transformar transações em experiências memoráveis, antecipando tendências e superando as expectativas do cliente.",
     },
     section2: {
-      title: "O luxo exige método e precisão.",
-      label: "A VISÃO",
+      title: "Valores",
+      label: "NOSSOS PILARES",
       description:
-        "A MBRAS Academy nasce no ponto de inflexão onde a expertise de mercado encontra a fronteira da tecnologia. Consolidamos uma metodologia que integra vendas consultivas, IA generativa e análise em escala para escala — para transformar relacionamento em critério — e critério em resultado sustentável.",
-      quote: "No luxo, não vence quem fala mais alto. Vence quem conduz melhor.",
+        "Excelência, Transparência, Personalização e Privacidade são os valores que guiam cada uma de nossas ações.",
+      quote: "A excelência é um hábito, não um ato isolado.",
       diagram: {
-        left: "Sensibilidade Humana",
-        right: "Rigor Técnico",
+        left: "Confiança",
+        right: "Exclusividade",
       },
     },
   },
 
-  partners: {
-    title: "A codificação de uma prática real.",
+  values: {
+    title: "Nossos Valores",
     items: [
       {
-        name: "MBRAS",
-        subtitle: "(O legado do alto padrão)",
+        name: "Excelência",
+        subtitle: "",
         description:
-          "Foco: Atendimento white-glove, condução consultiva e negociações multimilionárias (ticket médio acima de R$ 20 milhões).",
-        quote: "O detalhe invisível sustenta a confiança visível.",
+          "Busca constante pela melhoria, tornando a excelência um hábito.",
+        quote: "A excelência, agora, está na capacidade de superar expectativas.",
       },
       {
-        name: "IBVI",
-        subtitle: "(A ciência dos dados)",
+        name: "Transparência",
+        subtitle: "",
         description:
-          "Foco: Eliminar o 'achismo' e elevar a qualidade da decisão. Processamento de dados em escala para transformar sinais dispersos em inteligência.",
-        quote: "A diferença entre ter feeling e ter clareza.",
+          "Ética e confiança em todas as negociações.",
+        quote: "A transparência constrói relacionamentos duradouros.",
       },
     ],
   },
 
   philosophy: {
-    title: "Filosofia Educacional: High-tech. High-touch.",
-    subtitle: "No mercado de luxo, tecnologia não substitui o humano. Ela o amplifica.",
+    title: "Nossos Valores",
+    subtitle: "Os pilares que sustentam nossa atuação no mercado de luxo.",
     pillars: [
       {
         number: "1",
-        title: "Imersão Prática",
-        description: "Teoria mínima. Execução máxima. Cenários reais com padrões reais.",
+        title: "Excelência",
+        description: "Busca constante pela melhoria, tornando a excelência um hábito.",
       },
       {
         number: "2",
-        title: "Tecnologia como Alavanca",
-        description:
-          "Não ensinamos apenas ferramentas. Ensinamos orquestração: pesquisa, análise e automação com critério.",
+        title: "Transparência",
+        description: "Ética e confiança em todas as negociações.",
       },
       {
         number: "3",
-        title: "Mentalidade de Elite",
-        description:
-          "O padrão premium é a soma de detalhes invisíveis: linguagem, timing, postura e acabamento.",
+        title: "Personalização",
+        description: "Serviços sob medida para cada cliente.",
+      },
+      {
+        number: "4",
+        title: "Privacidade",
+        description: "Discrição e acesso exclusivo às melhores oportunidades.",
       },
     ],
   },
 
-  program: {
-    title: "Inteligência Artificial aplicada à performance comercial.",
-    subtitle: "Programa Inaugural",
+  team: {
+    title: "Nosso Time",
     description:
-      "IA e vendas consultivas para profissionais que desejam operar no mais alto nível. O foco é desenvolver a clareza de quem sabe o que dizer, dizer, como dizer e quando dizer — em qualquer contexto.",
+      "Com uma equipe multidisciplinar composta por advogados, engenheiros, arquitetos, designers, entre outros, a MBRAS oferece segurança e precisão nas negociações, com formação interna da cultura imobiliária, mitigando vícios do mercado.",
+  },
+
+  structure: {
+    title: "Estrutura",
+    description:
+      "Nossos consultores e parceiros recebem suporte completo em marketing, jurídico e estrutura estratégica, sempre abertos à inovação e qualidade no atendimento ao cliente.",
+    location: "Localizados no Cidade Jardim Corporate Center, um dos edifícios mais sofisticados de São Paulo, temos o ambiente ideal para receber nossos clientes com exclusividade e conforto.",
+  },
+
+  mbrasClub: {
+    title: "MBRAS Club",
+    items: [
+      {
+        title: "Gestão de Venda",
+        description: "Gestão focada em elevar ao máximo o potencial de venda do imóvel.",
+      },
+      {
+        title: "Precificação Baseada em Dados",
+        description: "Análise de mercado e histórico de transações para definir o melhor preço.",
+      },
+      {
+        title: "Catálogo Exclusivo",
+        description: "Imóveis de altíssimo padrão, atraindo visitantes qualificados.",
+      },
+      {
+        title: "Suporte Jurídico",
+        description: "Segurança em cada etapa, desde a documentação até a finalização da negociação.",
+      },
+      {
+        title: "Parcerias de Alto Padrão",
+        description: "Mais de 400 profissionais à disposição.",
+      },
+      {
+        title: "Estratégias de Divulgação",
+        description: "Anúncios pagos direcionados, newsletters e canais digitais.",
+      },
+    ],
+  },
+
+  marketing: {
+    title: "Estratégias de Marketing",
+    description:
+      "Contamos com um mailing consolidado de mais de 70.000 contatos e desenvolvemos ações personalizadas que ampliam a visibilidade e alavancam as vendas em múltiplos canais.",
+    channels: ["Meta", "Google", "LinkedIn", "X"],
+  },
+
+  press: {
+    title: "Assessoria de Imprensa",
+    description:
+      "Facilita a interface com portais e canais nos permitindo participar de conteúdos relevantes ao mercado, sendo referência do segmento.",
+  },
+
+  program: {
+    title: "MBRAS Club",
+    subtitle: "Benefícios Exclusivos",
+    description:
+      "Gestão de Venda focada em elevar ao máximo o potencial de venda do imóvel, com precificação baseada em dados e suporte jurídico completo.",
   },
 
   modules: {
     section1: {
-      title: "Do Posicionamento à Prospecção",
+      title: "Diferenciais MBRAS",
       items: [
         {
           number: "1",
-          title: "O Profissional Aumentado por IA",
+          title: "Gestão de Venda",
           description:
-            "Comunicação sofisticada (sem perder humanidade), hiperpersonalização em escala e precisão narrativa.",
+            "Gestão focada em elevar ao máximo o potencial de venda do imóvel.",
         },
         {
           number: "2",
-          title: "Qualificação Preditiva e Discernimento",
+          title: "Precificação Baseada em Dados",
           description:
-            "A diferença entre estar ocupado e estar avançando. Leitura de sinais de intenção, priorização baseada em fatos e rotinas que transformam intuição em certeza.",
+            "Análise de mercado e histórico de transações para definir o melhor preço.",
         },
         {
           number: "3",
-          title: "Marketing Digital Quiet Luxury",
+          title: "Catálogo Exclusivo",
           description:
-            "Atrair pelo sinal, não pelo ruído. Segmentação estratégica para públicos premium e criatividade que preserva a aura de valor.",
+            "Imóveis de altíssimo padrão, atraindo visitantes qualificados.",
         },
       ],
     },
     section2: {
-      title: "Da Narrativa ao Fechamento",
+      title: "Suporte Completo",
       items: [
         {
           number: "4",
-          title: "Storytelling Visual e Materiais Impecáveis",
+          title: "Suporte Jurídico",
           description:
-            "No luxo, apresentação é percepção. Materiais premium com apoio de IA e narrativa visual ('sonho com evidência').",
+            "Segurança em cada etapa, desde a documentação até a finalização da negociação.",
         },
         {
           number: "5",
-          title: "Automação Invisível e Produtividade",
+          title: "Parcerias de Alto Padrão",
           description:
-            "Presença constante sem parecer insistência. Cadências de follow-up elegantes e produtividade assistida para escalar sem perder a personalização.",
+            "Mais de 400 profissionais à disposição.",
         },
         {
           number: "6",
-          title: "Inteligência Competitiva e Argumentação",
+          title: "Estratégias de Divulgação",
           description:
-            "A tranquilidade de conduzir decisões com base em evidência. Leitura de cenário, precificação fundamentada e argumentação consultiva.",
+            "Anúncios pagos direcionados, newsletters e canais digitais.",
         },
       ],
     },
   },
 
   techStack: {
-    title: "Estado da arte, com critério.",
+    title: "Estratégias de Marketing",
     description:
-      "A MBRAS Academy trabalha de forma agnóstica, focando em lógica de uso e orquestração — não em modismos.",
-    tools: ["OpenAI", "Anthropic", "Google", "Microsoft", "Perplexity"],
+      "Contamos com um mailing consolidado de mais de 70.000 contatos e desenvolvemos ações personalizadas que ampliam a visibilidade e alavancam as vendas em múltiplos canais.",
+    tools: ["Meta", "Google", "LinkedIn", "X"],
   },
 
   methodology: {
-    title: "Formato Boutique e Metodologia Híbrida.",
+    title: "Nosso Time Multidisciplinar",
     formats: [
       {
-        title: "Presencial (São Paulo)",
-        description: "Prática de alto impacto — simulações, calibração de linguagem e condução consultiva.",
+        title: "Advogados",
+        description: "Segurança jurídica em todas as etapas.",
       },
       {
-        title: "Online",
-        description: "Execução guiada — método, consistência e acompanhamento entre encontros.",
+        title: "Engenheiros",
+        description: "Análise técnica de imóveis.",
       },
       {
-        title: "Mentoria Aplicada",
-        description: "Cada participante desenvolve um projeto no seu próprio contexto real.",
+        title: "Arquitetos",
+        description: "Visão estética e funcional.",
       },
       {
-        title: "Comunidade Permanente",
-        description: "Acesso à rede MBRAS Academy, eventos e colaboração pós-ciclo.",
+        title: "Designers",
+        description: "Apresentações e materiais premium.",
       },
     ],
   },
 
   takeaways: {
-    title: "O que você leva com você.",
-    intro: "Você não sai com uma lista de ferramentas.\nVocê sai com um novo nível de domínio.",
+    title: "Por que escolher a MBRAS?",
+    intro: "Você não encontra apenas imóveis.\nVocê encontra experiências exclusivas.",
     items: [
       {
-        title: "Discernimento",
-        description: "Para investir energia com precisão.",
+        title: "Confiança",
+        description: "Transparência e ética em cada negociação.",
       },
       {
-        title: "Clareza",
-        description: "Para conduzir conversas difíceis com elegância.",
+        title: "Exclusividade",
+        description: "Acesso a oportunidades únicas do mercado.",
       },
       {
-        title: "Método",
-        description: "Para transformar intuição em certeza.",
+        title: "Personalização",
+        description: "Serviços sob medida para suas necessidades.",
       },
       {
-        title: "Humanidade em Escala",
-        description: "Personalização real, mesmo em volume.",
-      },
-      {
-        title: "Previsibilidade",
-        description: "Uma rotina operacional que antecipa o cenário.",
+        title: "Expertise",
+        description: "Mais de 40 consultores especializados.",
       },
     ],
   },
 
   audience: {
-    title: "Para quem desenhamos este programa.",
+    title: "Para quem somos a escolha ideal.",
     personas: [
       {
-        title: "Profissionais High-Ticket",
-        description: "Que desejam elevar padrão, precisão e resultado.",
+        title: "Clientes Exigentes",
+        description: "Que buscam imóveis de altíssimo padrão.",
       },
       {
-        title: "Gestores",
-        description: "Que buscam previsibilidade e execução com rigor.",
+        title: "Empresas de Destaque",
+        description: "Que precisam de soluções corporativas premium.",
       },
       {
-        title: "Empreendedores Premium",
-        description: "Que querem operar com vantagem tecnológica.",
+        title: "Investidores",
+        description: "Que buscam valorização e segurança.",
       },
       {
-        title: "Consultores e Assessores",
-        description: "Que atendem clientes exigentes e não podem errar no detalhe.",
+        title: "Incorporadores",
+        description: "Que necessitam de suporte estratégico.",
       },
     ],
   },
 
   selection: {
-    title: "Acesso e Seleção",
+    title: "Assessoria de Imprensa",
     description:
-      "Para preservar o nível de excelência e as conexões de valor, o ingresso ocorre mediante aplicação.",
+      "Facilita a interface com portais e canais nos permitindo participar de conteúdos relevantes ao mercado, sendo referência do segmento.",
     process:
-      "O processo inclui análise de perfil profissional e entrevista para garantir turmas alinhadas e produtivas.",
+      "Nossa presença na mídia reforça a credibilidade e autoridade da MBRAS no mercado imobiliário de luxo.",
   },
 
   closing: {
-    headline: "A convergência entre alta performance, tecnologia e o mercado de luxo.",
-    cta: "Solicite o prospecto detalhado e inicie sua candidatura.",
-    partnership: "UMA INICIATIVA MBRAS E IBVI",
+    headline: "A referência definitiva em serviços imobiliários de luxo no Brasil.",
+    cta: "Entre em contato e descubra como podemos transformar sua experiência imobiliária.",
+    partnership: "mbras.com.br",
+  },
+
+  partners: {
+    title: "Nossos Diferenciais",
+    items: [
+      {
+        name: "Missão",
+        subtitle: "",
+        description:
+          "Redefinir o mercado imobiliário de altíssimo padrão, oferecendo consultoria especializada, soluções inovadoras e experiências elevadas. Atuamos com paixão, excelência e um olhar estratégico para inspirar, surpreender e encantar nossos clientes.",
+        quote: "Construindo um legado de confiança e exclusividade.",
+      },
+      {
+        name: "Visão",
+        subtitle: "",
+        description:
+          "Ser a referência definitiva em serviços imobiliários de luxo no Brasil, criando uma nova forma de vivenciar o segmento de altíssimo padrão.",
+        quote: "Transformar transações em experiências memoráveis.",
+      },
+    ],
   },
 };
+
+// Alias for backward compatibility
+export const academyData = mbrasData;

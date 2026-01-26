@@ -5,20 +5,49 @@ import { academyData } from "./data";
 import { motion } from "framer-motion";
 
 export default function VisionSlide2() {
-    const vision = academyData.vision;
+    const services = academyData.services;
 
     return (
         <Slide className="bg-cream-200 text-text-primary">
-            <div className="absolute inset-0 marble-texture opacity-30" />
-            <div className="relative z-10 w-full h-full flex items-center justify-center px-8 md:px-16 lg:px-24">
-                <motion.blockquote
+            <div className="w-full h-full flex flex-col justify-center items-center px-8 md:px-16 lg:px-24 py-12">
+                <motion.span
                     initial={{ y: 20, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.3, duration: 0.6 }}
-                    className="max-w-4xl text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-serif italic text-text-primary leading-relaxed text-center"
+                    transition={{ delay: 0.1, duration: 0.6 }}
+                    className="text-sm md:text-base tracking-[0.2em] uppercase text-gold-500 mb-4"
                 >
-                    "{vision.section1.quote}"
-                </motion.blockquote>
+                    Soluções Completas
+                </motion.span>
+
+                <motion.h2
+                    initial={{ y: 20, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.2, duration: 0.6 }}
+                    className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight mb-20 text-center"
+                >
+                    {services.title}
+                </motion.h2>
+
+                {/* Services row with dividers */}
+                <div className="flex items-start justify-center gap-12 md:gap-16 lg:gap-20 max-w-6xl">
+                    {services.items.map((service, index) => (
+                        <motion.div
+                            key={service.title}
+                            initial={{ y: 20, opacity: 0 }}
+                            whileInView={{ y: 0, opacity: 1 }}
+                            transition={{ delay: 0.3 + index * 0.1, duration: 0.6 }}
+                            className="text-center flex-1"
+                        >
+                            <div className="w-10 h-0.5 bg-gold-500 mx-auto mb-6" />
+                            <h3 className="text-lg md:text-xl font-serif font-semibold mb-3 text-navy-900">
+                                {service.title}
+                            </h3>
+                            <p className="text-sm md:text-base text-text-secondary">
+                                {service.description}
+                            </p>
+                        </motion.div>
+                    ))}
+                </div>
             </div>
         </Slide>
     );

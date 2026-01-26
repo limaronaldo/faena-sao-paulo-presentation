@@ -4,24 +4,33 @@
   --font-serif: "Playfair Display", serif;
   --font-sans: "Lato", sans-serif;
 
-  /* MBRAS Academy Palette - Elegant cream with gold accents */
-  --color-gold-400: #c5a059;
-  --color-gold-500: #b08d4b;
-  --color-gold-600: #9a7a3d;
+  /* MBRAS Luxury Real Estate Palette - Navy Blue with Gold accents */
+  --color-gold-400: #d4af37;
+  --color-gold-500: #c49a2c;
+  --color-gold-600: #a67c00;
 
-  --color-cream-100: #faf8f5;
-  --color-cream-200: #f5f0e8;
-  --color-cream-300: #e8e0d5;
-  --color-cream-400: #d8d0c5;
+  /* Primary Navy Blue - MBRAS Brand */
+  --color-navy-900: #011e38;
+  --color-navy-800: #0a2d4e;
+  --color-navy-700: #153d5e;
+  --color-navy-600: #1f4d6e;
 
-  --color-dark-900: #1a1a1a;
-  --color-dark-800: #2a2a2a;
-  --color-dark-700: #3a3a3a;
-  --color-dark-600: #4a4a4a;
+  /* Elegant Cream/White tones */
+  --color-cream-100: #fdfcfa;
+  --color-cream-200: #f8f6f2;
+  --color-cream-300: #e8e4de;
+  --color-cream-400: #d8d4ce;
 
-  --color-text-primary: #1a1a1a;
-  --color-text-secondary: #4a4a4a;
-  --color-text-muted: #6a6a6a;
+  /* Dark tones for contrast */
+  --color-dark-900: #0f1419;
+  --color-dark-800: #1a2027;
+  --color-dark-700: #2a3038;
+  --color-dark-600: #3a4048;
+
+  --color-text-primary: #0f1419;
+  --color-text-secondary: #3a4048;
+  --color-text-muted: #5a6068;
+  --color-text-light: #fdfcfa;
 }
 
 @layer base {
@@ -52,21 +61,29 @@
   background: linear-gradient(135deg, var(--color-gold-400), var(--color-gold-600));
 }
 
-/* Academy Specific Styles */
-.academy-section {
+.gradient-navy {
+  background: linear-gradient(135deg, var(--color-navy-800), var(--color-navy-900));
+}
+
+/* MBRAS Section Styles */
+.mbras-section-light {
   @apply bg-cream-100 border-b border-cream-300;
 }
 
-.academy-section-alt {
+.mbras-section-cream {
   @apply bg-cream-200;
 }
 
-.academy-section-dark {
+.mbras-section-navy {
+  @apply bg-navy-900 text-cream-100;
+}
+
+.mbras-section-dark {
   @apply bg-dark-900 text-cream-100;
 }
 
-.academy-card {
-  @apply bg-white border border-cream-300 p-6;
+.mbras-card {
+  @apply bg-white border border-cream-300 p-6 shadow-sm;
 }
 
 .quote-text {
@@ -78,18 +95,45 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23d8d0c5' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
+/* Navy gradient overlay */
+.navy-gradient-overlay {
+  background: linear-gradient(135deg,
+      rgba(1, 30, 56, 0.95) 0%,
+      rgba(10, 45, 78, 0.9) 50%,
+      rgba(1, 30, 56, 0.95) 100%);
+}
+
+/* Decorative elements */
+.gold-line {
+  background: linear-gradient(90deg, transparent, var(--color-gold-500), transparent);
+  height: 1px;
+}
+
+.gold-accent-left {
+  border-left: 3px solid var(--color-gold-500);
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-cream-200);
+  background: var(--color-navy-900);
 }
 
 ::-webkit-scrollbar-thumb {
   background: var(--color-gold-500);
   border-radius: 3px;
+}
+
+/* Hover effects */
+.hover-gold-border {
+  transition: border-color 0.3s ease;
+}
+
+.hover-gold-border:hover {
+  border-color: var(--color-gold-500);
 }
 
 /* Print Styles */

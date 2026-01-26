@@ -16,19 +16,19 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "MBRAS Academy | Programa de Excelência em Tecnologia e Vendas",
-  description: "Onde a expertise de mercado encontra a fronteira da tecnologia. Programa de excelência em tecnologia e vendas para o mercado de luxo.",
+  title: "MBRAS | Referência no Mercado Imobiliário de Alto Padrão",
+  description: "Fundada em 2010, a MBRAS é referência no mercado imobiliário de alto padrão em São Paulo. Consultoria especializada, experiências únicas e personalizadas.",
   openGraph: {
-    title: "MBRAS Academy | Programa de Excelência em Tecnologia e Vendas",
-    description: "Onde a expertise de mercado encontra a fronteira da tecnologia. Programa de excelência em tecnologia e vendas para o mercado de luxo.",
-    url: "https://academy.mbras.com.br",
-    siteName: "MBRAS Academy",
+    title: "MBRAS | Referência no Mercado Imobiliário de Alto Padrão",
+    description: "Fundada em 2010, a MBRAS é referência no mercado imobiliário de alto padrão em São Paulo. Consultoria especializada, experiências únicas e personalizadas.",
+    url: "https://mbras.com.br",
+    siteName: "MBRAS",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "MBRAS Academy",
+        alt: "MBRAS - Imobiliária de Alto Padrão",
       },
     ],
     locale: "pt_BR",

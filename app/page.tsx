@@ -3,17 +3,11 @@
 import HeroSlide from "@/components/HeroSlide";
 import VisionSlide1 from "@/components/VisionSlide1";
 import VisionSlide2 from "@/components/VisionSlide2";
-import VisionSlide3 from "@/components/VisionSlide3";
-import PartnersSlide from "@/components/PartnersSlide";
 import PhilosophySlide from "@/components/PhilosophySlide";
 import ProgramSlide from "@/components/ProgramSlide";
 import ModulesSlide1 from "@/components/ModulesSlide1";
-import ModulesSlide2 from "@/components/ModulesSlide2";
 import TechStackSlide from "@/components/TechStackSlide";
-import MethodologySlide from "@/components/MethodologySlide";
 import TakeawaysSlide from "@/components/TakeawaysSlide";
-import AudienceSlide from "@/components/AudienceSlide";
-import SelectionSlide from "@/components/SelectionSlide";
 import ClosingSlide from "@/components/ClosingSlide";
 import { motion, useScroll, useSpring } from "framer-motion";
 
@@ -32,62 +26,47 @@ export default function Home() {
         style={{ scaleX }}
       />
 
+      {/* Hero - A MBRAS */}
       <section className="snap-start min-h-screen lg:h-screen">
         <HeroSlide />
       </section>
 
+      {/* Sobre a MBRAS */}
       <section className="snap-start min-h-screen lg:h-screen">
         <VisionSlide1 />
       </section>
 
+      {/* Serviços */}
       <section className="snap-start min-h-screen lg:h-screen">
         <VisionSlide2 />
       </section>
 
-      <section className="snap-start min-h-screen lg:h-screen">
-        <VisionSlide3 />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <PartnersSlide />
-      </section>
-
+      {/* Valores */}
       <section className="snap-start min-h-screen lg:h-screen">
         <PhilosophySlide />
       </section>
 
+      {/* Estrutura + Nosso Time */}
       <section className="snap-start min-h-screen lg:h-screen">
         <ProgramSlide />
       </section>
 
+      {/* MBRAS Club */}
       <section className="snap-start min-h-screen lg:h-screen">
         <ModulesSlide1 />
       </section>
 
-      <section className="snap-start min-h-screen lg:h-screen">
-        <ModulesSlide2 />
-      </section>
-
+      {/* Estratégias de Marketing */}
       <section className="snap-start min-h-screen lg:h-screen">
         <TechStackSlide />
       </section>
 
-      <section className="snap-start min-h-screen lg:h-screen">
-        <MethodologySlide />
-      </section>
-
+      {/* Por que escolher a MBRAS + Assessoria */}
       <section className="snap-start min-h-screen lg:h-screen">
         <TakeawaysSlide />
       </section>
 
-      <section className="snap-start min-h-screen lg:h-screen">
-        <AudienceSlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <SelectionSlide />
-      </section>
-
+      {/* Closing */}
       <section className="snap-start min-h-screen lg:h-screen">
         <ClosingSlide />
       </section>
