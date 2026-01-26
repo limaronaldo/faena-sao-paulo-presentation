@@ -10,7 +10,7 @@ export default function TechStackSlide() {
     const stats = [
         { number: "13.5", label: "Billion", description: "Transaction Volume" },
         { number: "1000+", label: "Properties", description: "Negotiated" },
-        { number: "16", label: "Years", description: "Of Excellence" },
+        { number: "15", label: "Years", description: "Of Excellence" },
         { number: "98%", label: "Satisfaction", description: "From Clients" },
     ];
 
