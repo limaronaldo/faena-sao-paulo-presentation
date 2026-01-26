@@ -16,7 +16,7 @@ export default function TechStackSlide() {
 
     return (
         <Slide className="bg-cream-200 text-text-primary">
-            <div className="w-full h-full flex items-center px-8 md:px-12 lg:px-16 py-10">
+            <div className="w-full h-full flex items-center px-6 md:px-12 lg:px-16 py-10 overflow-hidden">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 w-full max-w-7xl mx-auto">
 
                     {/* Left Column - Marketing */}
