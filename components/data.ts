@@ -305,3 +305,64 @@ export const academyData = {
     }
   }
 };
+
+export const mbrasData = {
+  intro: {
+    title: "A MBRAS",
+    description:
+      "A MBRAS foi fundada em 2010 com o propósito de ser referência no mercado imobiliário de altíssimo padrão. Hoje, com uma equipe de mais de 40 profissionais, a empresa se destaca por ir além das transações imobiliárias. Sediada no Cidade Jardim Corporate Center, o complexo corporativo mais sofisticado de São Paulo, a MBRAS se consolidou na capital paulista como a escolha de diversas pessoas e empresas de renome.",
+  },
+  whatWeDo: {
+    title: "O QUE FAZEMOS",
+    description:
+      "Nosso diferencial vai muito além da simples negociação de imóveis. Buscamos criar experiências memoráveis por meio de consultoria especializada, gestão de ativos, operações de incorporação, sale & leaseback e, claro, intermediações de alto padrão — sempre com foco em atender e superar as expectativas de nossos clientes.",
+  },
+  essence: {
+    title: "Essência",
+    quote:
+      "Nós somos o que fazemos repetidamente. A excelência, portanto, não é um ato, mas um hábito.",
+    text: "Esta citação de Aristóteles traduz a essência da MBRAS: acreditamos que a excelência é fruto de um compromisso constante com a melhoria, e nos empenhamos diariamente para colocar esse ideal em prática.",
+  },
+  structure: {
+    title: "ESTRUTURA",
+    text: "Oferecemos todo o suporte aos nossos consultores e prestadores de serviço, partindo do princípio cultural de abertura à inovação e qualidade, agregando valor ao nosso atendimento ao cliente.",
+  },
+  team: {
+    title: "NOSSO TIME",
+    text: "Com uma equipe multidisciplinar e altamente qualificada, incluindo advogados, engenheiros, arquitetos e designers de interiores, a MBRAS atende de forma precisa e segura às necessidades dos clientes, garantindo transações éticas e transparentes.",
+  },
+  club: {
+    title: "MBRAS Club",
+    items: [
+      "Consultor e catálogo exclusivos;",
+      "Precificação baseada em dados;",
+      "Ampla divulgação;",
+      "Mídia digital direcionada;",
+      "Base interna de clientes.",
+      "Visitantes verificados;",
+      "Clientes com potencial de compra;",
+      "Segurança para você e sua família.",
+    ],
+  },
+  offMarket: {
+    title: "MBRAS Off Market",
+    items: [
+      "Ofertas exclusivas de imóveis não divulgados;",
+      "Imóveis do mais alto padrão;",
+      "Privacidade na hora de compra e venda;",
+      "Acesso exclusivo a imóveis incríveis.",
+    ],
+  },
+  marketing: {
+    title: "Estratégias de Marketing",
+    text: "A empresa trabalha com um mailing consolidado com mais de 70.000 pessoas, além da construção de estratégias para impulsionar as vendas das mais variadas formas.",
+  },
+  socialMedia: {
+    title: "Mídias Sociais",
+    text: "Atuamos nas plataformas digitais tanto de forma orgânica quanto em anúncios no Google, Instagram, Linkedin, entre outros, utilizando mídia programática para otimizar as publicações em qualidade e alcance.",
+  },
+  press: {
+    title: "Assessoria de Imprensa",
+    text: "Facilita a interface com portais e canais nos permitindo participar de conteúdos relevantes ao mercado, sendo referência do segmento.",
+  },
+};

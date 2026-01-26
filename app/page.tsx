@@ -1,6 +1,11 @@
 "use client";
 
 import HeroSlide from "@/components/HeroSlide";
+import MbrasIntroSlide from "@/components/MbrasIntroSlide";
+import MbrasEssenceSlide from "@/components/MbrasEssenceSlide";
+import MbrasTeamSlide from "@/components/MbrasTeamSlide";
+import MbrasServicesSlide from "@/components/MbrasServicesSlide";
+import MbrasMarketingSlide from "@/components/MbrasMarketingSlide";
 import VisionSlide1 from "@/components/VisionSlide1";
 import VisionSlide2 from "@/components/VisionSlide2";
 import VisionSlide3 from "@/components/VisionSlide3";
@@ -37,6 +42,26 @@ export default function Home() {
 
       <section className="snap-start min-h-screen lg:h-screen">
         <HeroSlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <MbrasIntroSlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <MbrasEssenceSlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <MbrasTeamSlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <MbrasServicesSlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <MbrasMarketingSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
