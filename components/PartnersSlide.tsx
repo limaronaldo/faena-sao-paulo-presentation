@@ -18,7 +18,7 @@ export default function PartnersSlide() {
                     className="mb-12 text-center"
                 >
                     <span className="text-sm md:text-base tracking-[0.2em] uppercase text-gold-500 mb-2 block">
-                        Nossos Fundamentos
+                        Our Foundations
                     </span>
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-medium text-navy-900">
                         {partners.title}

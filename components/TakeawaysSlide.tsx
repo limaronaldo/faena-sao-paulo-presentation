@@ -22,7 +22,7 @@ export default function TakeawaysSlide() {
                         className="flex flex-col"
                     >
                         <span className="text-xs md:text-sm tracking-[0.2em] uppercase text-gold-500 mb-3">
-                            Diferenciais
+                            Differentials
                         </span>
                         <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif leading-tight mb-4 text-navy-900">
                             {takeaways.title}
@@ -78,7 +78,7 @@ export default function TakeawaysSlide() {
                         </div>
 
                         <span className="text-xs md:text-sm tracking-[0.2em] uppercase text-gold-500 mb-3">
-                            Comunicação Estratégica
+                            Strategic Communication
                         </span>
 
                         <h3 className="text-2xl md:text-3xl font-serif leading-tight mb-4 text-navy-900">

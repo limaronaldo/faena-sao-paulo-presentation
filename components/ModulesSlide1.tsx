@@ -32,7 +32,7 @@ export default function ModulesSlide1() {
                     transition={{ delay: 0.2, duration: 0.6 }}
                     className="text-xl md:text-2xl lg:text-3xl font-serif mb-8 text-cream-100"
                 >
-                    Diferenciais MBRAS
+                    MBRAS Differentials
                 </motion.h2>
 
                 {/* 2 rows x 3 columns grid */}

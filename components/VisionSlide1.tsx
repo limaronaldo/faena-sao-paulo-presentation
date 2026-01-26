@@ -17,7 +17,7 @@ export default function VisionSlide1() {
                         transition={{ delay: 0.1, duration: 0.6 }}
                         className="text-xs md:text-sm tracking-[0.2em] uppercase text-gold-500 mb-4 block"
                     >
-                        Fundada em 2010
+                        Founded in 2010
                     </motion.span>
 
                     <motion.h2

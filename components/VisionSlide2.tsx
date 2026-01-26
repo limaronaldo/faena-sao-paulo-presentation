@@ -16,7 +16,7 @@ export default function VisionSlide2() {
                     transition={{ delay: 0.1, duration: 0.6 }}
                     className="text-sm md:text-base tracking-[0.2em] uppercase text-gold-500 mb-4"
                 >
-                    Soluções Completas
+                    Complete Solutions
                 </motion.span>
 
                 <motion.h2

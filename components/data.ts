@@ -1,334 +1,334 @@
 export const mbrasData = {
   hero: {
     title: "MBRAS",
-    subtitle: "REFERÊNCIA NO MERCADO IMOBILIÁRIO DE ALTO PADRÃO",
-    tagline: "Muito mais do que transações — experiências únicas e personalizadas.",
+    subtitle: "THE REFERENCE IN HIGH-END REAL ESTATE",
+    tagline: "Much more than transactions — unique and personalized experiences.",
     partnership: "mbras.com.br",
   },
 
   about: {
-    title: "Sobre a MBRAS",
+    title: "About MBRAS",
     description:
-      "Fundada em 2010, a MBRAS nasceu com a missão de ser referência no mercado imobiliário de alto padrão. Hoje, com uma equipe de mais de 40 consultores, entrega muito mais do que simples transações, proporcionando experiências únicas e personalizadas.",
-    location: "Localizada no complexo corporativo do Shopping Cidade Jardim, a MBRAS é a escolha preferida de clientes exigentes e empresas de destaque em São Paulo.",
+      "Founded in 2010, MBRAS was born with the mission of being a reference in the high-end real estate market. Today, with a team of more than 40 consultants, it delivers much more than simple transactions, providing unique and personalized experiences.",
+    location: "Located in the corporate complex of Shopping Cidade Jardim, MBRAS is the preferred choice of demanding clients and prominent companies in São Paulo.",
   },
 
   services: {
-    title: "Nossos Serviços",
+    title: "Our Services",
     items: [
       {
-        title: "Consultoria Especializada",
-        description: "Para clientes exclusivos.",
+        title: "Specialized Consulting",
+        description: "For exclusive clients.",
       },
       {
-        title: "Gestão de Ativos",
-        description: "Para valorização imobiliária.",
+        title: "Asset Management",
+        description: "For real estate appreciation.",
       },
       {
-        title: "Intermediações de Alto Padrão",
-        description: "Com excelência.",
+        title: "High-End Intermediations",
+        description: "With excellence.",
       },
       {
-        title: "Operações de Incorporação",
-        description: "Com suporte estratégico.",
+        title: "Development Operations",
+        description: "With strategic support.",
       },
       {
-        title: "Sale e Leaseback",
-        description: "Soluções financeiras seguras.",
+        title: "Sale and Leaseback",
+        description: "Secure financial solutions.",
       },
     ],
   },
 
   mission: {
-    title: "Missão",
+    title: "Mission",
     description:
-      "Redefinir o mercado imobiliário de altíssimo padrão, oferecendo consultoria especializada, soluções inovadoras e experiências elevadas. Atuamos com paixão, excelência e um olhar estratégico para inspirar, surpreender e encantar nossos clientes, construindo um legado de confiança e exclusividade.",
+      "To redefine the ultra-high-end real estate market, offering specialized consulting, innovative solutions, and elevated experiences. We act with passion, excellence, and a strategic vision to inspire, surprise, and delight our clients, building a legacy of trust and exclusivity.",
   },
 
   vision: {
     section1: {
-      title: "Visão",
+      title: "Vision",
       description:
-        "Ser a referência definitiva em serviços imobiliários de luxo no Brasil, criando uma nova forma de vivenciar o segmento de altíssimo padrão.",
+        "To be the definitive reference in luxury real estate services in Brazil, creating a new way to experience the ultra-high-end segment.",
       quote:
-        "Queremos transformar transações em experiências memoráveis, antecipando tendências e superando as expectativas do cliente.",
+        "We want to transform transactions into memorable experiences, anticipating trends and exceeding client expectations.",
     },
     section2: {
-      title: "Valores",
-      label: "NOSSOS PILARES",
+      title: "Values",
+      label: "OUR PILLARS",
       description:
-        "Excelência, Transparência, Personalização e Privacidade são os valores que guiam cada uma de nossas ações.",
-      quote: "A excelência é um hábito, não um ato isolado.",
+        "Excellence, Transparency, Personalization, and Privacy are the values that guide each of our actions.",
+      quote: "Excellence is a habit, not an isolated act.",
       diagram: {
-        left: "Confiança",
-        right: "Exclusividade",
+        left: "Trust",
+        right: "Exclusivity",
       },
     },
   },
 
   values: {
-    title: "Nossos Valores",
+    title: "Our Values",
     items: [
       {
-        name: "Excelência",
+        name: "Excellence",
         subtitle: "",
         description:
-          "Busca constante pela melhoria, tornando a excelência um hábito.",
-        quote: "A excelência, agora, está na capacidade de superar expectativas.",
+          "Constant pursuit of improvement, making excellence a habit.",
+        quote: "Excellence, now, lies in the ability to exceed expectations.",
       },
       {
-        name: "Transparência",
+        name: "Transparency",
         subtitle: "",
         description:
-          "Ética e confiança em todas as negociações.",
-        quote: "A transparência constrói relacionamentos duradouros.",
+          "Ethics and trust in all negotiations.",
+        quote: "Transparency builds lasting relationships.",
       },
     ],
   },
 
   philosophy: {
-    title: "Nossos Valores",
-    subtitle: "Os pilares que sustentam nossa atuação no mercado de luxo.",
+    title: "Our Values",
+    subtitle: "The pillars that sustain our performance in the luxury market.",
     pillars: [
       {
         number: "1",
-        title: "Excelência",
-        description: "Busca constante pela melhoria, tornando a excelência um hábito.",
+        title: "Excellence",
+        description: "Constant pursuit of improvement, making excellence a habit.",
       },
       {
         number: "2",
-        title: "Transparência",
-        description: "Ética e confiança em todas as negociações.",
+        title: "Transparency",
+        description: "Ethics and trust in all negotiations.",
       },
       {
         number: "3",
-        title: "Personalização",
-        description: "Serviços sob medida para cada cliente.",
+        title: "Personalization",
+        description: "Tailored services for each client.",
       },
       {
         number: "4",
-        title: "Privacidade",
-        description: "Discrição e acesso exclusivo às melhores oportunidades.",
+        title: "Privacy",
+        description: "Discretion and exclusive access to the best opportunities.",
       },
     ],
   },
 
   team: {
-    title: "Nosso Time",
+    title: "Our Team",
     description:
-      "Com uma equipe multidisciplinar composta por advogados, engenheiros, arquitetos, designers, entre outros, a MBRAS oferece segurança e precisão nas negociações, com formação interna da cultura imobiliária, mitigando vícios do mercado.",
+      "With a multidisciplinary team composed of lawyers, engineers, architects, designers, among others, MBRAS offers security and precision in negotiations, with internal training of real estate culture, mitigating market vices.",
   },
 
   structure: {
-    title: "Estrutura",
+    title: "Structure",
     description:
-      "Nossos consultores e parceiros recebem suporte completo em marketing, jurídico e estrutura estratégica, sempre abertos à inovação e qualidade no atendimento ao cliente.",
-    location: "Localizados no Cidade Jardim Corporate Center, um dos edifícios mais sofisticados de São Paulo, temos o ambiente ideal para receber nossos clientes com exclusividade e conforto.",
+      "Our consultants and partners receive complete support in marketing, legal, and strategic structure, always open to innovation and quality in customer service.",
+    location: "Located in the Cidade Jardim Corporate Center, one of the most sophisticated buildings in São Paulo, we have the ideal environment to welcome our clients with exclusivity and comfort.",
   },
 
   mbrasClub: {
     title: "MBRAS Club",
     items: [
       {
-        title: "Gestão de Venda",
-        description: "Gestão focada em elevar ao máximo o potencial de venda do imóvel.",
+        title: "Sales Management",
+        description: "Management focused on maximizing the property's sales potential.",
       },
       {
-        title: "Precificação Baseada em Dados",
-        description: "Análise de mercado e histórico de transações para definir o melhor preço.",
+        title: "Data-Based Pricing",
+        description: "Market analysis and transaction history to define the best price.",
       },
       {
-        title: "Catálogo Exclusivo",
-        description: "Imóveis de altíssimo padrão, atraindo visitantes qualificados.",
+        title: "Exclusive Catalog",
+        description: "Ultra-high-end properties, attracting qualified visitors.",
       },
       {
-        title: "Suporte Jurídico",
-        description: "Segurança em cada etapa, desde a documentação até a finalização da negociação.",
+        title: "Legal Support",
+        description: "Security at every stage, from documentation to closing the deal.",
       },
       {
-        title: "Parcerias de Alto Padrão",
-        description: "Mais de 400 profissionais à disposição.",
+        title: "High-End Partnerships",
+        description: "More than 400 professionals at your disposal.",
       },
       {
-        title: "Estratégias de Divulgação",
-        description: "Anúncios pagos direcionados, newsletters e canais digitais.",
+        title: "Marketing Strategies",
+        description: "Targeted paid ads, newsletters, and digital channels.",
       },
     ],
   },
 
   marketing: {
-    title: "Estratégias de Marketing",
+    title: "Marketing Strategies",
     description:
-      "Contamos com um mailing consolidado de mais de 70.000 contatos e desenvolvemos ações personalizadas que ampliam a visibilidade e alavancam as vendas em múltiplos canais.",
+      "We have a consolidated mailing list of over 70,000 contacts and develop personalized actions that expand visibility and leverage sales across multiple channels.",
     channels: ["Meta", "Google", "LinkedIn", "X"],
   },
 
   press: {
-    title: "Assessoria de Imprensa",
+    title: "Press Relations",
     description:
-      "Facilita a interface com portais e canais nos permitindo participar de conteúdos relevantes ao mercado, sendo referência do segmento.",
+      "Facilitates the interface with portals and channels, allowing us to participate in relevant market content, being a reference in the segment.",
   },
 
   program: {
     title: "MBRAS Club",
-    subtitle: "Benefícios Exclusivos",
+    subtitle: "Exclusive Benefits",
     description:
-      "Gestão de Venda focada em elevar ao máximo o potencial de venda do imóvel, com precificação baseada em dados e suporte jurídico completo.",
+      "Sales Management focused on maximizing the property's sales potential, with data-based pricing and complete legal support.",
   },
 
   modules: {
     section1: {
-      title: "Diferenciais MBRAS",
+      title: "MBRAS Differentials",
       items: [
         {
           number: "1",
-          title: "Gestão de Venda",
+          title: "Sales Management",
           description:
-            "Gestão focada em elevar ao máximo o potencial de venda do imóvel.",
+            "Management focused on maximizing the property's sales potential.",
         },
         {
           number: "2",
-          title: "Precificação Baseada em Dados",
+          title: "Data-Based Pricing",
           description:
-            "Análise de mercado e histórico de transações para definir o melhor preço.",
+            "Market analysis and transaction history to define the best price.",
         },
         {
           number: "3",
-          title: "Catálogo Exclusivo",
+          title: "Exclusive Catalog",
           description:
-            "Imóveis de altíssimo padrão, atraindo visitantes qualificados.",
+            "Ultra-high-end properties, attracting qualified visitors.",
         },
       ],
     },
     section2: {
-      title: "Suporte Completo",
+      title: "Complete Support",
       items: [
         {
           number: "4",
-          title: "Suporte Jurídico",
+          title: "Legal Support",
           description:
-            "Segurança em cada etapa, desde a documentação até a finalização da negociação.",
+            "Security at every stage, from documentation to closing the deal.",
         },
         {
           number: "5",
-          title: "Parcerias de Alto Padrão",
+          title: "High-End Partnerships",
           description:
-            "Mais de 400 profissionais à disposição.",
+            "More than 400 professionals at your disposal.",
         },
         {
           number: "6",
-          title: "Estratégias de Divulgação",
+          title: "Marketing Strategies",
           description:
-            "Anúncios pagos direcionados, newsletters e canais digitais.",
+            "Targeted paid ads, newsletters, and digital channels.",
         },
       ],
     },
   },
 
   techStack: {
-    title: "Estratégias de Marketing",
+    title: "Marketing Strategies",
     description:
-      "Contamos com um mailing consolidado de mais de 70.000 contatos e desenvolvemos ações personalizadas que ampliam a visibilidade e alavancam as vendas em múltiplos canais.",
+      "We have a consolidated mailing list of over 70,000 contacts and develop personalized actions that expand visibility and leverage sales across multiple channels.",
     tools: ["Meta", "Google", "LinkedIn", "X"],
   },
 
   methodology: {
-    title: "Nosso Time Multidisciplinar",
+    title: "Our Multidisciplinary Team",
     formats: [
       {
-        title: "Advogados",
-        description: "Segurança jurídica em todas as etapas.",
+        title: "Lawyers",
+        description: "Legal security at every stage.",
       },
       {
-        title: "Engenheiros",
-        description: "Análise técnica de imóveis.",
+        title: "Engineers",
+        description: "Technical property analysis.",
       },
       {
-        title: "Arquitetos",
-        description: "Visão estética e funcional.",
+        title: "Architects",
+        description: "Aesthetic and functional vision.",
       },
       {
         title: "Designers",
-        description: "Apresentações e materiais premium.",
+        description: "Premium presentations and materials.",
       },
     ],
   },
 
   takeaways: {
-    title: "Por que escolher a MBRAS?",
-    intro: "Você não encontra apenas imóveis.\nVocê encontra experiências exclusivas.",
+    title: "Why choose MBRAS?",
+    intro: "You don't just find properties.\nYou find exclusive experiences.",
     items: [
       {
-        title: "Confiança",
-        description: "Transparência e ética em cada negociação.",
+        title: "Trust",
+        description: "Transparency and ethics in every negotiation.",
       },
       {
-        title: "Exclusividade",
-        description: "Acesso a oportunidades únicas do mercado.",
+        title: "Exclusivity",
+        description: "Access to unique market opportunities.",
       },
       {
-        title: "Personalização",
-        description: "Serviços sob medida para suas necessidades.",
+        title: "Personalization",
+        description: "Tailored services for your needs.",
       },
       {
         title: "Expertise",
-        description: "Mais de 40 consultores especializados.",
+        description: "More than 40 specialized consultants.",
       },
     ],
   },
 
   audience: {
-    title: "Para quem somos a escolha ideal.",
+    title: "Who we are the ideal choice for.",
     personas: [
       {
-        title: "Clientes Exigentes",
-        description: "Que buscam imóveis de altíssimo padrão.",
+        title: "Demanding Clients",
+        description: "Who seek ultra-high-end properties.",
       },
       {
-        title: "Empresas de Destaque",
-        description: "Que precisam de soluções corporativas premium.",
+        title: "Prominent Companies",
+        description: "Who need premium corporate solutions.",
       },
       {
-        title: "Investidores",
-        description: "Que buscam valorização e segurança.",
+        title: "Investors",
+        description: "Who seek appreciation and security.",
       },
       {
-        title: "Incorporadores",
-        description: "Que necessitam de suporte estratégico.",
+        title: "Developers",
+        description: "Who need strategic support.",
       },
     ],
   },
 
   selection: {
-    title: "Assessoria de Imprensa",
+    title: "Press Relations",
     description:
-      "Facilita a interface com portais e canais nos permitindo participar de conteúdos relevantes ao mercado, sendo referência do segmento.",
+      "Facilitates the interface with portals and channels, allowing us to participate in relevant market content, being a reference in the segment.",
     process:
-      "Nossa presença na mídia reforça a credibilidade e autoridade da MBRAS no mercado imobiliário de luxo.",
+      "Our media presence reinforces MBRAS's credibility and authority in the luxury real estate market.",
   },
 
   closing: {
-    headline: "A referência definitiva em serviços imobiliários de luxo no Brasil.",
-    cta: "Entre em contato e descubra como podemos transformar sua experiência imobiliária.",
+    headline: "The reference in luxury real estate services in Brazil.",
+    cta: "Contact us and discover how we can transform your real estate experience.",
     partnership: "mbras.com.br",
   },
 
   partners: {
-    title: "Nossos Diferenciais",
+    title: "Our Differentials",
     items: [
       {
-        name: "Missão",
+        name: "Mission",
         subtitle: "",
         description:
-          "Redefinir o mercado imobiliário de altíssimo padrão, oferecendo consultoria especializada, soluções inovadoras e experiências elevadas. Atuamos com paixão, excelência e um olhar estratégico para inspirar, surpreender e encantar nossos clientes.",
-        quote: "Construindo um legado de confiança e exclusividade.",
+          "To redefine the ultra-high-end real estate market, offering specialized consulting, innovative solutions, and elevated experiences. We act with passion, excellence, and a strategic vision to inspire, surprise, and delight our clients.",
+        quote: "Building a legacy of trust and exclusivity.",
       },
       {
-        name: "Visão",
+        name: "Vision",
         subtitle: "",
         description:
-          "Ser a referência definitiva em serviços imobiliários de luxo no Brasil, criando uma nova forma de vivenciar o segmento de altíssimo padrão.",
-        quote: "Transformar transações em experiências memoráveis.",
+          "To be the definitive reference in luxury real estate services in Brazil, creating a new way to experience the ultra-high-end segment.",
+        quote: "Transform transactions into memorable experiences.",
       },
     ],
   },

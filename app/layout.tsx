@@ -16,11 +16,11 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "MBRAS | Referência no Mercado Imobiliário de Alto Padrão",
-  description: "Fundada em 2010, a MBRAS é referência no mercado imobiliário de alto padrão em São Paulo. Consultoria especializada, experiências únicas e personalizadas.",
+  title: "MBRAS | The Reference in High-End Real Estate",
+  description: "Founded in 2010, MBRAS is the reference in high-end real estate in São Paulo. Specialized consulting, unique and personalized experiences.",
   openGraph: {
-    title: "MBRAS | Referência no Mercado Imobiliário de Alto Padrão",
-    description: "Fundada em 2010, a MBRAS é referência no mercado imobiliário de alto padrão em São Paulo. Consultoria especializada, experiências únicas e personalizadas.",
+    title: "MBRAS | The Reference in High-End Real Estate",
+    description: "Founded in 2010, MBRAS is the reference in high-end real estate in São Paulo. Specialized consulting, unique and personalized experiences.",
     url: "https://mbras.com.br",
     siteName: "MBRAS",
     images: [
@@ -28,10 +28,10 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "MBRAS - Imobiliária de Alto Padrão",
+        alt: "MBRAS - High-End Real Estate",
       },
     ],
-    locale: "pt_BR",
+    locale: "en_US",
     type: "website",
   },
 };
@@ -42,7 +42,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="en">
       <body
         className={`${playfair.variable} ${lato.variable} antialiased bg-cream-100 text-text-primary`}
       >

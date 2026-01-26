@@ -22,7 +22,7 @@ export default function ProgramSlide() {
                         className="flex flex-col justify-center"
                     >
                         <span className="text-xs md:text-sm tracking-[0.2em] uppercase text-gold-500 mb-3">
-                            Nossa Sede
+                            Our Headquarters
                         </span>
 
                         <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif leading-tight mb-4 text-navy-900">
@@ -48,7 +48,7 @@ export default function ProgramSlide() {
                         className="flex flex-col justify-center lg:border-l lg:border-cream-400 lg:pl-12"
                     >
                         <span className="text-xs md:text-sm tracking-[0.2em] uppercase text-gold-500 mb-3">
-                            Equipe Especializada
+                            Specialized Team
                         </span>
 
                         <h3 className="text-2xl md:text-3xl font-serif leading-tight mb-6 text-navy-900">

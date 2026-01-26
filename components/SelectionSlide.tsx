@@ -41,7 +41,7 @@ export default function SelectionSlide() {
                     transition={{ delay: 0.25, duration: 0.6 }}
                     className="text-xs tracking-[0.2em] uppercase text-gold-500 mb-3"
                 >
-                    Comunicação Estratégica
+                    Strategic Communication
                 </motion.span>
 
                 <motion.h2
