@@ -17,14 +17,14 @@ export default function VisionSlide1() {
                         transition={{ delay: 0.1, duration: 0.6 }}
                         className="text-xs md:text-sm tracking-[0.2em] uppercase text-gold-500 mb-4 block"
                     >
-                        Founded in 2010
+                        Fundada em 2010
                     </motion.span>
 
                     <motion.h2
                         initial={{ y: 20, opacity: 0 }}
                         whileInView={{ y: 0, opacity: 1 }}
                         transition={{ delay: 0.2, duration: 0.6 }}
-                        className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight mb-8"
+                        className="text-3xl md:text-4xl lg:text-5xl font-serif leading-tight mb-8 text-navy-900"
                     >
                         {about.title}
                     </motion.h2>
