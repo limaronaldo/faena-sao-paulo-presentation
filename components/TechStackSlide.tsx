@@ -39,25 +39,27 @@ export default function TechStackSlide() {
                         </p>
 
                         {/* Channel badges */}
-                        <div className="flex flex-wrap items-center gap-3 mb-6">
-                            <span className="text-xs tracking-[0.15em] uppercase text-text-muted">
+                        <div className="flex flex-col md:flex-row md:flex-wrap md:items-center gap-3 mb-6">
+                            <span className="text-xs tracking-[0.15em] uppercase text-text-muted text-center md:text-left">
                                 Social Networks:
                             </span>
-                            {techStack.tools.map((tool, index) => (
-                                <motion.span
-                                    key={tool}
-                                    initial={{ y: 10, opacity: 0 }}
-                                    whileInView={{ y: 0, opacity: 1 }}
-                                    transition={{ delay: 0.4 + index * 0.1, duration: 0.4 }}
-                                    className="px-3 py-1.5 bg-navy-900 text-cream-100 text-xs font-medium"
-                                >
-                                    {tool}
-                                </motion.span>
-                            ))}
+                            <div className="flex flex-wrap justify-center md:justify-start gap-2">
+                                {techStack.tools.map((tool, index) => (
+                                    <motion.span
+                                        key={tool}
+                                        initial={{ y: 10, opacity: 0 }}
+                                        whileInView={{ y: 0, opacity: 1 }}
+                                        transition={{ delay: 0.4 + index * 0.1, duration: 0.4 }}
+                                        className="px-3 py-1.5 bg-navy-900 text-cream-100 text-xs font-medium"
+                                    >
+                                        {tool}
+                                    </motion.span>
+                                ))}
+                            </div>
                         </div>
 
                         <div className="pt-4 border-t border-cream-400">
-                            <div className="flex items-center gap-3">
+                            <div className="flex flex-col md:flex-row items-center gap-1 md:gap-3 text-center md:text-left">
                                 <span className="text-2xl md:text-3xl font-serif text-gold-500 font-semibold">
                                     70.000+
                                 </span>
