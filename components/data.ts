@@ -122,7 +122,7 @@ export const mbrasData = {
   structure: {
     title: "Structure",
     description:
-      "Our consultants and partners receive complete support in marketing, legal, and strategic structure, always open to innovation and quality in customer service.",
+      "Our consultants and partners receive complete support in marketing, legal, and strategic structure, always open to innovation and quality in customer service.\n \n Every broker on our team holds an academic background, reinforcing the rigor, clarity, and credibility behind our guidance and the standard of diligence our clients expect.",
     location: "Located in the Cidade Jardim Corporate Center, one of the most sophisticated buildings in São Paulo, we have the ideal environment to welcome our clients with exclusivity and comfort.",
   },
 
