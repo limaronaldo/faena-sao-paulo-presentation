@@ -46,6 +46,17 @@
   h6 {
     @apply font-serif;
   }
+
+  /* Slower scroll on mobile */
+  @media (max-width: 768px) {
+    html {
+      scroll-behavior: smooth;
+    }
+
+    main {
+      scroll-snap-type: y proximity;
+    }
+  }
 }
 
 /* Custom Utilities */
