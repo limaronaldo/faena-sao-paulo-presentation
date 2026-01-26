@@ -9,6 +9,11 @@ export default function ClosingSlide() {
 
   return (
     <Slide className="bg-navy-900 text-cream-100">
+      {/* Background Image with opacity */}
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-100"
+        style={{ backgroundImage: "url('/vistaarco.jpg')" }}
+      />
       <div className="absolute inset-0 navy-gradient-overlay" />
 
       <div className="z-10 flex flex-col items-center justify-center max-w-3xl px-8 md:px-16 lg:px-24 py-12 h-full text-center">
