@@ -8,10 +8,10 @@ export default function TechStackSlide() {
     const techStack = academyData.techStack;
 
     const stats = [
-        { number: "13.5", label: "Billion", description: "Transaction Volume" },
-        { number: "1000+", label: "Properties", description: "Negotiated" },
-        { number: "15", label: "Years", description: "Of Excellence" },
-        { number: "98%", label: "Satisfaction", description: "From Clients" },
+        { number: "13,5", label: "Bilhões", description: "Volume Transacionado" },
+        { number: "1000+", label: "Imóveis", description: "Negociados" },
+        { number: "15", label: "Anos", description: "De Excelência" },
+        { number: "98%", label: "Satisfação", description: "Dos Clientes" },
     ];
 
     return (
@@ -27,7 +27,7 @@ export default function TechStackSlide() {
                         className="flex flex-col justify-center"
                     >
                         <span className="text-xs md:text-sm tracking-[0.2em] uppercase text-gold-500 mb-3">
-                            Strategic Reach
+                            Alcance Estratégico
                         </span>
 
                         <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif leading-tight mb-4 text-navy-900">
@@ -41,7 +41,7 @@ export default function TechStackSlide() {
                         {/* Channel badges */}
                         <div className="flex flex-col md:flex-row md:flex-wrap md:items-center gap-3 mb-6">
                             <span className="text-xs tracking-[0.15em] uppercase text-text-muted text-center md:text-left">
-                                Social Networks:
+                                Redes Sociais:
                             </span>
                             <div className="flex flex-wrap justify-center md:justify-start gap-2">
                                 {techStack.tools.map((tool, index) => (
@@ -64,7 +64,7 @@ export default function TechStackSlide() {
                                     70.000+
                                 </span>
                                 <span className="text-sm text-text-secondary">
-                                    contacts in our mailing list
+                                    contatos em nosso mailing
                                 </span>
                             </div>
                         </div>
