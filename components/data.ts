@@ -122,7 +122,7 @@ export const mbrasData = {
   structure: {
     title: "Estrutura",
     description:
-      "Nossos consultores e parceiros recebem suporte completo em marketing, jurídico e estrutura estratégica, sempre abertos à inovação e qualidade no atendimento ao cliente.",
+      "Nossos consultores e parceiros recebem suporte completo em marketing, jurídico e estrutura estratégica, sempre abertos à inovação e qualidade no atendimento ao cliente.\n\nCada corretor de nossa equipe possui formação acadêmica, reforçando o rigor, a clareza e a credibilidade por trás de nossa orientação e o padrão de diligência que nossos clientes esperam.",
     location: "Localizados no Cidade Jardim Corporate Center, um dos edifícios mais sofisticados de São Paulo, temos o ambiente ideal para receber nossos clientes com exclusividade e conforto.",
   },
 

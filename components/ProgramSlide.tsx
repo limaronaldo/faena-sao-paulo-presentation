@@ -29,7 +29,7 @@ export default function ProgramSlide() {
                             {structure.title}
                         </h2>
 
-                        <p className="text-sm md:text-base text-text-secondary leading-relaxed mb-6">
+                        <p className="text-sm md:text-base text-text-secondary leading-relaxed mb-6 whitespace-pre-line">
                             {structure.description}
                         </p>
 
