@@ -7,6 +7,8 @@ import { useState } from "react";
 
 export default function GallerySlide() {
     const photos = [
+        { src: "/hype6.png", alt: "Hype Gabriel — Vista 1" },
+        { src: "/hype.png", alt: "Hype Gabriel — Vista 1" },
         { src: "/hype1.png", alt: "Hype Gabriel — Vista 1" },
         { src: "/hype2.png", alt: "Hype Gabriel — Vista 2" },
         { src: "/hype3.png", alt: "Hype Gabriel — Vista 3" },
