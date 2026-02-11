@@ -21,20 +21,12 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
   // Centered layout - no image, content in center
   if (centered) {
     return (
-      <Slide variant="faena">
+      <Slide variant="light">
         <div className="flex items-center justify-center h-full w-full px-6">
           <div className="max-w-3xl text-center">
-            <motion.img
-              src={partner.logo}
-              alt={partner.name}
-              className="h-14 object-contain mx-auto mb-10 opacity-90"
-              initial={{ opacity: 0, y: -20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-            />
 
             <motion.h2
-              className="text-4xl md:text-6xl font-serif mb-8 leading-tight text-cream-100"
+              className="text-4xl md:text-6xl font-serif mb-8 leading-tight text-dark-900"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
@@ -43,7 +35,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             </motion.h2>
 
             <motion.p
-              className="text-lg md:text-xl font-sans text-cream-100/80 leading-relaxed max-w-2xl mx-auto"
+              className="text-lg md:text-xl font-sans text-dark-700/80 leading-relaxed max-w-2xl mx-auto"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
@@ -52,7 +44,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             </motion.p>
 
             <motion.div
-              className="w-20 h-0.5 bg-gold-500 mt-10 mx-auto"
+              className="w-20 h-0.5 bg-accent-500 mt-10 mx-auto"
               initial={{ width: 0 }}
               whileInView={{ width: 80 }}
               transition={{ delay: 0.5, duration: 0.8 }}
@@ -65,7 +57,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
 
   // Grid layout with image
   return (
-    <Slide variant="faena">
+    <Slide variant="white">
       <div
         className={clsx(
           "grid grid-cols-1 lg:grid-cols-2 h-full w-full",
@@ -89,7 +81,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             whileInView={{ scale: 1 }}
             transition={{ duration: 1.5 }}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-dark-900/80 via-dark-900/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-light-50/60 via-light-50/20 to-transparent" />
         </div>
 
         {/* Content Section */}
@@ -100,20 +92,12 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
           )}
         >
           {/* Decorative background */}
-          <div className="absolute inset-0 bg-gradient-to-br from-dark-800/50 to-dark-900/80" />
+          <div className="absolute inset-0 bg-gradient-to-br from-light-100/80 to-light-50" />
 
           <div className="relative z-10">
-            <motion.img
-              src={partner.logo}
-              alt={partner.name}
-              className="h-12 object-contain self-start mb-8 opacity-90"
-              initial={{ opacity: 0, x: -20 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.2 }}
-            />
 
             <motion.h2
-              className="text-3xl md:text-5xl font-serif mb-8 leading-tight text-cream-100"
+              className="text-3xl md:text-5xl font-serif mb-8 leading-tight text-dark-900"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
@@ -122,7 +106,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             </motion.h2>
 
             <motion.p
-              className="text-lg md:text-xl font-sans text-cream-100/80 leading-relaxed max-w-xl"
+              className="text-lg md:text-xl font-sans text-dark-700/80 leading-relaxed max-w-xl"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
@@ -131,7 +115,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             </motion.p>
 
             <motion.div
-              className="w-16 h-0.5 bg-gold-500 mt-10"
+              className="w-16 h-0.5 bg-accent-500 mt-10"
               initial={{ width: 0 }}
               whileInView={{ width: 64 }}
               transition={{ delay: 0.5, duration: 0.8 }}

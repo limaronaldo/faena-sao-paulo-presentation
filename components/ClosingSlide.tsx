@@ -8,41 +8,34 @@ export default function ClosingSlide() {
   const closing = presentationData.closing;
 
   return (
-    <Slide className="bg-dark-900 text-cream-100">
+    <Slide className="bg-light-50 text-dark-900">
       <div
-        className="absolute inset-0 opacity-50"
+        className="absolute inset-0 opacity-15"
         style={{
-          backgroundImage: `url(/wresvita.png)`,
+          backgroundImage: `url(/hype-closing.png)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-dark-900 via-dark-900/90 to-dark-900/70" />
+      <div className="absolute inset-0 bg-gradient-to-t from-light-50 via-light-50/90 to-light-50/75" />
 
       <div className="z-10 flex flex-col items-center text-center max-w-4xl px-6">
         <motion.h2
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.8 }}
-          className="text-4xl md:text-6xl font-serif font-light leading-tight mb-8 whitespace-pre-line"
+          className="text-4xl md:text-6xl font-serif font-light leading-tight mb-8 whitespace-pre-line text-dark-900"
         >
           {closing.headline}
         </motion.h2>
 
-        <motion.p
-          initial={{ y: 20, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.4, duration: 0.8 }}
-          className="text-lg md:text-xl text-cream-100/70 max-w-2xl mb-6"
-        >
-          {closing.subheadline}
-        </motion.p>
+
 
         <motion.p
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
-          className="text-gold-500 tracking-widest uppercase text-sm mb-8"
+          className="text-accent-500 tracking-widest uppercase text-sm mb-8"
         >
           {closing.tagline}
         </motion.p>
@@ -51,7 +44,7 @@ export default function ClosingSlide() {
           initial={{ scaleX: 0 }}
           whileInView={{ scaleX: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
-          className="w-24 h-1 bg-gold-500 mb-8"
+          className="w-24 h-1 bg-accent-500 mb-8"
         />
 
         <motion.div
@@ -61,8 +54,8 @@ export default function ClosingSlide() {
           className="flex items-center justify-center"
         >
           <img
-            src="/MBRAS 4.png"
-            alt="MBRAS"
+            src="https://img.mbras.com.br/mbras/mbras-logo-x.png?updatedAt=1766455454000"
+            alt="Logo"
             className="h-12 md:h-16 w-auto object-contain"
           />
         </motion.div>

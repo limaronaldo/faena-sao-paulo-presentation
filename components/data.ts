@@ -1,19 +1,19 @@
 export const presentationData = {
   hero: {
-    title: "A Exclusividade do Lifestyle W Hotel em um\nÚnico Residencial ",
-    subtitle: "W Residences • Vila Olímpia",
+    title: "Parceria para construir o excepcional",
+    subtitle: "Hype Gabriel × MBRAS",
   },
 
   partners: [
     {
       id: "property",
-      name: "W Residences São Paulo",
-      title: "O novo ícone de luxo da Vila Olímpia.",
+      name: "Hype Gabriel",
+      title: "Três casas em um endereço.",
       description:
-        "Apartamento exclusivo no W Residences São Paulo com 102 m² de área útil. Uma residência sofisticada que combina design contemporâneo, serviços premium e a assinatura W Hotels em um dos endereços mais prestigiados da cidade.",
-      image: "/wres.png",
+        "Casa em condomínio exclusivo no Hype Gabriel com 620 m² privativos. Uma residência sofisticada com 4 suítes, garagem e elevador privativos, rooftop com piscina, solarium e espaço gourmet, tudo isso na melhor região do Jardim Europa.",
+      image: "/hype.png",
       imagePosition: "center",
-      logo: "/MBRAS 4.png",
+      logo: "https://img.mbras.com.br/logos/MBRAS.png?updatedAt=1767810311928",
     },
     {
       id: "mbras",
@@ -21,25 +21,25 @@ export const presentationData = {
       title: "Transformando Exclusividade em Patrimônio.",
       description:
         "A MBRAS redefine o mercado imobiliário de alto padrão com uma curadoria impecável e atendimento personalizado. Especialistas em conectar clientes a propriedades únicas, transformamos cada negociação em uma experiência de valor inestimável.",
-      image: "/PHOTO-2025-12-16-18-17-53 2.jpg",
+      image: "/hype-closing.png",
       imagePosition: "center",
-      logo: "/MBRAS 4.png",
+      logo: "https://img.mbras.com.br/logos/logornaldo.png?updatedAt=1767894935414",
     },
   ],
 
   development: {
-    name: "W Residences São Paulo",
-    tagline: "Viva com a assinatura W Hotels",
-    location: "Vila Olímpia — São Paulo, SP",
-    locationDetail: "No coração da região mais dinâmica da cidade",
+    name: "Hype Gabriel",
+    tagline: "Arquitetura de autor no coração do Jardim América",
+    location: "Jardim Europa — São Paulo, SP",
+    locationDetail: "No bairro mais sofisticado de São Paulo",
     landArea: "",
-    usefulArea: "102 m²",
-    bedrooms: "2 quartos",
-    suites: "2 suítes",
-    parkingSpots: "2 vagas",
-    price: "R$ 7.400.000",
-    reference: "MB18856",
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop",
+    usefulArea: "620 m²",
+    bedrooms: "3 dormitórios",
+    suites: "4 suítes",
+    parkingSpots: "4 vagas",
+    price: "Sob consulta",
+    reference: "",
+    image: "/hype.png",
   },
 
   property: {
@@ -47,71 +47,64 @@ export const presentationData = {
     specs: [
       {
         label: "Valor",
-        value: "R$ 7.400.000",
+        value: "Sob consulta",
         highlight: true,
       },
       {
-        label: "Quartos",
-        value: "2",
-      },
-      {
         label: "Suítes",
-        value: "2",
+        value: "4",
       },
       {
         label: "Vagas",
-        value: "2",
+        value: "4",
       },
       {
-        label: "Área Útil",
-        value: "102 m²",
+        label: "Área Privativa",
+        value: "620 m²",
       },
       {
-        label: "Referência",
-        value: "MB18856",
+        label: "Unidades",
+        value: "3 casas",
       },
     ],
   },
 
   features: {
-    title: "Características do Imóvel",
+    title: "Características do Condomínio",
     categories: [
-
       {
         title: "Lazer e Bem-Estar",
         items: [
-          "Academia",
-          "Fitness",
-          "Piscina",
-          "Spa",
+          "Piscina no Rooftop",
           "Solarium",
+          "Academia completa",
+          "Espaço Gourmet",
         ],
       },
       {
         title: "Infraestrutura",
         items: [
-          "Auditório",
-          "Elevador",
-          "Garagem Coberta",
-          "Hall",
-          "Restaurante",
+          "Elevador Privativo",
+          "Garagem Privativa",
+          "Gerador 100%",
+          "Ar Condicionado",
+          "Tomada Carro Elétrico",
         ],
       },
       {
-        title: "Serviços e Segurança",
+        title: "Segurança",
         items: [
-          "Portaria 24Hrs",
-          "Recepção 24 Horas",
-          "Segurança 24 Horas",
-          "Serviços",
-          "Próximo a Hospitais",
+          "Portaria Blindada",
+          "Segurança como prioridade",
+          "Vaga para Visitante",
         ],
       },
       {
-        title: "Espaços de Eventos",
+        title: "Jardim Exclusivo",
         items: [
-          "Sala de Conferência",
-          "Sala de Convenções",
+          "Praça Central",
+          "Área de Jardim",
+          "Lavanderia Coletiva",
         ],
       },
     ],
@@ -122,7 +115,7 @@ export const presentationData = {
     details: [
       {
         label: "Bairro",
-        value: "Vila Olímpia",
+        value: "Jardim Europa",
       },
       {
         label: "Cidade",
@@ -134,31 +127,31 @@ export const presentationData = {
       },
     ],
     description:
-      "Localizado em um dos bairros mais vibrantes e valorizados de São Paulo, o W Residences oferece o melhor da vida urbana com fácil acesso a restaurantes premiados, shoppings de luxo e centros empresariais. Um endereço icônico para quem busca sofisticação e praticidade.",
+      "Jardim Europa, um dos bairros mais nobres e exclusivos de São Paulo. Ruas arborizadas, galerias de arte, boutiques de alto padrão e os melhores restaurantes da cidade a poucos passos. Próximo à Av. Faria Lima, Av. Europa e aos Jardins.",
   },
 
   highlights: {
-    title: "Por que W Residences?",
+    title: "Por que escolher este imóvel?",
     items: [
       {
-        title: "Assinatura W Hotels",
-        description: "Design exclusivo e serviços premium com a qualidade e sofisticação da marca W Hotels.",
+        title: "Arquitetura by Roberto Migotto",
+        description: "Projeto assinado por um dos arquitetos mais renomados do Brasil. Design contemporâneo, sofisticado e funcional.",
         icon: "sparkles",
       },
       {
-        title: "Localização Premium",
-        description: "Vila Olímpia, um dos endereços mais prestigiados e valorizados de São Paulo.",
-        icon: "map-pin",
-      },
-      {
-        title: "Infraestrutura Completa",
-        description: "Academia, spa, piscina, restaurante e serviços 24 horas para seu conforto.",
+        title: "Privacidade e Exclusividade",
+        description: "Exclusividade real — condomínio de apenas três residências com 4 suítes cada, garantindo privacidade e personalização únicas.",
         icon: "building-2",
       },
       {
-        title: "Investimento Seguro",
-        description: "Valorização constante em uma das regiões mais dinâmicas da cidade.",
-        icon: "trending-up",
+        title: "Refúgio Particular",
+        description: "Cada casa conta com rooftop privativo com piscina, solarium e espaço gourmet — seu refúgio particular.",
+        icon: "trees",
+      },
+      {
+        title: "Localização Estratégica",
+        description: "Um dos bairros mais nobres e exclusivos de São Paulo, com fácil acesso à Faria Lima e aos Jardins.",
+        icon: "map-pin",
       },
     ],
   },
@@ -180,17 +173,17 @@ export const presentationData = {
       },
     ],
     portfolioExperience: [
-      "Especialistas em branded residences e imóveis de alto padrão em São Paulo",
-      "Track record em negociações acima de R$ 5 milhões",
+      "Especialistas em casas de alto padrão e condomínios exclusivos no Jardim Europa",
+      "Track record em negociações acima de R$ 10 milhões",
       "Relacionamento com clientes de alto poder aquisitivo",
       "Atendimento personalizado e discreto",
     ],
   },
 
   closing: {
-    headline: "Seu endereço de prestígio\nna Vila Olímpia.",
+    headline: "Seu endereço de prestígio\nno Jardim Europa.",
     subheadline:
-      "Uma residência exclusiva no W Residences São Paulo, com 102 m² de sofisticação, serviços premium e a assinatura inconfundível da marca W Hotels.",
+      "Uma das apenas 3 casas do Hype Gabriel — 620 m² privativos, 4 suítes, rooftop com piscina, solarium e espaço gourmet no Jardim Europa.",
     tagline: "MBRAS — Transformando exclusividade em patrimônio.",
   },
 };

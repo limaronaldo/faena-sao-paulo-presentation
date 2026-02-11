@@ -6,7 +6,9 @@ import PropertySlide from "@/components/PropertySlide";
 import FeaturesSlide from "@/components/FeaturesSlide";
 import LocationSlide from "@/components/LocationSlide";
 import HighlightsSlide from "@/components/HighlightsSlide";
-import AdsPerformanceSlide from "@/components/AdsPerformanceSlide";
+import GallerySlide from "@/components/GallerySlide";
+import AccelerationPlanSlide from "@/components/AccelerationPlanSlide";
+import InvestmentSlide from "@/components/InvestmentSlide";
 import ClosingSlide from "@/components/ClosingSlide";
 import { presentationData } from "@/components/data";
 import { motion, useScroll, useSpring } from "framer-motion";
@@ -20,9 +22,9 @@ export default function Home() {
   });
 
   return (
-    <main className="h-screen w-full overflow-y-scroll snap-y snap-mandatory scroll-smooth">
+    <main className="h-screen w-full overflow-y-scroll lg:snap-y lg:snap-mandatory scroll-smooth">
       <motion.div
-        className="fixed top-0 left-0 right-0 h-1 bg-gold-500 origin-left z-50"
+        className="fixed top-0 left-0 right-0 h-1 bg-accent-500 origin-left z-50"
         style={{ scaleX }}
       />
 
@@ -39,7 +41,19 @@ export default function Home() {
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
+        <GallerySlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
         <PropertySlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <AccelerationPlanSlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <InvestmentSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
@@ -52,10 +66,6 @@ export default function Home() {
 
       <section className="snap-start min-h-screen lg:h-screen">
         <LocationSlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <AdsPerformanceSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">

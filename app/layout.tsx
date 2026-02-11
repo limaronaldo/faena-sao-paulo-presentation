@@ -16,19 +16,19 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "W Residences São Paulo",
-  description: "W Residences São Paulo.",
+  title: "Hype Gabriel — Jardim América",
+  description: "Hype Gabriel — Condomínio exclusivo de 3 casas no Jardim América, São Paulo.",
   openGraph: {
-    title: "W Residences São Paulo",
-    description: "W Residences São Paulo.",
-    url: "https://wresidences.mbras.com.br",
-    siteName: "W Residences São Paulo",
+    title: "Hype Gabriel — Jardim América",
+    description: "Condomínio exclusivo de 3 casas de alto padrão no Jardim América.",
+    url: "https://hypegabriel.mbras.com.br",
+    siteName: "Hype Gabriel",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "W Residences São Paulo",
+        alt: "Hype Gabriel — Jardim América",
       },
     ],
     locale: "pt_BR",
@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${playfair.variable} ${lato.variable} antialiased bg-dark-900 text-cream-100`}
+        className={`${playfair.variable} ${lato.variable} antialiased bg-light-50 text-dark-900`}
       >
         {children}
       </body>
