@@ -1,108 +1,75 @@
 "use client";
 
 import Slide from "./Slide";
-import { motion, AnimatePresence } from "framer-motion";
-import { ChevronLeft, ChevronRight } from "lucide-react";
-import { useState } from "react";
+import { motion } from "framer-motion";
 
 export default function GallerySlide() {
     const photos = [
-        { src: "/hype6.png", alt: "Hype Gabriel — Vista 1" },
-        { src: "/hype.png", alt: "Hype Gabriel — Vista 1" },
-        { src: "/hype1.png", alt: "Hype Gabriel — Vista 1" },
-        { src: "/hype2.png", alt: "Hype Gabriel — Vista 2" },
-        { src: "/hype3.png", alt: "Hype Gabriel — Vista 3" },
-        { src: "/hype4.png", alt: "Hype Gabriel — Vista 4" },
-        { src: "/hype5.png", alt: "Hype Gabriel — Vista 4" },
+        { src: "/hype6.png", alt: "Hype Gabriel — Vista 1", className: "col-span-1 md:col-span-2 row-span-2 h-full" },
+        { src: "/hype.png", alt: "Hype Gabriel — Vista 2", className: "col-span-1 md:col-span-1 h-64 md:h-auto" },
+        { src: "/hype3.png", alt: "Hype Gabriel — Vista 3", className: "col-span-1 md:col-span-1 h-64 md:h-auto" },
+        { src: "/hype4.png", alt: "Hype Gabriel — Vista 4", className: "col-span-1 md:col-span-2 h-64 md:h-80" },
     ];
-
-    const [current, setCurrent] = useState(0);
-    const [direction, setDirection] = useState(0);
-
-    const paginate = (newDirection: number) => {
-        setDirection(newDirection);
-        setCurrent((prev) => (prev + newDirection + photos.length) % photos.length);
-    };
-
-    const variants = {
-        enter: (dir: number) => ({
-            x: dir > 0 ? 600 : -600,
-            opacity: 0,
-        }),
-        center: {
-            x: 0,
-            opacity: 1,
-        },
-        exit: (dir: number) => ({
-            x: dir > 0 ? -600 : 600,
-            opacity: 0,
-        }),
-    };
 
     return (
         <Slide className="bg-light-50 text-dark-900">
-            <div className="z-10 w-full max-w-6xl px-6">
-                <motion.div
-                    initial={{ y: 20, opacity: 0 }}
-                    whileInView={{ y: 0, opacity: 1 }}
-                    transition={{ duration: 0.6 }}
-                    className="text-center mb-10"
-                >
-                    <p className="text-accent-500 tracking-[0.3em] uppercase text-xs mb-6">
-                        Galeria
-                    </p>
-                    <h2 className="text-3xl md:text-5xl font-serif font-light text-dark-900">
-                        Conheça o Hype Gabriel
-                    </h2>
-                </motion.div>
+            <div className="z-10 w-full max-w-7xl px-6 h-full flex flex-col justify-center py-10">
 
-                {/* Carousel */}
-                <div className="relative w-full overflow-hidden" style={{ height: "65vh" }}>
-                    <AnimatePresence initial={false} custom={direction} mode="popLayout">
-                        <motion.img
-                            key={current}
-                            src={photos[current].src}
-                            alt={photos[current].alt}
-                            custom={direction}
-                            variants={variants}
-                            initial="enter"
-                            animate="center"
-                            exit="exit"
-                            transition={{ duration: 0.5, ease: "easeInOut" }}
-                            className="absolute inset-0 w-full h-full object-cover"
-                        />
-                    </AnimatePresence>
 
-                    {/* Navigation Arrows */}
-                    <button
-                        onClick={() => paginate(-1)}
-                        className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/80 backdrop-blur-sm border border-light-300 flex items-center justify-center hover:bg-white transition-colors cursor-pointer shadow-lg"
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full h-full max-h-[70vh]">
+                    {/* Main large image */}
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.8 }}
+                        className="md:col-span-2 md:row-span-2 relative overflow-hidden rounded-lg group"
                     >
-                        <ChevronLeft className="w-5 h-5 text-dark-900" />
-                    </button>
-                    <button
-                        onClick={() => paginate(1)}
-                        className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white/80 backdrop-blur-sm border border-light-300 flex items-center justify-center hover:bg-white transition-colors cursor-pointer shadow-lg"
-                    >
-                        <ChevronRight className="w-5 h-5 text-dark-900" />
-                    </button>
-                </div>
-
-                {/* Dots Indicator */}
-                <div className="flex justify-center gap-2 mt-6">
-                    {photos.map((_, index) => (
-                        <button
-                            key={index}
-                            onClick={() => {
-                                setDirection(index > current ? 1 : -1);
-                                setCurrent(index);
-                            }}
-                            className={`w-2 h-2 rounded-full transition-all duration-300 cursor-pointer ${index === current
-                                ? "bg-accent-500 w-6"
-                                : "bg-light-400 hover:bg-accent-500/50"
-                                }`}
+                        <img
+                            src="/hype6.png"
+                            alt="Hype Gabriel - Principal"
+                            className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         />
-                    ))}
+                    </motion.div>
+
+                    {/* Secondary images */}
+                    <div className="flex flex-col gap-4 md:col-span-1 md:row-span-2">
+                        <motion.div
+                            initial={{ opacity: 0, x: 20 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.2, duration: 0.6 }}
+                            className="relative flex-1 overflow-hidden rounded-lg group"
+                        >
+                            <img
+                                src="/hype.png"
+                                alt="Hype Gabriel - Fachada"
+                                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                            />
+                        </motion.div>
+                        <motion.div
+                            initial={{ opacity: 0, x: 20 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.3, duration: 0.6 }}
+                            className="relative flex-1 overflow-hidden rounded-lg group"
+                        >
+                            <img
+                                src="/hype3.png"
+                                alt="Hype Gabriel - Interior"
+                                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                            />
+                        </motion.div>
+                        <motion.div
+                            initial={{ opacity: 0, x: 20 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            transition={{ delay: 0.4, duration: 0.6 }}
+                            className="relative flex-1 overflow-hidden rounded-lg group"
+                        >
+                            <img
+                                src="/hype4.png"
+                                alt="Hype Gabriel - Detalhe"
+                                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                            />
+                        </motion.div>
+                    </div>
                 </div>
             </div>
         </Slide>

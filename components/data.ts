@@ -1,6 +1,7 @@
 export const presentationData = {
   hero: {
-    title: "Parceria para construir o excepcional",
+    title: "Projeto Hype Gabriel",
+    highlight: "Segmentação e Vendas",
     subtitle: "Hype Gabriel × MBRAS",
   },
 
@@ -8,9 +9,9 @@ export const presentationData = {
     {
       id: "property",
       name: "Hype Gabriel",
-      title: "Três casas em um endereço.",
+      title: "O Empreendimento",
       description:
-        "Casa em condomínio exclusivo no Hype Gabriel com 620 m² privativos. Uma residência sofisticada com 4 suítes, garagem e elevador privativos, rooftop com piscina, solarium e espaço gourmet, tudo isso na melhor região do Jardim Europa.",
+        "Um ativo irreplicável no Jardim Europa. Com 620 m² e 4 suítes, o Hype Gabriel entrega exatamente o que o público de alto padrão busca hoje: a privacidade de uma casa com a segurança e a conveniência de um condomínio.",
       image: "/hype.png",
       imagePosition: "center",
       logo: "https://img.mbras.com.br/logos/MBRAS.png?updatedAt=1767810311928",
@@ -18,9 +19,9 @@ export const presentationData = {
     {
       id: "mbras",
       name: "MBRAS",
-      title: "Transformando Exclusividade em Patrimônio.",
+      title: "A Estratégia.",
       description:
-        "A MBRAS redefine o mercado imobiliário de alto padrão com uma curadoria impecável e atendimento personalizado. Especialistas em conectar clientes a propriedades únicas, transformamos cada negociação em uma experiência de valor inestimável.",
+        "Não apenas vendemos imóveis, dominamos a narrativa do alto padrão. Nossa expertise conecta ativos troféu aos poucos compradores capazes de valorizá-los, transformando características técnicas em desejo inegociável.",
       image: "/hype-closing.png",
       imagePosition: "center",
       logo: "https://img.mbras.com.br/logos/logornaldo.png?updatedAt=1767894935414",
@@ -29,9 +30,9 @@ export const presentationData = {
 
   development: {
     name: "Hype Gabriel",
-    tagline: "Arquitetura de autor no coração do Jardim América",
+    tagline: "O Argumento de Venda: Arquitetura Autoral e Escassez",
     location: "Jardim Europa — São Paulo, SP",
-    locationDetail: "No bairro mais sofisticado de São Paulo",
+    locationDetail: "A localização que valida o investimento patrimonial",
     landArea: "",
     usefulArea: "620 m²",
     bedrooms: "3 dormitórios",
@@ -43,7 +44,7 @@ export const presentationData = {
   },
 
   property: {
-    title: "Detalhes do Imóvel",
+    title: "Ficha Técnica do Ativo",
     specs: [
       {
         label: "Valor",
@@ -63,14 +64,14 @@ export const presentationData = {
         value: "620 m²",
       },
       {
-        label: "Unidades",
+        label: "Exclusivas",
         value: "3 casas",
       },
     ],
   },
 
   features: {
-    title: "Características do Condomínio",
+    title: "Atributos Valorizados",
     categories: [
       {
         title: "Lazer e Bem-Estar",
@@ -86,7 +87,7 @@ export const presentationData = {
         items: [
           "Elevador Privativo",
           "Garagem Privativa",
-          "Gerador 100%",
+          "Gerador",
           "Ar Condicionado",
           "Tomada Carro Elétrico",
         ],
@@ -104,14 +105,13 @@ export const presentationData = {
         items: [
           "Praça Central",
           "Área de Jardim",
-          "Lavanderia Coletiva",
         ],
       },
     ],
   },
 
   location: {
-    title: "Localização Privilegiada",
+    title: "Diferenciais da Localização",
     details: [
       {
         label: "Bairro",
@@ -127,37 +127,37 @@ export const presentationData = {
       },
     ],
     description:
-      "Jardim Europa, um dos bairros mais nobres e exclusivos de São Paulo. Ruas arborizadas, galerias de arte, boutiques de alto padrão e os melhores restaurantes da cidade a poucos passos. Próximo à Av. Faria Lima, Av. Europa e aos Jardins.",
+      "O Jardim Europa não é apenas um bairro, é uma marca. Nossa comunicação explorará a proximidade com a Faria Lima e os Jardins para atrair o perfil executivo e cosmopolita que valoriza o tempo e a conveniência de estar no centro financeiro.",
   },
 
   highlights: {
-    title: "Por que escolher este imóvel?",
+    title: "Pilares da Nossa Comunicação",
     items: [
       {
-        title: "Arquitetura by Roberto Migotto",
-        description: "Projeto assinado por um dos arquitetos mais renomados do Brasil. Design contemporâneo, sofisticado e funcional.",
+        title: "Assinatura Roberto Migotto",
+        description: "Um selo de valor que ancora a precificação. O design contemporâneo valida o ticket alto para o comprador exigente.",
         icon: "sparkles",
       },
       {
-        title: "Privacidade e Exclusividade",
-        description: "Exclusividade real — condomínio de apenas três residências com 4 suítes cada, garantindo privacidade e personalização únicas.",
+        title: "Exclusividade Real",
+        description: "Apenas 3 unidades. O gatilho mental mais poderoso para este perfil: possuir algo que quase ninguém mais pode ter.",
         icon: "building-2",
       },
       {
-        title: "Refúgio Particular",
-        description: "Cada casa conta com rooftop privativo com piscina, solarium e espaço gourmet — seu refúgio particular.",
+        title: "Oceano Azul",
+        description: "Rooftops privativos e plantas de casa eliminam a comparação direta com apartamentos padrão, reduzindo a sensibilidade a preço.",
         icon: "trees",
       },
       {
-        title: "Localização Estratégica",
-        description: "Um dos bairros mais nobres e exclusivos de São Paulo, com fácil acesso à Faria Lima e aos Jardins.",
+        title: "Trophy Asset",
+        description: "A localização nobre protege o capital. Posicionaremos o imóvel como um refúgio de valorização patrimonial.",
         icon: "map-pin",
       },
     ],
   },
 
   expertise: {
-    title: "Expertise MBRAS no Segmento de Alto Padrão",
+    title: "Expertise MBRAS",
     stats: [
       {
         value: "+R$ 6 Bilhões",
@@ -165,7 +165,7 @@ export const presentationData = {
       },
       {
         value: "50.000+",
-        label: "Contatos qualificados em nossa base proprietária.",
+        label: "Contatos qualificados em nossa base.",
       },
       {
         value: "15+ Anos",
@@ -181,9 +181,91 @@ export const presentationData = {
   },
 
   closing: {
-    headline: "Seu endereço de prestígio\nno Jardim Europa.",
+    headline: "Parceria\nHype Gabriel & MBRAS",
     subheadline:
-      "Uma das apenas 3 casas do Hype Gabriel — 620 m² privativos, 4 suítes, rooftop com piscina, solarium e espaço gourmet no Jardim Europa.",
-    tagline: "MBRAS — Transformando exclusividade em patrimônio.",
+      "Posicionar o Hype Gabriel como o objeto de desejo definitivo do Jardim Europa, atraindo o comprador que busca exclusividade, design e valorização.",
+    tagline: "Juntos, transformamos excelência em patrimônio.",
+  },
+
+  acceleration: {
+    title: "Plano de Aceleração 5 Meses",
+    subtitle: "Estrutura de Campanha Integrada Hype Gabriel & MBRAS",
+    phases: [
+      {
+        month: "Mês 1",
+        title: "Planejamento & Setup",
+        description: "Definição de KPIs, configuração de pixel/API, criação de audiências customizadas e desenvolvimento de criativos de alta conversão.",
+      },
+      {
+        month: "Mês 2",
+        title: "Alcance & Tráfego",
+        description: "Lançamento de campanhas focadas em volume qualificado (Google Search, Meta Ads), testes A/B de criativos e otimização.",
+      },
+      {
+        month: "Mês 3",
+        title: "Conversão & Nutrição",
+        description: "Intensificação de remarketing para leads engajados, nutrição via e-mail marketing e alinhamento comercial semanal.",
+      },
+      {
+        month: "Mês 4",
+        title: "Alta Performance",
+        description: "Foco total em agendamento de visitas e propostas, com investimento alocado nos canais de maior ROI consolidado.",
+      },
+      {
+        month: "Mês 5",
+        title: "Consolidação & Fechamento",
+        description: "Maximização de resultados finais, re-engajamento de leads quentes e suporte total ao fechamento de propostas.",
+      },
+    ],
+  },
+
+  investment: {
+    title: "Investimento Estratégico",
+    subtitle: "Parceria Exclusiva Hype & MBRAS",
+    cards: [
+      {
+        label: "Investimento Mensal",
+        pro: "R$ 13.000,00",
+        desc: "Gestão completa de mídia e performance.",
+      },
+      {
+        label: "Duração",
+        pro: "5 Meses",
+        desc: "Ciclo completo de aceleração e vendas.",
+      },
+      {
+        label: "Investimento Total",
+        pro: "R$ 65.000,00",
+        desc: "Total do projeto para o período contratado.",
+        highlight: true,
+      },
+    ],
+  },
+
+  projections: {
+    title: "Projeção de Resultados",
+    subtitle: "Cenários Estimados para 5 Meses (Conservador vs. Otimista)",
+    metrics: [
+      {
+        label: "Leads Totais",
+        range: "300 - 500",
+        desc: "Volume total de contatos gerados.",
+      },
+      {
+        label: "Leads Qualificados",
+        range: "30 - 60",
+        desc: "Contatos com perfil ideal (ICP).",
+      },
+      {
+        label: "Visitas Agendadas",
+        range: "6 - 15",
+        desc: "Visitas presenciais ao empreendimento.",
+      },
+      {
+        label: "Propostas de Venda",
+        range: "1 - 5",
+        desc: "Negociações avançadas iniciadas.",
+      },
+    ],
   },
 };

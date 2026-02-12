@@ -12,7 +12,7 @@ export default function PropertySlide() {
         { icon: Bath, label: "Suítes", value: "4" },
         { icon: Car, label: "Vagas", value: "4" },
         { icon: Maximize, label: "Área Privativa", value: "620 m²" },
-        { icon: Home, label: "Unidades", value: "3 casas" },
+        { icon: Home, label: "Exclusivas", value: "3 casas" },
     ];
 
     return (
@@ -27,13 +27,13 @@ export default function PropertySlide() {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-16"
                 >
-                    <p className="text-accent-500 tracking-[0.3em] uppercase text-xs mb-6">
+                    <p className="text-accent-500 tracking-[0.3em] uppercase text-sm font-medium mb-6">
                         Propriedade Exclusiva
                     </p>
-                    <h2 className="text-3xl md:text-5xl font-serif font-light mb-3 text-dark-900">
+                    <h2 className="text-4xl md:text-6xl font-serif font-light mb-4 text-dark-900">
                         {development.name}
                     </h2>
-                    <p className="text-dark-700/50 text-lg">
+                    <p className="text-dark-700/60 text-xl font-light">
                         {development.location}
                     </p>
                 </motion.div>
@@ -43,7 +43,7 @@ export default function PropertySlide() {
                     initial={{ y: 20, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.4, duration: 0.6 }}
-                    className="flex flex-wrap justify-center gap-4 md:gap-6"
+                    className="flex flex-wrap justify-center gap-6 md:gap-8"
                 >
                     {specs.map((spec, index) => {
                         const IconComponent = spec.icon;
@@ -53,13 +53,13 @@ export default function PropertySlide() {
                                 initial={{ y: 20, opacity: 0 }}
                                 whileInView={{ y: 0, opacity: 1 }}
                                 transition={{ delay: 0.5 + index * 0.1, duration: 0.5 }}
-                                className="flex flex-col items-center p-6 md:p-8 bg-light-200/60 rounded-2xl border border-light-300/60 backdrop-blur-sm min-w-[140px]"
+                                className="flex flex-col items-center p-8 md:p-10 bg-light-100/80 rounded-2xl border border-light-200 shadow-sm min-w-[160px] md:min-w-[200px]"
                             >
-                                <IconComponent className="w-6 h-6 text-accent-500 mb-3" strokeWidth={1.5} />
-                                <p className="text-2xl md:text-3xl font-serif text-dark-900 mb-1">
+                                <IconComponent className="w-8 h-8 text-accent-500 mb-4" strokeWidth={1.2} />
+                                <p className="text-3xl md:text-5xl font-serif text-dark-900 mb-2">
                                     {spec.value}
                                 </p>
-                                <p className="text-dark-700/40 text-xs uppercase tracking-wider">
+                                <p className="text-dark-500/80 text-sm md:text-base uppercase tracking-widest font-medium">
                                     {spec.label}
                                 </p>
                             </motion.div>

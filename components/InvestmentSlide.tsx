@@ -2,32 +2,11 @@
 
 import Slide from "./Slide";
 import { motion } from "framer-motion";
-
-const investmentCards = [
-    {
-        label: "Investimento Mensal",
-        prefix: "R$",
-        value: "13.000",
-        description: "Gestão + mídia, distribuídos entre os três empreendimentos.",
-    },
-    {
-        label: "Duração do Projeto",
-        prefix: "",
-        value: "4 meses",
-        description:
-            "Período ideal para construir presença, testar criativos e acelerar conversão.",
-    },
-    {
-        label: "Investimento Total",
-        prefix: "R$",
-        value: "52.000",
-        description:
-            "Com gestão completa de campanhas sob responsabilidade da MBRAS.",
-        highlight: true,
-    },
-];
+import { presentationData } from "./data";
 
 export default function InvestmentSlide() {
+    const { investment } = presentationData;
+
     return (
         <Slide className="bg-light-50 text-dark-900">
             <div className="z-10 w-full max-w-5xl px-6">
@@ -38,16 +17,15 @@ export default function InvestmentSlide() {
                     className="mb-12"
                 >
                     <h2 className="text-3xl md:text-4xl font-serif text-dark-900 leading-tight mb-4">
-                        O Investimento Estratégico na Valorização do Legado.
+                        {investment.title}
                     </h2>
                     <p className="text-dark-700/70 text-sm md:text-base max-w-3xl">
-                        Um plano dedicado a impulsionar a performance comercial do Hype
-                        Gabriel, com visão de portfólio e consistência de marca.
+                        {investment.subtitle}
                     </p>
                 </motion.div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    {investmentCards.map((card, index) => (
+                    {investment.cards.map((card, index) => (
                         <motion.div
                             key={card.label}
                             initial={{ y: 30, opacity: 0 }}
@@ -62,20 +40,15 @@ export default function InvestmentSlide() {
                                 {card.label}
                             </p>
                             <div className="mb-3">
-                                {card.prefix && (
-                                    <span className="text-accent-500 font-serif text-lg mr-1">
-                                        {card.prefix}
-                                    </span>
-                                )}
                                 <span
                                     className={`text-3xl md:text-4xl font-serif ${card.highlight ? "text-accent-500" : "text-dark-900"
                                         }`}
                                 >
-                                    {card.value}
+                                    {card.pro}
                                 </span>
                             </div>
                             <p className="text-dark-700/60 text-sm leading-relaxed">
-                                {card.description}
+                                {card.desc}
                             </p>
                         </motion.div>
                     ))}

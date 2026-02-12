@@ -87,7 +87,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
         {/* Content Section */}
         <div
           className={clsx(
-            "flex flex-col justify-center px-6 md:px-16 lg:px-24 py-8 lg:py-0 h-full relative",
+            "flex flex-col justify-center px-6 md:px-12 lg:px-16 xl:px-24 py-8 lg:py-0 h-full relative",
             reversed ? "lg:order-1" : "lg:order-2"
           )}
         >
@@ -97,7 +97,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
           <div className="relative z-10">
 
             <motion.h2
-              className="text-3xl md:text-5xl font-serif mb-8 leading-tight text-dark-900"
+              className="text-3xl md:text-5xl lg:text-6xl font-serif mb-12 leading-tight tracking-tight text-dark-900 whitespace-nowrap"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
@@ -106,7 +106,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             </motion.h2>
 
             <motion.p
-              className="text-lg md:text-xl font-sans text-dark-700/80 leading-relaxed max-w-xl"
+              className="text-xl md:text-2xl font-sans text-dark-700/80 leading-relaxed max-w-2xl"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}

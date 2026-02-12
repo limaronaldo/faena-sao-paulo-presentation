@@ -35,7 +35,7 @@ export default function ClosingSlide() {
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
-          className="text-accent-500 tracking-widest uppercase text-sm mb-8"
+          className="text-accent-500 tracking-[0.2em] uppercase text-lg md:text-xl font-medium mb-12 max-w-3xl leading-relaxed"
         >
           {closing.tagline}
         </motion.p>
@@ -51,12 +51,18 @@ export default function ClosingSlide() {
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.7, duration: 0.8 }}
-          className="flex items-center justify-center"
+          className="flex items-center justify-center gap-8"
         >
           <img
             src="https://img.mbras.com.br/mbras/mbras-logo-x.png?updatedAt=1766455454000"
-            alt="Logo"
+            alt="MBRAS"
             className="h-12 md:h-16 w-auto object-contain"
+          />
+          <span className="text-accent-500/60 text-xl font-light">×</span>
+          <img
+            src="/hype-logo.png"
+            alt="Hype Gabriel"
+            className="h-20 md:h-24 w-auto object-contain"
           />
         </motion.div>
       </div>

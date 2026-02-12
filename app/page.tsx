@@ -7,8 +7,10 @@ import FeaturesSlide from "@/components/FeaturesSlide";
 import LocationSlide from "@/components/LocationSlide";
 import HighlightsSlide from "@/components/HighlightsSlide";
 import GallerySlide from "@/components/GallerySlide";
+import ExpertiseSlide from "@/components/ExpertiseSlide";
 import AccelerationPlanSlide from "@/components/AccelerationPlanSlide";
 import InvestmentSlide from "@/components/InvestmentSlide";
+import ProjectionsSlide from "@/components/ProjectionsSlide";
 import ClosingSlide from "@/components/ClosingSlide";
 import { presentationData } from "@/components/data";
 import { motion, useScroll, useSpring } from "framer-motion";
@@ -32,12 +34,9 @@ export default function Home() {
         <HeroSlide />
       </section>
 
+      {/* THE PRODUCT */}
       <section className="snap-start min-h-screen lg:h-screen">
         <PartnerSlide partner={presentationData.partners[0]} />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <PartnerSlide partner={presentationData.partners[1]} centered />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
@@ -48,24 +47,37 @@ export default function Home() {
         <PropertySlide />
       </section>
 
-      <section className="snap-start min-h-screen lg:h-screen">
-        <AccelerationPlanSlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <InvestmentSlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <FeaturesSlide />
-      </section>
-
+      {/* THE ARGUMENT */}
       <section className="snap-start min-h-screen lg:h-screen">
         <HighlightsSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
         <LocationSlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <FeaturesSlide />
+      </section>
+
+      {/* THE AUTHORITY & STRATEGY */}
+
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <ExpertiseSlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <AccelerationPlanSlide />
+      </section>
+
+      {/* THE DEAL */}
+      <section className="snap-start min-h-screen lg:h-screen">
+        <InvestmentSlide />
+      </section>
+
+      <section className="snap-start min-h-screen lg:h-screen">
+        <ProjectionsSlide />
       </section>
 
       <section className="snap-start min-h-screen lg:h-screen">
