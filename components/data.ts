@@ -1,18 +1,18 @@
 export const presentationData = {
   hero: {
-    title: "Projeto Hype Gabriel",
+    title: "Projeto Pinna 5109",
     highlight: "Segmentação e Vendas",
-    subtitle: "Hype Gabriel × MBRAS",
+    subtitle: "Pinna 5109 × MBRAS",
   },
 
   partners: [
     {
       id: "property",
-      name: "Hype Gabriel",
+      name: "Pinna 5109",
       title: "O Empreendimento",
       description:
-        "Um ativo irreplicável no Jardim Europa. Com 620 m² e 4 suítes, o Hype Gabriel entrega exatamente o que o público de alto padrão busca hoje: a privacidade de uma casa com a segurança e a conveniência de um condomínio.",
-      image: "/hype.png",
+        "Uma leitura elegante da cidade no eixo mais valorizado de São Paulo. Com 34 pavimentos e apenas 26 unidades, o Pinna 5109 harmoniza a sofisticação urbana com a leveza da natureza — assinado por Marcio Kogan (Studio MK27) e paisagismo de Rodrigo Oliveira.",
+      image: "/pinna.jpg",
       imagePosition: "center",
       logo: "https://img.mbras.com.br/logos/MBRAS.png?updatedAt=1767810311928",
     },
@@ -22,25 +22,25 @@ export const presentationData = {
       title: "A Estratégia.",
       description:
         "Não apenas vendemos imóveis, dominamos a narrativa do alto padrão. Nossa expertise conecta ativos troféu aos poucos compradores capazes de valorizá-los, transformando características técnicas em desejo inegociável.",
-      image: "/hype-closing.png",
+      image: "/pinna-detail.jpg",
       imagePosition: "center",
       logo: "https://img.mbras.com.br/logos/logornaldo.png?updatedAt=1767894935414",
     },
   ],
 
   development: {
-    name: "Hype Gabriel",
-    tagline: "O Argumento de Venda: Arquitetura Autoral e Escassez",
-    location: "Jardim Europa — São Paulo, SP",
+    name: "Pinna 5109",
+    tagline: "O Argumento de Venda: Arquitetura Autoral e Exclusividade",
+    location: "Av. Nove de Julho — Jardim Paulista, São Paulo",
     locationDetail: "A localização que valida o investimento patrimonial",
     landArea: "",
-    usefulArea: "620 m²",
-    bedrooms: "3 dormitórios",
-    suites: "4 suítes",
+    usefulArea: "372,40 m²",
+    bedrooms: "3 ou 4 suítes",
+    suites: "3-4 suítes",
     parkingSpots: "4 vagas",
     price: "Sob consulta",
     reference: "",
-    image: "/hype.png",
+    image: "/pinna.jpg",
   },
 
   property: {
@@ -53,7 +53,7 @@ export const presentationData = {
       },
       {
         label: "Suítes",
-        value: "4",
+        value: "3-4",
       },
       {
         label: "Vagas",
@@ -61,11 +61,11 @@ export const presentationData = {
       },
       {
         label: "Área Privativa",
-        value: "620 m²",
+        value: "372,40 m²",
       },
       {
-        label: "Exclusivas",
-        value: "3 casas",
+        label: "Torre",
+        value: "34 pavimentos",
       },
     ],
   },
@@ -74,37 +74,39 @@ export const presentationData = {
     title: "Atributos Valorizados",
     categories: [
       {
-        title: "Lazer e Bem-Estar",
+        title: "Arquitetura",
         items: [
-          "Piscina no Rooftop",
-          "Solarium",
-          "Academia completa",
-          "Espaço Gourmet",
+          "Studio MK27 — Marcio Kogan",
+          "34 Pavimentos",
+          "Vistas Panorâmicas",
+          "Design Contemporâneo",
         ],
       },
       {
-        title: "Infraestrutura",
+        title: "Unidades",
         items: [
-          "Elevador Privativo",
-          "Garagem Privativa",
-          "Gerador",
-          "Ar Condicionado",
-          "Tomada Carro Elétrico",
+          "25 Apartamentos-Tipo",
+          "1 Cobertura Triplex (856 m²)",
+          "372,40 m² de Área Privativa",
+          "4 Vagas de Garagem",
         ],
       },
       {
-        title: "Segurança",
+        title: "Paisagismo",
         items: [
-          "Portaria Blindada",
-          "Segurança como prioridade",
-          "Vaga para Visitante",
+          "Por Rodrigo Oliveira",
+          "Praça que Amplia a Calçada",
+          "Geometria do Terreno",
+          "Integração com Espaço Público",
         ],
       },
       {
-        title: "Jardim Exclusivo",
+        title: "Localização",
         items: [
-          "Praça Central",
-          "Área de Jardim",
+          "Av. Nove de Julho",
+          "Próximo à Faria Lima",
+          "Jardim Paulista",
+          "Centro Financeiro de SP",
         ],
       },
     ],
@@ -115,7 +117,7 @@ export const presentationData = {
     details: [
       {
         label: "Bairro",
-        value: "Jardim Europa",
+        value: "Jardim Paulista",
       },
       {
         label: "Cidade",
@@ -127,30 +129,30 @@ export const presentationData = {
       },
     ],
     description:
-      "O Jardim Europa não é apenas um bairro, é uma marca. Nossa comunicação explorará a proximidade com a Faria Lima e os Jardins para atrair o perfil executivo e cosmopolita que valoriza o tempo e a conveniência de estar no centro financeiro.",
+      "Situado em um dos eixos mais valorizados de São Paulo, o Pinna 5109 está posicionado estrategicamente na Avenida Nove de Julho, próximo ao cruzamento com a Faria Lima e Cidade Jardim. Nossa comunicação explorará a proximidade com o centro financeiro para atrair o perfil executivo e cosmopolita que valoriza conveniência e prestígio.",
   },
 
   highlights: {
     title: "Pilares da Nossa Comunicação",
     items: [
       {
-        title: "Assinatura Roberto Migotto",
-        description: "Um selo de valor que ancora a precificação. O design contemporâneo valida o ticket alto para o comprador exigente.",
+        title: "Assinatura Marcio Kogan",
+        description: "Um selo de valor que ancora a precificação. O Studio MK27 é referência mundial em arquitetura contemporânea, validando o ticket alto para o comprador exigente.",
         icon: "sparkles",
       },
       {
         title: "Exclusividade Real",
-        description: "Apenas 3 unidades. O gatilho mental mais poderoso para este perfil: possuir algo que quase ninguém mais pode ter.",
+        description: "Apenas 26 unidades em 34 pavimentos. A cobertura triplex de 856 m² é o ápice da exclusividade — possuir algo que quase ninguém mais pode ter.",
         icon: "building-2",
       },
       {
-        title: "Oceano Azul",
-        description: "Rooftops privativos e plantas de casa eliminam a comparação direta com apartamentos padrão, reduzindo a sensibilidade a preço.",
+        title: "Paisagismo Autoral",
+        description: "Rodrigo Oliveira desenhou um projeto que explora a geometria do terreno, eliminando clausura e criando uma praça que valoriza o espaço público.",
         icon: "trees",
       },
       {
         title: "Trophy Asset",
-        description: "A localização nobre protege o capital. Posicionaremos o imóvel como um refúgio de valorização patrimonial.",
+        description: "A Av. Nove de Julho e a proximidade com Faria Lima e Jardins protegem o capital. Posicionaremos o imóvel como um refúgio de valorização patrimonial.",
         icon: "map-pin",
       },
     ],
@@ -173,7 +175,7 @@ export const presentationData = {
       },
     ],
     portfolioExperience: [
-      "Especialistas em casas de alto padrão e condomínios exclusivos no Jardim Europa",
+      "Especialistas em empreendimentos de alto padrão no Jardim Paulista e Jardim Europa",
       "Track record em negociações acima de R$ 10 milhões",
       "Relacionamento com clientes de alto poder aquisitivo",
       "Atendimento personalizado e discreto",
@@ -181,15 +183,15 @@ export const presentationData = {
   },
 
   closing: {
-    headline: "Parceria\nHype Gabriel & MBRAS",
+    headline: "Parceria\nPinna 5109 & MBRAS",
     subheadline:
-      "Posicionar o Hype Gabriel como o objeto de desejo definitivo do Jardim Europa, atraindo o comprador que busca exclusividade, design e valorização.",
+      "Posicionar o Pinna 5109 como o novo ícone residencial da Av. Nove de Julho, atraindo o comprador que busca exclusividade, design autoral e valorização.",
     tagline: "Juntos, transformamos excelência em patrimônio.",
   },
 
   acceleration: {
     title: "Plano de Aceleração 5 Meses",
-    subtitle: "Estrutura de Campanha Integrada Hype Gabriel & MBRAS",
+    subtitle: "Estrutura de Campanha Integrada Pinna 5109 & MBRAS",
     phases: [
       {
         month: "Mês 1",
@@ -221,11 +223,11 @@ export const presentationData = {
 
   investment: {
     title: "Investimento Estratégico",
-    subtitle: "Parceria Exclusiva Hype & MBRAS",
+    subtitle: "Parceria Exclusiva Pinna 5109 & MBRAS",
     cards: [
       {
         label: "Investimento Mensal",
-        pro: "R$ 13.000,00",
+        pro: "R$ 15.000,00",
         desc: "Gestão completa de mídia e performance.",
       },
       {
@@ -235,7 +237,7 @@ export const presentationData = {
       },
       {
         label: "Investimento Total",
-        pro: "R$ 65.000,00",
+        pro: "R$ 75.000,00",
         desc: "Total do projeto para o período contratado.",
         highlight: true,
       },
