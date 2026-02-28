@@ -17,6 +17,15 @@ export default function FeaturesSlide() {
 
     return (
         <Slide variant="olive">
+            <div
+                className="absolute inset-0"
+                style={{
+                    backgroundImage: "url(/pinna-bairro.jpg)",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+            />
+            <div className="absolute inset-0 bg-olive-dark/80" />
             <div className="z-10 w-full max-w-6xl px-6">
                 <motion.div
                     initial={{ y: 20, opacity: 0 }}

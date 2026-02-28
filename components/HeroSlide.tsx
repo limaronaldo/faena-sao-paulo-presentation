@@ -31,17 +31,15 @@ export default function HeroSlide() {
   return (
     <motion.div className="w-full min-h-screen lg:h-screen flex flex-col justify-center items-center relative lg:snap-start lg:overflow-hidden">
       {/* Full-bleed background */}
-      <motion.div
-        initial={{ scale: 1.15, opacity: 0 }}
-        animate={{ scale: 1.05, opacity: 1 }}
-        transition={{ duration: 8, ease: "easeOut" }}
-        className="absolute inset-0 bg-cover bg-center"
+      <div
+        className="absolute inset-0 bg-cover bg-center scale-[1.05]"
         style={{ backgroundImage: `url('/pinna-hero.jpg')` }}
       />
 
-      {/* Dark gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-t from-olive-dark via-olive-dark/60 to-olive-dark/30" />
-      <div className="absolute inset-0 bg-gradient-to-r from-olive-dark/50 to-transparent" />
+      {/* Dark gradient & tint overlays for better contrast */}
+      <div className="absolute inset-0 bg-[#0a0a08]/50" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a08] via-[#0a0a08]/80 to-transparent" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-[#c5a467]/10 via-transparent to-transparent" />
 
       <motion.div
         variants={container}
@@ -49,41 +47,46 @@ export default function HeroSlide() {
         animate="show"
         className="z-10 flex flex-col items-center text-center max-w-5xl px-6"
       >
-        {/* Logos */}
-        <motion.div variants={item} className="flex items-center justify-center gap-8 mb-14">
+        {/* Logos MBRAS & SDI */}
+        <motion.div variants={item} className="flex items-center justify-center gap-8 mb-20">
           <img
-            src="https://img.mbras.com.br/mbras/mbras-logo-x.png?updatedAt=1766455454000"
+            src="/logo-mbras.png"
             alt="MBRAS"
-            className="h-16 md:h-20 object-contain brightness-0 invert opacity-80"
+            className="h-16 md:h-20 object-contain brightness-0 invert opacity-90"
           />
-          <span className="text-bronze-500/60 text-xl font-light">×</span>
-          <span className="text-3xl md:text-4xl font-serif font-light tracking-[0.15em] text-cream-50/90">PINNA 5109</span>
+          <div className="w-px h-10 bg-cream-50/20" />
+          <img
+            src="/logo-sdi.svg"
+            alt="SDI Desenvolvimento Imobiliário"
+            className="h-12 md:h-16 w-auto object-contain opacity-90"
+          />
         </motion.div>
 
         {/* Title */}
         <motion.h1
           variants={item}
-          className="flex flex-col items-center justify-center text-center mb-10"
+          className="flex flex-col items-center justify-center text-center mb-6"
         >
           <span className="text-5xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1] tracking-wide">
             {presentationData.hero.title}
           </span>
           {presentationData.hero.highlight && (
-            <span className="block text-3xl md:text-5xl lg:text-6xl font-serif italic text-bronze-400 mt-4 leading-tight">
+            <span className="block text-3xl md:text-5xl lg:text-6xl font-serif italic text-bronze-400 mt-3 leading-tight">
               {presentationData.hero.highlight}
             </span>
           )}
         </motion.h1>
 
-        <motion.div
-          variants={item}
-          className="w-24 h-px bg-bronze-500/50 mb-10"
-        />
+        {/* Divider */}
+        <motion.div variants={item} className="w-16 h-px bg-bronze-500/40 my-6" />
 
-        <motion.div variants={item} className="flex flex-col items-center gap-3">
-          <p className="text-cream-100/70 text-sm md:text-base tracking-[0.3em] uppercase font-medium">
-            {presentationData.hero.subtitle}
-          </p>
+        {/* Pinna logo */}
+        <motion.div variants={item}>
+          <img
+            src="/pinna-logo-off-white.svg"
+            alt="Pinna 5109"
+            className="h-6 md:h-8 w-auto object-contain opacity-60"
+          />
         </motion.div>
       </motion.div>
     </motion.div>

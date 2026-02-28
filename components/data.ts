@@ -1,8 +1,8 @@
 export const presentationData = {
   hero: {
-    title: "Projeto Pinna 5109",
+    title: "Parceria Estratégica",
     highlight: "Segmentação e Vendas",
-    subtitle: "Pinna 5109 × MBRAS",
+    subtitle: "",
   },
 
   partners: [
@@ -14,7 +14,7 @@ export const presentationData = {
         "Uma leitura elegante da cidade no eixo mais valorizado de São Paulo. Com 34 pavimentos e apenas 26 unidades, o Pinna 5109 harmoniza a sofisticação urbana com a leveza da natureza — assinado por Marcio Kogan (Studio MK27) e paisagismo de Rodrigo Oliveira.",
       image: "/pinna.jpg",
       imagePosition: "center",
-      logo: "https://img.mbras.com.br/logos/MBRAS.png?updatedAt=1767810311928",
+      logo: "/logo-mbras-full.png",
     },
     {
       id: "mbras",
@@ -24,7 +24,7 @@ export const presentationData = {
         "Não apenas vendemos imóveis, dominamos a narrativa do alto padrão. Nossa expertise conecta ativos troféu aos poucos compradores capazes de valorizá-los, transformando características técnicas em desejo inegociável.",
       image: "/pinna-detail.jpg",
       imagePosition: "center",
-      logo: "https://img.mbras.com.br/logos/logornaldo.png?updatedAt=1767894935414",
+      logo: "/logo-ronaldo.png",
     },
   ],
 
@@ -183,7 +183,7 @@ export const presentationData = {
   },
 
   closing: {
-    headline: "Parceria\nPinna 5109 & MBRAS",
+    headline: "Parceria\nMBRAS & SDI",
     subheadline:
       "Posicionar o Pinna 5109 como o novo ícone residencial da Av. Nove de Julho, atraindo o comprador que busca exclusividade, design autoral e valorização.",
     tagline: "Juntos, transformamos excelência em patrimônio.",

@@ -22,7 +22,8 @@ export default function ClosingSlide() {
           backgroundPosition: "center",
         }}
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-olive-dark via-olive-dark/80 to-olive-dark/60" />
+      <div className="absolute inset-0 bg-[#0a0a08]/40" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a08] via-[#0a0a08]/80 to-[#0a0a08]/30" />
 
       <div className="z-10 flex flex-col items-center text-center max-w-4xl px-6">
         <motion.h2
@@ -54,15 +55,19 @@ export default function ClosingSlide() {
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.7, duration: 0.8 }}
-          className="flex items-center justify-center gap-8"
+          className="flex items-center justify-center gap-8 mt-10"
         >
           <img
-            src="https://img.mbras.com.br/mbras/mbras-logo-x.png?updatedAt=1766455454000"
+            src="/logo-mbras.png"
             alt="MBRAS"
-            className="h-12 md:h-16 w-auto object-contain brightness-0 invert opacity-70"
+            className="h-16 md:h-20 w-auto object-contain brightness-0 invert opacity-90 transition-opacity"
           />
-          <span className="text-bronze-500/50 text-xl font-light">×</span>
-          <span className="text-2xl md:text-3xl font-serif font-light tracking-[0.15em] text-cream-50/80">PINNA 5109</span>
+          <div className="w-px h-10 bg-cream-50/20" />
+          <img
+            src="/logo-sdi.svg"
+            alt="SDI Desenvolvimento Imobiliário"
+            className="h-16 md:h-24 w-auto object-contain opacity-90 transition-opacity"
+          />
         </motion.div>
       </div>
     </motion.div>

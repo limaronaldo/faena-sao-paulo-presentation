@@ -99,7 +99,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             </motion.span>
 
             <motion.h2
-              className="text-3xl md:text-5xl lg:text-6xl font-serif font-light mb-10 leading-tight tracking-wide text-cream-50"
+              className="text-3xl md:text-5xl lg:text-6xl font-serif font-light mb-10 leading-tight tracking-wide text-cream-50 whitespace-nowrap"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}

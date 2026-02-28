@@ -16,7 +16,6 @@ export default function ExpertiseSlide() {
                     transition={{ duration: 0.6 }}
                     className="mb-12 text-center"
                 >
-                    <p className="text-bronze-500 tracking-[0.3em] uppercase text-xs mb-6">Autoridade</p>
                     <h2 className="text-3xl md:text-5xl font-serif font-light text-charcoal-900 leading-tight">
                         {expertise.title}
                     </h2>
