@@ -16,9 +16,7 @@ export default function HighlightsSlide() {
     const { highlights } = presentationData;
 
     return (
-        <Slide className="bg-light-50 text-dark-900">
-            <div className="absolute inset-0 bg-gradient-to-b from-light-200/30 via-light-50 to-light-50" />
-
+        <Slide variant="dark">
             <div className="z-10 w-full max-w-6xl px-6">
                 <motion.div
                     initial={{ y: 20, opacity: 0 }}
@@ -26,10 +24,10 @@ export default function HighlightsSlide() {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-16"
                 >
-                    <p className="text-accent-500 tracking-[0.3em] uppercase text-xs mb-6">
+                    <p className="text-bronze-500 tracking-[0.3em] uppercase text-xs mb-6">
                         Diferenciais
                     </p>
-                    <h2 className="text-3xl md:text-5xl font-serif font-light text-dark-900">
+                    <h2 className="text-3xl md:text-5xl font-serif font-light text-cream-50">
                         {highlights.title}
                     </h2>
                 </motion.div>
@@ -45,27 +43,19 @@ export default function HighlightsSlide() {
                                 transition={{ delay: 0.1 * index, duration: 0.6 }}
                                 className="group relative overflow-hidden"
                             >
-                                {/* Gradient border */}
-                                <div className="absolute -inset-[1px] bg-gradient-to-br from-accent-500/30 via-accent-500/10 to-transparent rounded-2xl" />
-
-                                <div className="relative bg-light-100/80 backdrop-blur-sm rounded-2xl p-8 h-full shadow-sm">
-                                    {/* Decorative glow */}
-                                    <div className="absolute top-0 right-0 w-32 h-32 bg-accent-500/5 rounded-full blur-3xl" />
-
+                                <div className="relative bg-charcoal-800/50 backdrop-blur-sm border border-cream-300/10 p-8 h-full">
                                     <div className="relative flex gap-6">
-                                        {/* Icon container */}
                                         <div className="flex-shrink-0">
-                                            <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-accent-500/15 to-accent-600/5 flex items-center justify-center border border-accent-500/20 shadow-lg shadow-accent-500/5">
-                                                <IconComponent className="w-7 h-7 text-accent-500" strokeWidth={1.5} />
+                                            <div className="w-14 h-14 bg-olive-dark/80 flex items-center justify-center border border-bronze-500/20">
+                                                <IconComponent className="w-6 h-6 text-bronze-500" strokeWidth={1.5} />
                                             </div>
                                         </div>
 
-                                        {/* Content */}
                                         <div className="flex-1">
-                                            <h3 className="text-xl font-serif text-dark-900 mb-3 group-hover:text-accent-500 transition-colors">
+                                            <h3 className="text-xl font-serif text-cream-50 mb-3 group-hover:text-bronze-500 transition-colors">
                                                 {item.title}
                                             </h3>
-                                            <p className="text-dark-700/60 leading-relaxed">
+                                            <p className="text-cream-200/50 leading-relaxed text-sm">
                                                 {item.description}
                                             </p>
                                         </div>
@@ -75,14 +65,6 @@ export default function HighlightsSlide() {
                         );
                     })}
                 </div>
-
-                {/* Decorative element */}
-                <motion.div
-                    initial={{ scaleX: 0 }}
-                    whileInView={{ scaleX: 1 }}
-                    transition={{ delay: 0.6, duration: 0.8 }}
-                    className="w-16 h-0.5 bg-accent-500/30 mx-auto mt-16"
-                />
             </div>
         </Slide>
     );
