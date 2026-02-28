@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <main className="h-screen w-full overflow-y-scroll lg:snap-y lg:snap-mandatory scroll-smooth">
       <motion.div
-        className="fixed top-0 left-0 right-0 h-1 bg-accent-500 origin-left z-50"
+        className="fixed top-0 left-0 right-0 h-0.5 bg-bronze-500 origin-left z-50"
         style={{ scaleX }}
       />
 
@@ -41,10 +41,6 @@ export default function Home() {
 
       <section className="snap-start min-h-screen lg:h-screen">
         <GallerySlide />
-      </section>
-
-      <section className="snap-start min-h-screen lg:h-screen">
-        <PropertySlide />
       </section>
 
       {/* THE ARGUMENT */}

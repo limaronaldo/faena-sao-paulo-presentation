@@ -8,7 +8,7 @@ export default function AccelerationPlanSlide() {
     const { acceleration } = presentationData;
 
     return (
-        <Slide className="bg-light-50 text-dark-900">
+        <Slide variant="dark">
             <div className="z-10 w-full max-w-4xl px-6">
                 <motion.div
                     initial={{ y: 20, opacity: 0 }}
@@ -16,11 +16,11 @@ export default function AccelerationPlanSlide() {
                     transition={{ duration: 0.6 }}
                     className="mb-10"
                 >
-                    <h2 className="text-3xl md:text-4xl font-serif text-dark-900 leading-tight mb-4">
-                        <span className="text-accent-500">{acceleration.title.split(" ")[0]} </span>
-                        {acceleration.title.split(" ").slice(1).join(" ")}
+                    <p className="text-bronze-500 tracking-[0.3em] uppercase text-xs mb-6">Estratégia</p>
+                    <h2 className="text-3xl md:text-4xl font-serif font-light text-cream-50 leading-tight mb-4">
+                        {acceleration.title}
                     </h2>
-                    <p className="text-dark-700/70 text-sm md:text-base max-w-3xl">
+                    <p className="text-cream-200/50 text-sm md:text-base max-w-3xl">
                         {acceleration.subtitle}
                     </p>
                 </motion.div>
@@ -34,17 +34,17 @@ export default function AccelerationPlanSlide() {
                             transition={{ delay: 0.15 * index, duration: 0.5 }}
                             className="flex gap-4 items-start"
                         >
-                            <div className="mt-1.5 w-3 h-3 rounded-full bg-accent-500 shrink-0" />
+                            <div className="mt-2 w-2.5 h-2.5 rounded-full bg-bronze-500 shrink-0" />
                             <div>
                                 <p className="text-xl md:text-2xl font-sans mt-0.5">
-                                    <span className="font-semibold text-dark-900">
+                                    <span className="font-semibold text-cream-50">
                                         {item.month}:
                                     </span>{" "}
-                                    <span className="font-semibold text-accent-500">
+                                    <span className="font-semibold text-bronze-500">
                                         {item.title}
                                     </span>
                                 </p>
-                                <p className="text-dark-700/80 text-base md:text-lg mt-2 leading-relaxed max-w-2xl">
+                                <p className="text-cream-200/50 text-base md:text-lg mt-2 leading-relaxed max-w-2xl">
                                     {item.description}
                                 </p>
                             </div>
