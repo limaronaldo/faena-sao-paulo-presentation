@@ -7,14 +7,16 @@ import { clsx } from "clsx";
 interface SlideProps {
   children: ReactNode;
   className?: string;
-  variant?: "white" | "light" | "contrast";
+  variant?: "cream" | "white" | "light" | "dark" | "olive";
 }
 
-export default function Slide({ children, className, variant = "white" }: SlideProps) {
+export default function Slide({ children, className, variant = "cream" }: SlideProps) {
   const variantStyles = {
-    white: "bg-light-50 text-dark-900",
-    light: "bg-light-200 text-dark-900",
-    contrast: "bg-dark-900 text-light-50",
+    cream: "bg-cream-50 text-charcoal-900",
+    white: "bg-white text-charcoal-900",
+    light: "bg-cream-100 text-charcoal-900",
+    dark: "bg-charcoal-900 text-cream-50",
+    olive: "bg-olive-dark text-cream-50",
   };
 
   return (

@@ -1,34 +1,34 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Lato } from "next/font/google";
+import { Inter, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({
+const inter = Inter({
+  variable: "--font-sans",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const cormorant = Cormorant_Garamond({
   variable: "--font-serif",
   subsets: ["latin"],
   display: "swap",
-});
-
-const lato = Lato({
-  variable: "--font-sans",
-  weight: ["300", "400", "700"],
-  subsets: ["latin"],
-  display: "swap",
+  weight: ["300", "400", "500", "600"],
 });
 
 export const metadata: Metadata = {
-  title: "Hype Gabriel — Jardim América",
-  description: "Hype Gabriel — Condomínio exclusivo de 3 casas no Jardim América, São Paulo.",
+  title: "Pinna 5109 — Jardim Paulista",
+  description: "Pinna 5109 — Empreendimento exclusivo de 26 unidades na Av. Nove de Julho, São Paulo. Arquitetura por Studio MK27 - Marcio Kogan.",
   openGraph: {
-    title: "Hype Gabriel — Jardim América",
-    description: "Condomínio exclusivo de 3 casas de alto padrão no Jardim América.",
-    url: "https://hypegabriel.mbras.com.br",
-    siteName: "Hype Gabriel",
+    title: "Pinna 5109 — Jardim Paulista",
+    description: "Empreendimento exclusivo de 26 unidades na Av. Nove de Julho. Arquitetura por Marcio Kogan.",
+    url: "https://pinna5109.mbras.com.br",
+    siteName: "Pinna 5109",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Hype Gabriel — Jardim América",
+        alt: "Pinna 5109 — Jardim Paulista",
       },
     ],
     locale: "pt_BR",
@@ -44,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body
-        className={`${playfair.variable} ${lato.variable} antialiased bg-light-50 text-dark-900`}
+        className={`${inter.variable} ${cormorant.variable} antialiased bg-cream-50 text-charcoal-900`}
       >
         {children}
       </body>
