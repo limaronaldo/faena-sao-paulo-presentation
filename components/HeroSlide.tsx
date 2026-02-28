@@ -1,6 +1,5 @@
 "use client";
 
-import Slide from "./Slide";
 import { presentationData } from "./data";
 import { motion, Variants } from "framer-motion";
 
@@ -11,7 +10,7 @@ export default function HeroSlide() {
       opacity: 1,
       transition: {
         staggerChildren: 0.15,
-        delayChildren: 0.3,
+        delayChildren: 0.5,
       },
     },
   };
@@ -30,51 +29,47 @@ export default function HeroSlide() {
   };
 
   return (
-    <Slide className="bg-light-50 text-dark-900 overflow-hidden relative">
-      {/* Background with Ken Burns Effect */}
+    <motion.div className="w-full min-h-screen lg:h-screen flex flex-col justify-center items-center relative lg:snap-start lg:overflow-hidden">
+      {/* Full-bleed background */}
       <motion.div
-        initial={{ scale: 1.1, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 10, ease: "easeOut" }} // Slow "Ken Burns" zoom out
-        className="absolute inset-0 bg-[url('/hype.png')] bg-cover bg-center"
+        initial={{ scale: 1.15, opacity: 0 }}
+        animate={{ scale: 1.05, opacity: 1 }}
+        transition={{ duration: 8, ease: "easeOut" }}
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url('/pinna-hero.jpg')` }}
       />
 
-      {/* Gradient Overlay - Refined for better text contrast while keeping image visible */}
-      <div className="absolute inset-0 bg-gradient-to-t from-light-50 via-light-50/80 to-light-50/50" />
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-light-50" />
+      {/* Dark gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-t from-olive-dark via-olive-dark/60 to-olive-dark/30" />
+      <div className="absolute inset-0 bg-gradient-to-r from-olive-dark/50 to-transparent" />
 
       <motion.div
         variants={container}
         initial="hidden"
-        whileInView="show"
-        viewport={{ once: true }}
+        animate="show"
         className="z-10 flex flex-col items-center text-center max-w-5xl px-6"
       >
+        {/* Logos */}
         <motion.div variants={item} className="flex items-center justify-center gap-8 mb-14">
           <img
             src="https://img.mbras.com.br/mbras/mbras-logo-x.png?updatedAt=1766455454000"
             alt="MBRAS"
-            className="h-16 md:h-20 object-contain opacity-90"
+            className="h-16 md:h-20 object-contain brightness-0 invert opacity-80"
           />
-          <span className="text-accent-500/60 text-xl font-light">×</span>
-          <img
-            src="/hype-logo.png"
-            alt="Hype Gabriel"
-            className="h-24 md:h-32 object-contain opacity-90"
-          />
+          <span className="text-bronze-500/60 text-xl font-light">×</span>
+          <span className="text-3xl md:text-4xl font-serif font-light tracking-[0.15em] text-cream-50/90">PINNA 5109</span>
         </motion.div>
 
+        {/* Title */}
         <motion.h1
           variants={item}
           className="flex flex-col items-center justify-center text-center mb-10"
         >
-          <span className="text-5xl md:text-7xl lg:text-8xl font-serif font-light text-dark-900 leading-[1] tracking-tight drop-shadow-sm">
+          <span className="text-5xl md:text-7xl lg:text-8xl font-serif font-light text-white leading-[1] tracking-wide">
             {presentationData.hero.title}
           </span>
-          {/* @ts-ignore */}
           {presentationData.hero.highlight && (
-            <span className="block text-3xl md:text-5xl lg:text-6xl font-serif italic text-dark-500/90 mt-4 leading-tight">
-              {/* @ts-ignore */}
+            <span className="block text-3xl md:text-5xl lg:text-6xl font-serif italic text-bronze-400 mt-4 leading-tight">
               {presentationData.hero.highlight}
             </span>
           )}
@@ -82,15 +77,15 @@ export default function HeroSlide() {
 
         <motion.div
           variants={item}
-          className="w-32 h-[1px] bg-accent-500/60 mb-12"
+          className="w-24 h-px bg-bronze-500/50 mb-10"
         />
 
         <motion.div variants={item} className="flex flex-col items-center gap-3">
-          <p className="text-accent-600 text-sm md:text-base tracking-[0.3em] uppercase font-medium">
+          <p className="text-cream-100/70 text-sm md:text-base tracking-[0.3em] uppercase font-medium">
             {presentationData.hero.subtitle}
           </p>
         </motion.div>
       </motion.div>
-    </Slide>
+    </motion.div>
   );
 }
