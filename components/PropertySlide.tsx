@@ -9,10 +9,10 @@ export default function PropertySlide() {
     const { development } = presentationData;
 
     const specs = [
-        { icon: Bath, label: "Suítes", value: "4" },
+        { icon: Bath, label: "Suítes", value: "3-4" },
         { icon: Car, label: "Vagas", value: "4" },
-        { icon: Maximize, label: "Área Privativa", value: "620 m²" },
-        { icon: Home, label: "Exclusivas", value: "3 casas" },
+        { icon: Maximize, label: "Área Privativa", value: "372,40 m²" },
+        { icon: Home, label: "Torre", value: "34 pavimentos" },
     ];
 
     return (

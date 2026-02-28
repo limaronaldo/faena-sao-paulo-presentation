@@ -18,15 +18,13 @@ interface PartnerSlideProps {
 }
 
 export default function PartnerSlide({ partner, reversed = false, centered = false }: PartnerSlideProps) {
-  // Centered layout - no image, content in center
   if (centered) {
     return (
-      <Slide variant="light">
+      <Slide variant="olive">
         <div className="flex items-center justify-center h-full w-full px-6">
           <div className="max-w-3xl text-center">
-
             <motion.h2
-              className="text-4xl md:text-6xl font-serif mb-8 leading-tight text-dark-900"
+              className="text-4xl md:text-6xl font-serif font-light mb-8 leading-tight text-cream-50"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
@@ -35,7 +33,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             </motion.h2>
 
             <motion.p
-              className="text-lg md:text-xl font-sans text-dark-700/80 leading-relaxed max-w-2xl mx-auto"
+              className="text-lg md:text-xl font-sans text-cream-100/70 leading-relaxed max-w-2xl mx-auto"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
@@ -44,7 +42,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             </motion.p>
 
             <motion.div
-              className="w-20 h-0.5 bg-accent-500 mt-10 mx-auto"
+              className="w-20 h-0.5 bg-bronze-500 mt-10 mx-auto"
               initial={{ width: 0 }}
               whileInView={{ width: 80 }}
               transition={{ delay: 0.5, duration: 0.8 }}
@@ -55,9 +53,8 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
     );
   }
 
-  // Grid layout with image
   return (
-    <Slide variant="white">
+    <Slide variant="olive">
       <div
         className={clsx(
           "grid grid-cols-1 lg:grid-cols-2 h-full w-full",
@@ -81,7 +78,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             whileInView={{ scale: 1 }}
             transition={{ duration: 1.5 }}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-light-50/60 via-light-50/20 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-olive-dark/40 via-transparent to-transparent" />
         </div>
 
         {/* Content Section */}
@@ -91,13 +88,18 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             reversed ? "lg:order-1" : "lg:order-2"
           )}
         >
-          {/* Decorative background */}
-          <div className="absolute inset-0 bg-gradient-to-br from-light-100/80 to-light-50" />
-
           <div className="relative z-10">
+            <motion.span
+              className="text-bronze-500 text-xs tracking-[0.3em] uppercase mb-6 block"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.2 }}
+            >
+              {partner.name}
+            </motion.span>
 
             <motion.h2
-              className="text-3xl md:text-5xl lg:text-6xl font-serif mb-12 leading-tight tracking-tight text-dark-900 whitespace-nowrap"
+              className="text-3xl md:text-5xl lg:text-6xl font-serif font-light mb-10 leading-tight tracking-wide text-cream-50"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
@@ -106,7 +108,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             </motion.h2>
 
             <motion.p
-              className="text-xl md:text-2xl font-sans text-dark-700/80 leading-relaxed max-w-2xl"
+              className="text-lg md:text-xl font-sans text-cream-100/70 leading-relaxed max-w-2xl"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
@@ -115,7 +117,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             </motion.p>
 
             <motion.div
-              className="w-16 h-0.5 bg-accent-500 mt-10"
+              className="w-16 h-0.5 bg-bronze-500 mt-10"
               initial={{ width: 0 }}
               whileInView={{ width: 64 }}
               transition={{ delay: 0.5, duration: 0.8 }}
