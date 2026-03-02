@@ -317,7 +317,7 @@ export const presentationData = {
 
   goals: {
     title: "Projeção de Resultados",
-    subtitle: "Cenários Estimados para 5 Meses (Conservador vs. Otimista)",
+    subtitle: "Cenários Estimados para 5 Meses",
     metrics: [
       {
         label: "Leads Totais",
