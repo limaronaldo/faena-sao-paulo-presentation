@@ -271,7 +271,7 @@ export const presentationData = {
     title: "Expertise Comprovada no Segmento de Altíssimo Padrão.",
     stats: [
       {
-        value: "+R$ 6 Bilhões",
+        value: "+R$ 10 Bilhões",
         label: "Em VGV comercializado no segmento de altíssimo padrão.",
       },
       {
@@ -286,7 +286,7 @@ export const presentationData = {
     portfolioExperience: [
       "Experiência com projetos icônicos na região da Faria Lima",
       "Track record em lançamentos acima de R$ 15 milhões/unidade",
-      "Relacionamento com UHNWIs e family offices",
+      "Relacionamento com clientes de alto poder aquisitivo",
       "Parcerias com incorporadoras tier-1 (Benx, Even, JHSF)",
     ],
   },
@@ -316,37 +316,30 @@ export const presentationData = {
   },
 
   goals: {
-    title: "Metas e Resultados Esperados",
-    subtitle: "(Projeção Consolidada para 6 Meses)",
+    title: "Projeção de Resultados",
+    subtitle: "Cenários Estimados para 5 Meses (Conservador vs. Otimista)",
     metrics: [
       {
-        label: "Leads Totais Gerados",
-        conservative: "400",
-        optimistic: "600",
+        label: "Leads Totais",
+        range: "500 - 700",
+        desc: "Volume total de contatos gerados.",
       },
       {
-        label: "Leads Ultra-Qualificados",
-        conservative: "30-40",
-        optimistic: "50-70",
+        label: "Leads Qualificados",
+        range: "40 - 80",
+        desc: "Contatos com perfil ideal (ICP).",
       },
       {
-        label: "Custo por Lead Qualificado",
-        conservative: "R$ 4.500 - R$ 6.000",
-        optimistic: "R$ 3.000 - R$ 4.200",
+        label: "Visitas Agendadas",
+        range: "8 - 20",
+        desc: "Visitas presenciais ao empreendimento.",
       },
       {
-        label: "Visitas ao Showroom",
-        conservative: "15-25",
-        optimistic: "30-45",
-      },
-      {
-        label: "Propostas Geradas",
-        conservative: "5-10",
-        optimistic: "10-18",
+        label: "Propostas de Venda",
+        range: "1 - 8",
+        desc: "Negociações avançadas iniciadas.",
       },
     ],
-    footer:
-      "Uma operação orientada a resultados, com transparência total através de dashboards e relatórios de performance.",
   },
 
   timeline: {
