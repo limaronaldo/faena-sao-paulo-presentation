@@ -298,18 +298,18 @@ export const presentationData = {
     details: [
       {
         label: "INVESTIMENTO MENSAL",
-        value: "R$ 35.000",
+        value: "R$ 20.000",
         subtext: "Gestão + mídia + eventos exclusivos.",
         highlight: true,
       },
       {
         label: "DURAÇÃO DO PROJETO",
-        value: "6 meses",
+        value: "5 meses",
         subtext: "Período ideal para construir pipeline e acelerar conversão.",
       },
       {
         label: "INVESTIMENTO TOTAL",
-        value: "R$ 210.000",
+        value: "R$ 100.000",
         subtext: "Com gestão completa de campanhas e relacionamento MBRAS.",
       },
     ],
