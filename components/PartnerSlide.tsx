@@ -106,7 +106,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             <motion.img
               src={partner.logo}
               alt={partner.name}
-              className="h-12 object-contain self-start mb-8 brightness-0 invert opacity-90"
+              className="h-20 object-contain self-start mb-8 brightness-0 invert opacity-90"
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2 }}
@@ -122,7 +122,7 @@ export default function PartnerSlide({ partner, reversed = false, centered = fal
             </motion.h2>
 
             <motion.p
-              className="text-lg md:text-xl font-sans text-cream-100/80 leading-relaxed max-w-xl"
+              className="text-lg md:text-xl font-sans text-cream-100/80 leading-relaxed max-w-xl text-justify"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}

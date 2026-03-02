@@ -34,7 +34,7 @@ export default function ClosingSlide() {
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
-          className="text-lg md:text-xl text-cream-100/70 max-w-2xl mb-6"
+          className="text-lg md:text-xl text-cream-100/70 max-w-2xl mb-6 whitespace-pre-line"
         >
           {closing.subheadline}
         </motion.p>
@@ -43,7 +43,7 @@ export default function ClosingSlide() {
           initial={{ y: 20, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.5, duration: 0.8 }}
-          className="text-gold-500 tracking-widest uppercase text-sm mb-8"
+          className="text-gold-500 tracking-widest uppercase text-lg md:text-xl mt-4 mb-12"
         >
           {closing.tagline}
         </motion.p>
@@ -52,7 +52,7 @@ export default function ClosingSlide() {
           initial={{ scaleX: 0 }}
           whileInView={{ scaleX: 1 }}
           transition={{ delay: 0.9, duration: 0.8 }}
-          className="w-24 h-1 bg-gold-500 mb-8"
+          className="w-16 h-0.5 bg-gold-500 mb-8"
         />
 
         <motion.div
@@ -62,21 +62,21 @@ export default function ClosingSlide() {
           className="flex items-center gap-6 md:gap-10"
         >
           <img
+            src="https://img.mbras.com.br/2026/logos/logo-mbras-br.png"
+            alt="MBRAS"
+            className="h-8 md:h-10 w-auto object-contain brightness-0 invert opacity-80"
+          />
+          <span className="text-gold-500/50 text-2xl">×</span>
+          <img
             src="/FAENA 2.png"
             alt="Faena"
-            className="h-10 md:h-14 w-auto object-contain brightness-0 invert opacity-80"
+            className="h-14 md:h-16 w-auto object-contain brightness-0 invert opacity-80"
           />
           <span className="text-gold-500/50 text-2xl">×</span>
           <img
             src="/EVEN.png"
             alt="Even"
-            className="h-8 md:h-12 w-auto object-contain brightness-0 invert opacity-80"
-          />
-          <span className="text-gold-500/50 text-2xl">×</span>
-          <img
-            src="/MBRAS 4.png"
-            alt="MBRAS"
-            className="h-8 md:h-12 w-auto object-contain brightness-0 invert opacity-80"
+            className="h-16 md:h-20 w-auto object-contain brightness-0 invert opacity-80"
           />
         </motion.div>
       </div>

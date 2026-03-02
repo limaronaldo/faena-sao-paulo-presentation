@@ -19,21 +19,21 @@ export default function HeroSlide() {
         >
           {/* Logos */}
           <img
+            src={presentationData.partners[1].logo}
+            alt="MBRAS"
+            className="h-8 md:h-10 object-contain brightness-0 invert"
+          />
+          <div className="h-12 w-[1px] bg-gold-500/50" />
+          <img
             src="/FAENA 2.png"
             alt="Faena"
-            className="h-12 md:h-16 object-contain brightness-0 invert"
+            className="h-14 md:h-16 object-contain brightness-0 invert"
           />
           <div className="h-12 w-[1px] bg-gold-500/50" />
           <img
             src="/EVEN.png"
             alt="Even"
-            className="h-10 md:h-14 object-contain brightness-0 invert"
-          />
-          <div className="h-12 w-[1px] bg-gold-500/50" />
-          <img
-            src={presentationData.partners[1].logo}
-            alt="MBRAS"
-            className="h-10 md:h-14 object-contain brightness-0 invert"
+            className="h-14 md:h-16 object-contain brightness-0 invert"
           />
         </motion.div>
 
@@ -41,7 +41,7 @@ export default function HeroSlide() {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.8 }}
-          className="text-3xl md:text-6xl lg:text-7xl font-serif font-light leading-tight tracking-wide"
+          className="text-3xl md:text-6xl lg:text-7xl font-serif font-light leading-tight tracking-wide whitespace-pre-line"
         >
           {presentationData.hero.title}
         </motion.h1>

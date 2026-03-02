@@ -31,11 +31,11 @@ export default function PartnershipSlide() {
               transition={{ delay: index * 0.1, duration: 0.8 }}
               className="bg-dark-800/50 border border-cream-100/10 rounded-xl p-6 text-center hover:border-gold-500/30 transition-colors duration-500"
             >
-              <div className="h-16 flex items-center justify-center mb-4">
+              <div className="h-20 flex items-center justify-center mb-4">
                 <img
                   src={partner.logo}
                   alt={partner.name}
-                  className="max-h-12 w-auto object-contain brightness-0 invert opacity-80"
+                  className={`w-auto object-contain brightness-0 invert opacity-80 ${index === 1 ? "max-h-20" : "max-h-16"}`}
                 />
               </div>
               <h3 className="text-lg font-serif text-cream-100 mb-1">{partner.name}</h3>
