@@ -1,6 +1,6 @@
 export const presentationData = {
   hero: {
-    title: "Uma parceria para redefinir o luxo.",
+    title: "Uma parceria para ressignificar o Luxo\nem São Paulo.",
     subtitle: "Faena São Paulo + MBRAS",
   },
 
@@ -22,7 +22,7 @@ export const presentationData = {
         "A MBRAS redefine o mercado imobiliário de alto padrão com uma curadoria impecável e atendimento personalizado. Especialistas em conectar clientes a propriedades únicas, transformamos cada negociação em uma experiência de valor inestimável.",
       image: "/PHOTO-2025-12-16-18-17-53 2.jpg",
       imagePosition: "center",
-      logo: "/MBRAS 4.png",
+      logo: "https://img.mbras.com.br/2026/logos/logo-mbras-br.png",
     },
   ],
 
@@ -43,7 +43,8 @@ export const presentationData = {
     delivery: "Julho 2029",
     salesStart: "Final de 2024",
     soldPercentage: "~35%",
-    image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070&auto=format&fit=crop",
+    image:
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2070&auto=format&fit=crop",
   },
 
   complex: {
@@ -51,17 +52,20 @@ export const presentationData = {
     components: [
       {
         title: "Residências Faena",
-        description: "140 apartamentos de 286 m² a 1.024 m², incluindo gardens e duplex",
+        description:
+          "140 apartamentos de 286 m² a 1.024 m², incluindo gardens e duplex",
         icon: "building-2",
       },
       {
         title: "Hotel Faena",
-        description: "~100 quartos operados pela Accor, padrão cinco estrelas internacional",
+        description:
+          "~100 quartos operados pela Accor, padrão cinco estrelas internacional",
         icon: "hotel",
       },
       {
         title: "Art Center",
-        description: "Espaço independente dedicado a arte, cultura, gastronomia e eventos",
+        description:
+          "Espaço independente dedicado a arte, cultura, gastronomia e eventos",
         icon: "palette",
       },
     ],
@@ -139,13 +143,48 @@ export const presentationData = {
   typologies: {
     title: "Tipologias que Atendem a Cada Perfil",
     units: [
-      { type: "Apartamento 286 m²", units: 36, config: "3 suítes, 3-4 vagas", price: "~R$ 18M" },
-      { type: "Apartamento 367 m²", units: 45, config: "4 suítes, 6 banheiros, 4 vagas", price: "~R$ 24M" },
-      { type: "Apartamento 506 m²", units: 25, config: "4 suítes, 6 banheiros, 4+ vagas", price: "~R$ 33M" },
-      { type: "Apartamento Exclusivo 608 m²", units: 7, config: "1 por andar", price: "~R$ 40M" },
-      { type: "Junção 874,50 m²", units: 6, config: "Torre 1, andares 29-34", price: "~R$ 55M" },
-      { type: "Gardens 343-687 m²", units: 9, config: "Térreos com jardim privativo", price: "~R$ 22-45M" },
-      { type: "Duplex 463-1.024 m²", units: 6, config: "Unidades em dois níveis", price: "~R$ 30-67M" },
+      {
+        type: "Apartamento 286 m²",
+        units: 36,
+        config: "3 suítes, 3-4 vagas",
+        price: "~R$ 18M",
+      },
+      {
+        type: "Apartamento 367 m²",
+        units: 45,
+        config: "4 suítes, 6 banheiros, 4 vagas",
+        price: "~R$ 24M",
+      },
+      {
+        type: "Apartamento 506 m²",
+        units: 25,
+        config: "4 suítes, 6 banheiros, 4+ vagas",
+        price: "~R$ 33M",
+      },
+      {
+        type: "Apartamento Exclusivo 608 m²",
+        units: 7,
+        config: "1 por andar",
+        price: "~R$ 40M",
+      },
+      {
+        type: "Junção 874,50 m²",
+        units: 6,
+        config: "Torre 1, andares 29-34",
+        price: "~R$ 55M",
+      },
+      {
+        type: "Gardens 343-687 m²",
+        units: 9,
+        config: "Térreos com jardim privativo",
+        price: "~R$ 22-45M",
+      },
+      {
+        type: "Duplex 463-1.024 m²",
+        units: 6,
+        config: "Unidades em dois níveis",
+        price: "~R$ 30-67M",
+      },
     ],
     features: [
       "Sistema Gliding Wall — caixilhos piso-teto deslizantes",
@@ -198,7 +237,7 @@ export const presentationData = {
   },
 
   gastronomy: {
-    title: "Gastronomia de Classe Mundial",
+    title: "Alta Gastronomia com Padrão Internacional",
     highlight: {
       name: "Los Fuegos by Francis Mallmann",
       description:
@@ -216,12 +255,16 @@ export const presentationData = {
     title: "O Legado Faena no Mundo",
     founder: "Alan Faena",
     founderBio:
-      "Fundador do Faena Group em 2000, Alan Faena transformou um moinho abandonado em Puerto Madero no primeiro Hotel Faena, revitalizando completamente a região portuária de Buenos Aires.",
+      "fundador do Faena Group em 2000, transformou um moinho abandonado em Puerto Madero no primeiro Hotel Faena, revitalizando completamente a região portuária de Buenos Aires.",
     districts: [
       {
         name: "Faena Buenos Aires",
         year: "2004",
-        highlights: ["88 quartos + 80 residências", "Cabaret Rojo Tango", "2º melhor hotel América Latina (Condé Nast 2025)"],
+        highlights: [
+          "88 quartos + 80 residências",
+          "Cabaret Rojo Tango",
+          "2º melhor hotel América Latina (Condé Nast 2025)",
+        ],
       },
       {
         name: "Faena Miami Beach",
@@ -236,15 +279,19 @@ export const presentationData = {
       {
         name: "Faena São Paulo",
         year: "2029",
-        highlights: ["Primeiro Faena no Brasil", "VGV de R$ 3 bilhões", "Terceiro distrito Faena global"],
+        highlights: [
+          "Primeiro Faena no Brasil",
+          "VGV de R$ 3 bilhões",
+          "Terceiro distrito Faena global",
+        ],
       },
     ],
   },
 
   strategy: {
-    title: "A Estratégia: Conectar Colecionadores a Obras-Primas.",
+    title: "A Estratégia: Conectar Colecionadores à Obras-Primas.",
     description:
-      "Para um ativo de R$ 3 bilhões com preços a partir de R$ 18 milhões, a abordagem vai além da publicidade tradicional. Nossa estratégia combina três pilares para gerar demanda ultra-qualificada.",
+      "Para um ativo de R$ 3 bilhões com valores a partir de R$ 18 milhões, a abordagem vai além da publicidade tradicional. Nossa estratégia combina três pilares para gerar demanda ultra-qualificada.",
     pillars: [
       {
         title: "Posicionamento de Nicho",
@@ -255,20 +302,20 @@ export const presentationData = {
       {
         title: "Inteligência de Mercado",
         description:
-          "Dados proprietários (Inteligência IBVI®) para mapear UHNWIs com alta aderência a branded residences.",
+          "Dados proprietários (Inteligência IBVI®) para mapear Clientes de Alto Padrão com alta aderência a branded residences.",
         icon: "brain",
       },
       {
         title: "Jornada Experiencial",
         description:
-          "Do primeiro contato à visita ao showroom de 370 m², cada etapa mantém a coerência da marca Faena.",
+          "Do primeiro contato à visita, cada etapa mantém a coerência da marca Faena.",
         icon: "map",
       },
     ],
   },
 
   expertise: {
-    title: "Expertise Comprovada no Segmento de Altíssimo Padrão.",
+    title: "Expertise Comprovada no Segmento\nde Altíssimo Padrão.",
     stats: [
       {
         value: "+R$ 10 Bilhões",
@@ -294,12 +341,12 @@ export const presentationData = {
   investment: {
     title: "O Investimento Estratégico para Posicionar o Faena.",
     description:
-      "Um plano dedicado a impulsionar a performance comercial do Faena São Paulo, com foco em captar os 65% restantes das unidades com consistência de marca.",
+      "Um plano dedicado ao Faena São Paulo, com foco em divulgar e captar clientes em conformidade com a essência da marca.",
     details: [
       {
         label: "INVESTIMENTO MENSAL",
         value: "R$ 20.000",
-        subtext: "Gestão + mídia + eventos exclusivos.",
+        subtext: "Gestão, Conteúdo & Mídia.",
         highlight: true,
       },
       {
@@ -317,16 +364,16 @@ export const presentationData = {
 
   goals: {
     title: "Projeção de Resultados",
-    subtitle: "Cenários Estimados para 5 Meses",
+    subtitle: "Cenário Estimado para 5 Meses",
     metrics: [
       {
         label: "Leads Totais",
-        range: "500 - 700",
+        range: "500 - 800",
         desc: "Volume total de contatos gerados.",
       },
       {
         label: "Leads Qualificados",
-        range: "40 - 80",
+        range: "50 - 90",
         desc: "Contatos com perfil ideal (ICP).",
       },
       {
@@ -343,35 +390,47 @@ export const presentationData = {
   },
 
   timeline: {
-    title: "Plano de Aceleração: Foco, Gestão e Resultados.",
+    title: "Plano de Aceleração 5 Meses",
     description:
-      "Um plano intensivo de 6 meses com gestão completa da MBRAS, desenhado para captar compradores de branded residences com poder aquisitivo compatível.",
+      "Estrutura de campanha integrada com gestão completa da MBRAS para captar compradores de branded residences.",
     steps: [
       {
-        month: "Mês 1-2",
-        title: "Imersão e Posicionamento",
+        month: "Mês 1",
+        title: "Planejamento & Setup",
         description:
-          "Alinhamento com Even e Faena, desenvolvimento de criativos premium, mapeamento de clusters UHNWI.",
+          "Alinhamento com Even e Faena, definição de KPIs, configuração de audiências e desenvolvimento de criativos premium.",
       },
       {
-        month: "Mês 3-4",
-        title: "Ativação e Otimização",
+        month: "Mês 2",
+        title: "Alcance & Tráfego",
         description:
-          "Lançamento de campanhas, eventos exclusivos para prospects, otimizações semanais de performance.",
+          "Lançamento de campanhas focadas em volume qualificado, testes A/B de criativos e mapeamento de Clientes de Alto Padrão.",
       },
       {
-        month: "Mês 5-6",
-        title: "Intensificação e Conversão",
+        month: "Mês 3",
+        title: "Conversão & Nutrição",
         description:
-          "Foco em oportunidades quentes, visitas VIP ao showroom de 370 m², ações de fechamento personalizadas.",
+          "Intensificação de remarketing para leads engajados, eventos exclusivos para prospects e alinhamento comercial semanal.",
+      },
+      {
+        month: "Mês 4",
+        title: "Alta Performance",
+        description:
+          "Foco total em agendamento de visitas e propostas, com investimento alocado nos canais de maior ROI.",
+      },
+      {
+        month: "Mês 5",
+        title: "Consolidação & Fechamento",
+        description:
+          "Maximização de resultados, re-engajamento de leads quentes e suporte total ao fechamento de propostas.",
       },
     ],
   },
 
   closing: {
-    headline: "Construtores de ícones.\nCuradores de legados.",
+    headline: "Construtores de Ícones.\nCuradores de Legados.",
     subheadline:
-      "A Even concebe o terceiro distrito Faena do mundo. A MBRAS garante que esse legado encontre seu lugar nas mãos de quem reconhece o valor da arquitetura autoral e da experiência transformadora.",
+      "A Even concebe o terceiro distrito Faena do mundo.\nA MBRAS garante que esse legado encontre seu lugar nas mãos de quem reconhece o valor da arquitetura autoral e da experiência transformadora.",
     tagline: "Juntos, transformamos excelência em patrimônio.",
   },
 };
