@@ -162,7 +162,7 @@ export const presentationData = {
     title: "Expertise MBRAS",
     stats: [
       {
-        value: "+R$ 6 Bilhões",
+        value: "+R$ 10 Bilhões",
         label: "Em VGV comercializado no segmento de altíssimo padrão.",
       },
       {
@@ -175,7 +175,7 @@ export const presentationData = {
       },
     ],
     portfolioExperience: [
-      "Especialistas em empreendimentos de alto padrão no Jardim Paulista e Jardim Europa",
+      "Especialistas em vendas de empreendimentos de luxo nos Jardins",
       "Track record em negociações acima de R$ 10 milhões",
       "Relacionamento com clientes de alto poder aquisitivo",
       "Atendimento personalizado e discreto",
@@ -250,22 +250,22 @@ export const presentationData = {
     metrics: [
       {
         label: "Leads Totais",
-        range: "300 - 500",
+        range: "500 - 700",
         desc: "Volume total de contatos gerados.",
       },
       {
         label: "Leads Qualificados",
-        range: "30 - 60",
+        range: "40 - 80",
         desc: "Contatos com perfil ideal (ICP).",
       },
       {
         label: "Visitas Agendadas",
-        range: "6 - 15",
+        range: "8 - 20",
         desc: "Visitas presenciais ao empreendimento.",
       },
       {
         label: "Propostas de Venda",
-        range: "1 - 5",
+        range: "1 - 8",
         desc: "Negociações avançadas iniciadas.",
       },
     ],

@@ -10,24 +10,53 @@
   --color-bg-dark: #0a0a08;
   --color-bg-card: #111110;
   --color-bg-card-hover: #181816;
-  
+
   --color-gold: #c5a467;
   --color-gold-muted: #8a7548;
-  
+
   --color-cream: #f0ece4;
   --color-cream-muted: #a09a8e;
-  
+
   --color-white: #fafaf8;
-  
+
   --color-border-subtle: rgba(197, 164, 103, 0.12);
   --color-border-hover: rgba(197, 164, 103, 0.25);
 
-  /* Mapping old variables gracefully */
+  /* Cream scale */
   --color-cream-50: #f0ece4;
+  --color-cream-100: #e6e1d8;
+  --color-cream-200: #d5d0c6;
+  --color-cream-300: #c4bfb4;
+
+  /* Charcoal scale */
   --color-charcoal-900: #0a0a08;
+  --color-charcoal-800: #161614;
+  --color-charcoal-700: #252523;
+  --color-charcoal-600: #3a3a37;
+
+  /* Olive scale */
   --color-olive-dark: #111110;
-  --color-dark: #0a0a08;
+  --color-olive-medium: #2a2a26;
+
+  /* Bronze / accent scale */
+  --color-bronze-400: #d4b88e;
+  --color-bronze-500: #c5a467;
+  --color-bronze-600: #a88c55;
   --color-accent-500: #c5a467;
+
+  /* Dark scale (aliases for light-on-dark slides) */
+  --color-dark: #0a0a08;
+  --color-dark-900: #0a0a08;
+  --color-dark-800: #161614;
+  --color-dark-700: #252523;
+  --color-dark-500: #3a3a37;
+
+  /* Light scale (for light-background slides) */
+  --color-light-50: #fafaf8;
+  --color-light-100: #f5f3ef;
+  --color-light-200: #ede9e3;
+  --color-light-300: #ddd8d0;
+  --color-light-400: #c0b8ad;
 }
 
 @layer base {
@@ -61,16 +90,16 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--color-cream-100);
+  background: var(--color-charcoal-900);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--color-olive-medium);
+  background: var(--color-charcoal-600);
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--color-olive-dark);
+  background: var(--color-gold-muted);
 }
 
 /* Fade-in animation */

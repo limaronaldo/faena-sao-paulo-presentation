@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 
-const URL = "http://localhost:3003";
+const URL = process.env.URL || "http://localhost:3004";
 const OUTPUT = "Pinna5109-MBRAS-Parceria.pdf";
 
 (async () => {
