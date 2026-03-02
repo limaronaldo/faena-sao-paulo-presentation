@@ -12,7 +12,7 @@ export default function ExpertiseSlide() {
     <Slide variant="dark">
       <div className="container mx-auto px-6 py-0 md:py-12 h-full flex flex-col justify-center">
         <motion.h2
-          className="text-4xl md:text-5xl font-serif mb-16 max-w-4xl leading-tight"
+          className="text-4xl md:text-5xl font-serif mb-16 max-w-4xl leading-tight whitespace-pre-line"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}

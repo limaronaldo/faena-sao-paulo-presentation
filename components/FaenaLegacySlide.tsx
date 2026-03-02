@@ -20,9 +20,12 @@ export default function FaenaLegacySlide() {
           <span className="text-gold-500 text-sm tracking-widest uppercase mb-4 block">
             A Marca
           </span>
-          <h2 className="text-4xl md:text-5xl font-serif mb-4">{legacy.title}</h2>
+          <h2 className="text-4xl md:text-5xl font-serif mb-4">
+            {legacy.title}
+          </h2>
           <p className="text-lg text-cream-100/60 max-w-2xl mx-auto">
-            Fundado por <span className="text-gold-500">{legacy.founder}</span> — {legacy.founderBio}
+            <span className="text-gold-500">{legacy.founder}</span>,{" "}
+            {legacy.founderBio}
           </p>
         </motion.div>
 
@@ -40,13 +43,18 @@ export default function FaenaLegacySlide() {
               <div className="flex items-center gap-3 mb-4">
                 <MapPin className="w-5 h-5 text-gold-500" />
                 <div>
-                  <h3 className="text-xl font-serif text-cream-100">{district.name}</h3>
+                  <h3 className="text-xl font-serif text-cream-100">
+                    {district.name}
+                  </h3>
                   <p className="text-gold-500 text-sm">{district.year}</p>
                 </div>
               </div>
               <ul className="space-y-2">
                 {district.highlights.map((highlight, hIndex) => (
-                  <li key={hIndex} className="text-cream-100/60 text-sm flex items-start gap-2">
+                  <li
+                    key={hIndex}
+                    className="text-cream-100/60 text-sm flex items-start gap-2"
+                  >
                     <span className="text-gold-500 mt-1">•</span>
                     {highlight}
                   </li>
